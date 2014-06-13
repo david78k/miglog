@@ -1,0 +1,63 @@
+telnet:0:4451,server,nowait :6 2 ÿûÿûÿûÿýQEMU 1.6.50 monitor - type 'help' for more information
+ (qemu) i[K[Din[K[D[Dinf[K[D[D[Dinfo[K[D[D[D[Dinfo [K[D[D[D[D[Dinfo m[K[D[D[D[D[D[Dinfo mi[K[D[D[D[D[D[D[Dinfo mig[K[D[D[D[D[D[D[D[Dinfo migr[K[D[D[D[D[D[D[D[D[Dinfo migra[K[D[D[D[D[D[D[D[D[D[Dinfo migrat[K[D[D[D[D[D[D[D[D[D[D[Dinfo migrate[K
+ capabilities: xbzrle: off x-rdma-pin-all: off auto-converge: off zero-blocks: off postcopy: off postcopy-no-background: off postcopy-move-background: off postcopy-rdma-compress: off 
+ Migration status: completed
+ iterations: 118
+ total time: 11478 milliseconds
+ downtime: 7 milliseconds
+ stop time: 1 milliseconds
+ copy time: 6 milliseconds
+ setup: 17 milliseconds
+ transferred ram: 240795 kbytes
+ throughput: 396.68 mbps
+ remaining ram: 0 kbytes
+ total ram: 2105920 kbytes
+ duplicate: 468901 pages
+ skipped: 0 pages
+ normal: 59053 pages
+ normal bytes: 236212 kbytes
+ (qemu) i[K[Din[K[D[Dinf[K[D[D[Dinfo[K[D[D[D[Dinfo [K[D[D[D[D[Dinfo s[K[D[D[D[D[D[Dinfo st[K[D[D[D[D[D[D[Dinfo sta[K[D[D[D[D[D[D[D[Dinfo stat[K[D[D[D[D[D[D[D[D[Dinfo statu[K[D[D[D[D[D[D[D[D[D[Dinfo status[K
+ VM status: paused (postmigrate)
+ (qemu)
+telnet:0:4452,server,nowait :7 2 ÿûÿûÿûÿýQEMU 1.6.50 monitor - type 'help' for more information
+ (qemu) i[K[Din[K[D[Dinf[K[D[D[Dinfo[K[D[D[D[Dinfo [K[D[D[D[D[Dinfo m[K[D[D[D[D[D[Dinfo mi[K[D[D[D[D[D[D[Dinfo mig[K[D[D[D[D[D[D[D[Dinfo migr[K[D[D[D[D[D[D[D[D[Dinfo migra[K[D[D[D[D[D[D[D[D[D[Dinfo migrat[K[D[D[D[D[D[D[D[D[D[D[Dinfo migrate[K
+ capabilities: xbzrle: off x-rdma-pin-all: off auto-converge: off zero-blocks: off postcopy: off postcopy-no-background: off postcopy-move-background: off postcopy-rdma-compress: off 
+ Migration status: completed
+ iterations: 116
+ total time: 11073 milliseconds
+ downtime: 4 milliseconds
+ stop time: 0 milliseconds
+ copy time: 4 milliseconds
+ setup: 17 milliseconds
+ transferred ram: 239353 kbytes
+ throughput: 316.22 mbps
+ remaining ram: 0 kbytes
+ total ram: 2105920 kbytes
+ duplicate: 469025 pages
+ skipped: 0 pages
+ normal: 58693 pages
+ normal bytes: 234772 kbytes
+ (qemu) i[K[Din[K[D[Dinf[K[D[D[Dinfo[K[D[D[D[Dinfo [K[D[D[D[D[Dinfo s[K[D[D[D[D[D[Dinfo st[K[D[D[D[D[D[D[Dinfo sta[K[D[D[D[D[D[D[D[Dinfo stat[K[D[D[D[D[D[D[D[D[Dinfo statu[K[D[D[D[D[D[D[D[D[D[Dinfo status[K
+ VM status: paused (postmigrate)
+ (qemu)
+telnet:0:4450,server,nowait :5 2 ÿûÿûÿûÿýQEMU 1.6.50 monitor - type 'help' for more information
+ (qemu) i[K[Din[K[D[Dinf[K[D[D[Dinfo[K[D[D[D[Dinfo [K[D[D[D[D[Dinfo m[K[D[D[D[D[D[Dinfo mi[K[D[D[D[D[D[D[Dinfo mig[K[D[D[D[D[D[D[D[Dinfo migr[K[D[D[D[D[D[D[D[D[Dinfo migra[K[D[D[D[D[D[D[D[D[D[Dinfo migrat[K[D[D[D[D[D[D[D[D[D[D[Dinfo migrate[K
+ capabilities: xbzrle: off x-rdma-pin-all: off auto-converge: off zero-blocks: off postcopy: off postcopy-no-background: off postcopy-move-background: off postcopy-rdma-compress: off 
+ Migration status: completed
+ iterations: 141
+ total time: 13353 milliseconds
+ downtime: 5 milliseconds
+ stop time: 1 milliseconds
+ copy time: 4 milliseconds
+ setup: 18 milliseconds
+ transferred ram: 239405 kbytes
+ throughput: 243.85 mbps
+ remaining ram: 0 kbytes
+ total ram: 2105920 kbytes
+ duplicate: 468958 pages
+ skipped: 0 pages
+ normal: 58706 pages
+ normal bytes: 234824 kbytes
+ (qemu) i[K[Din[K[D[Dinf[K[D[D[Dinfo[K[D[D[D[Dinfo [K[D[D[D[D[Dinfo s[K[D[D[D[D[D[Dinfo st[K[D[D[D[D[D[D[Dinfo sta[K[D[D[D[D[D[D[D[Dinfo stat[K[D[D[D[D[D[D[D[D[Dinfo statu[K[D[D[D[D[D[D[D[D[D[Dinfo status[K
+ VM status: paused (postmigrate)
+ (qemu)
