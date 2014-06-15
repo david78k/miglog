@@ -61,3 +61,7 @@ telnet:0:4450,server,nowait :5 2 ÿûÿûÿûÿýQEMU 1.6.50 monitor - type 'help' for
  (qemu) i[K[Din[K[D[Dinf[K[D[D[Dinfo[K[D[D[D[Dinfo [K[D[D[D[D[Dinfo s[K[D[D[D[D[D[Dinfo st[K[D[D[D[D[D[D[Dinfo sta[K[D[D[D[D[D[D[D[Dinfo stat[K[D[D[D[D[D[D[D[D[Dinfo statu[K[D[D[D[D[D[D[D[D[D[Dinfo status[K
  VM status: paused (postmigrate)
  (qemu)
+
+real 58.20
+user 0.94
+sys 0.81
