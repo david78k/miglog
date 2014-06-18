@@ -1,0 +1,10 @@
+"Dstat 0.7.0 CSV output"
+"Author:","Dag Wieers <dag@wieers.com>",,,,"URL:","http://dag.wieers.com/home-made/dstat/"
+"Host:","c11node9",,,,"User:","root"
+"Cmdline:","dstat -cnmd -N eth0,eth1,total --noheaders -o /root/miglog/idle/cluster/precopy/speed125/vcpu2/uram512/180ms/8vms-r1.dest.dstat.csv",,,,"Date:","15 Jun 2014 16:53:33 EDT"
+
+"total cpu usage",,,,,,"net/eth0",,"net/eth1",,"net/total",,"memory usage",,,,"dsk/total",
+"usr","sys","idl","wai","hiq","siq","recv","send","recv","send","recv","send","used","buff","cach","free","read","writ"
+0.911,1.333,97.728,0.026,0.000,0.002,0.0,0.0,0.0,0.0,0.0,0.0,7386693632.0,422887424.0,10487857152.0,7025860608.0,257.646,3327.771
+0.062,0.062,99.875,0.0,0.0,0.0,560.0,0.0,11814.0,10902.0,12552.0,12200.0,7385968640.0,422887424.0,10487902208.0,7026540544.0,0.0,0.0
+1.567,2.696,95.235,0.502,0.0,0.0,624.0,0.0,232.0,278.0,9780.0,12406.0,7391297536.0,422887424.0,10487959552.0,7021154304.0,0.0,262144.0
