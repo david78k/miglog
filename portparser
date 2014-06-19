@@ -1,0 +1,152 @@
+#!/bin/bash
+
+# parse iftop file to extract 2second rate and cumulative data
+# first run init function and then run parse function
+
+#host=10.244.34.4
+host=10.244.34.5
+
+infile=$1
+prefix=${infile%.*}
+portsfile=$prefix.ports
+portslog=$portsfile.log
+ports=( 50768 55097 32795 )
+
+INIT=true
+#INIT=false
+
+suffix=KB
+
+#echo $prefix
+
+# generates *.ports.log
+function initialize() {
+# extract rates of all ports
+grep $host: $infile | egrep -v "ssh|:728|:915|privatewire|jmb-cds2|asc-slmd|n1-rmgmt|n1-fwp|nssalertmgr|ctiprogramload" > $portslog
+#grep $host: $infile | egrep -v "ssh|728|privatewire" | grep -v jmb-cds2 | grep -v asc-slmd | grep -v n1-rmgmt  
+
+echo $portslog generated
+
+# get unique ports
+results=`awk '{print $1, $2}' $portslog | head -20`
+echo "$results"
+
+results=`awk '{print $2}' $portslog | head -20`
+#echo $results
+
+for result in ${results[@]}
+do
+#	echo $result
+	IFS=': '
+	read -a array <<< "$result"	
+	unset IFS
+
+	#echo ${array[*]}
+	#echo ${array[0]} # num
+	echo -n "${array[1]} " # port
+	#echo
+done
+
+echo
+echo Ports selected: ${ports[*]}
+echo These ports may be old. You may need to select new ports.
+}
+
+# infile = *.ports.log
+# generates *.ports
+function parse() {
+# process by port
+i=1
+for port in ${ports[@]}
+do
+	echo -n "$port "
+	portfile=$portsfile.$i
+	portlog=$portfile.log
+	
+	rm -rf $portfile
+
+	# extract only the corresponding port 
+	grep $port $portslog | awk '{print $4,$7}' > $portlog
+	echo $portlog generated
+	
+	# convert KB to MB
+	while read line
+	do
+	#	echo $line
+
+		# split rate and cumulative
+		IFS=' '
+		read -a array <<< "$line"	
+		unset IFS
+	
+		rate=${array[0]}
+		cumulative=${array[1]}
+
+	#	echo $rate, $cumulative
+		#line=${line%KB}
+		#echo ${array[0]}
+		#echo ${array[1]}
+		#echo $line
+		
+		# remove the last two characters
+		number=${rate%?B}
+		number2=${cumulative%?B}
+
+		if [[ ${rate: -2} == "KB" ]]; then
+#			echo -n "KB "	
+#			echo $number
+			#number=$(( (number + 512) / 1024 ))
+			#number=$( echo "$number / 1024" | bc )
+			#number=`echo ${number} / 1024 | bc`
+			#number=`echo ${number} / 1024 | dc`
+			# conver KB to MB
+			number=`echo $number | awk '{$1/=1024; printf "%.2f\n", $1}'`
+		elif [[ ${rate: -2} == "MB" ]]; then
+			number=$number
+		elif [[ ${rate: -1} == "B" ]]; then
+			number=`echo $number | awk '{printf "0\n"}'`
+		fi
+		#echo -n "$number "
+
+		if [[ ${cumulative: -2} == "KB" ]]; then
+			number2=`echo $number2 | awk '{$1/=1024; printf "%.2f\n", $1}'`
+		fi
+
+		#echo $number2
+		echo $number $number2 >> $portfile
+		#wc -l $portfile
+	done < $portlog
+
+	allports=`echo $allports $portfile`
+	i=$(( i + 1 ))
+done
+
+# merge all files in the longest order
+# select order by wc -l
+wc -l $portsfile.?
+paste $allports > $portsfile
+}
+
+# generates *.ports
+function merge() {
+i=1
+for port in ${ports[@]}
+do
+	echo -n "$port "
+	allports=`echo $allports`
+	i=$(( i + 1 ))
+done
+
+paste $allports
+}
+
+# first run init function and select ports, and then run parse function
+if $INIT; then
+	initialize
+else
+	parse
+fi
+
+# merge the resulting files in the longest order
+#merge
+
