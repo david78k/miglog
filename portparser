@@ -10,10 +10,10 @@ infile=$1
 prefix=${infile%.*}
 portsfile=$prefix.ports
 portslog=$portsfile.log
-ports=( 50768 55097 32795 )
+ports=( 46053 44238 37891 57772 60901 59565 43319 36454 )
 
-INIT=true
-#INIT=false
+#INIT=true
+INIT=false
 
 suffix=KB
 
