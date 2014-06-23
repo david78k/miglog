@@ -1,19 +1,26 @@
 #!/bin/bash
 
 # parse iftop file to extract 2second rate and cumulative data
-# first run init function and then run parse function
-
-#host=10.244.34.4
-host=10.244.34.5
-
-infile=$1
-prefix=${infile%.*}
-portsfile=$prefix.ports
-portslog=$portsfile.log
-ports=( 46053 44238 37891 57772 60901 59565 43319 36454 )
+# first run init function and select the ports, 
+# then run parse function and merge each port file by using paste command
+#
+# make sure the INIT variable set right: first set true then false
+# also check the host and the ports
+#
+# usage: portparser *.iftop
 
 #INIT=true
 INIT=false
+
+host=10.244.34.4
+#host=10.244.34.5
+
+# *.iftop file
+infile=$1 
+prefix=${infile%.*}
+portsfile=$prefix.ports
+portslog=$portsfile.log
+ports=( 48026 57420 50503 34713 52689 43940 39407 57020 )
 
 suffix=KB
 
