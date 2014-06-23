@@ -7,7 +7,7 @@ print(args)
 #src = "4vms-r1.dest.dstat.csv"
 src <- args[1]
 #N = 4 # number of parallel migrations
-N <- as.numeric(args[2])
+#N <- as.numeric(args[2])
 
 prefix = src
 #prefix = paste0(src, ".send")
@@ -42,18 +42,20 @@ fontsize = 1
 #fontsize = 1.5 
 #fontsize = 2 
 
-#library(ggplot2)
+library(ggplot2)
 require(devEMF)
 
+data <- read.table(src, na.strings = "0", fill = TRUE)
+#data <- data.frame(src)
 #aapl <- read.csv("http://www.google.com/finance/historical?q=NASDAQ:AAPL&authuser=0&output=csv ", sep=",", header=1)
 #data <- read.csv(src, sep=",", skip = startrow, header=1)
 #aapl = aapl[nrow(aapl):1, ]
-#print(aapl)
+print(data)
+
+data[is.na(data)] <- 0
+print(data)
 
 genplot <- function (type) {
-	#ggplot(uspopage, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
-	ggplot(src, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
-
 	#rm(list = ls())      # Clear all variables
 	#graphics.off()    # Close graphics windows
 
@@ -73,6 +75,10 @@ genplot <- function (type) {
 		emf(paste0(prefix, ".emf"), height=1.5*fheight/100.0, width=1.5*fwidth/100.0)
 		#emf('aapl.emf')
 	}
+
+	#ggplot(uspopage, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
+#	ggplot(src, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
+	plot(data)
 
 	# Plot the y1 data
 	#par(oma=c(2,2,2,4))               # Set outer margin areas (only necessary in order to plot extra y-axis)
