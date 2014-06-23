@@ -57,6 +57,9 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 
 # replace missing values to zero
 data[is.na(data)] <- 0
+#print(data)
+
+data <- data[, seq(1, ncol(data), by = 2)]
 print(data)
 
 data <- reshape(data,
@@ -67,7 +70,9 @@ data <- reshape(data,
             #    times = c("V1", "V2", "V3"),
                 direction = "long")
  
+# remove id column (last column)
 #data <- subset(data, select = -c(id))
+#data <- subset(data, select = -c(0))
 print(data)
 
 genplot <- function (type) {
@@ -92,7 +97,8 @@ genplot <- function (type) {
 	}
 
 	#ggplot(data, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
-	ggplot(data, aes(x=step, y=V1, fill=material)) + geom_area()
+	ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
+	#ggplot(data, aes(x=id, y=V1, fill=material)) + geom_area()
 #	plot(data)
 
 	# Plot the y1 data
