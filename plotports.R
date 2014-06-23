@@ -33,6 +33,7 @@ secondlc = "red"
 secondlty = 2 # good 
 #secondlty = 3 # too pale
 
+# legend position
 #legendpos = "bottom"
 legendpos = "center"
 #legendpos = "topright"
@@ -46,16 +47,17 @@ library(ggplot2)
 library(reshape)
 require(devEMF)
 
-# replace missing values to zero
-data <- read.table(src, na.strings = "0", fill = TRUE)
+# filter missing values
+data <- read.table(src, na.strings = "NA", fill = TRUE)
 #data <- data.frame(src)
 #aapl <- read.csv("http://www.google.com/finance/historical?q=NASDAQ:AAPL&authuser=0&output=csv ", sep=",", header=1)
 #data <- read.csv(src, sep=",", skip = startrow, header=1)
 #aapl = aapl[nrow(aapl):1, ]
 #print(data)
 
+# replace missing values to zero
 data[is.na(data)] <- 0
-#print(data)
+print(data)
 
 data <- reshape(data,
            #     varying = c("V1", "V2", "v3"),
@@ -65,7 +67,7 @@ data <- reshape(data,
             #    times = c("V1", "V2", "V3"),
                 direction = "long")
  
-data <- subset(data, select = -c(id))
+#data <- subset(data, select = -c(id))
 print(data)
 
 genplot <- function (type) {
