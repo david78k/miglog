@@ -43,16 +43,29 @@ fontsize = 1
 #fontsize = 2 
 
 library(ggplot2)
+library(reshape)
 require(devEMF)
 
+# replace missing values to zero
 data <- read.table(src, na.strings = "0", fill = TRUE)
 #data <- data.frame(src)
 #aapl <- read.csv("http://www.google.com/finance/historical?q=NASDAQ:AAPL&authuser=0&output=csv ", sep=",", header=1)
 #data <- read.csv(src, sep=",", skip = startrow, header=1)
 #aapl = aapl[nrow(aapl):1, ]
-print(data)
+#print(data)
 
 data[is.na(data)] <- 0
+#print(data)
+
+data <- reshape(data,
+           #     varying = c("V1", "V2", "v3"),
+                varying = list(names(data)), 
+               # v.names = "mmiles",
+                timevar = "material",
+            #    times = c("V1", "V2", "V3"),
+                direction = "long")
+ 
+data <- subset(data, select = -c(id))
 print(data)
 
 genplot <- function (type) {
@@ -76,9 +89,9 @@ genplot <- function (type) {
 		#emf('aapl.emf')
 	}
 
-	#ggplot(uspopage, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
-#	ggplot(src, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
-	plot(data)
+	#ggplot(data, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
+	ggplot(data, aes(x=step, y=V1, fill=material)) + geom_area()
+#	plot(data)
 
 	# Plot the y1 data
 	#par(oma=c(2,2,2,4))               # Set outer margin areas (only necessary in order to plot extra y-axis)
