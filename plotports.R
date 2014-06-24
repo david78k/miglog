@@ -99,7 +99,7 @@ genplot <- function (type) {
 
 	#ggplot(data, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
 	#ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
-	ggplot(data, aes(x=id*2, y=throughput, fill=VM)) + geom_area()
+#	ggplot(data, aes(x=id*2, y=throughput, fill=VM)) + geom_area()
 
 	graph = ggplot(data, aes(x=id*2, y=throughput, fill=VM)) +
 		geom_area(position = 'stack') +
@@ -118,7 +118,7 @@ genplot <- function (type) {
         	      legend.title = element_text(size = 14, face = 'bold'),
         	      legend.text = element_text(size = 12),
         	      plot.title = element_text(size = 18, face = 'bold'))
-#	plot(graph)
+	plot(graph)
 
 	# Plot the y1 data
 	#par(oma=c(2,2,2,4))               # Set outer margin areas (only necessary in order to plot extra y-axis)
