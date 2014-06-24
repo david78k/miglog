@@ -59,6 +59,7 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 data[is.na(data)] <- 0
 #print(data)
 
+# select odd columns only
 data <- data[, seq(1, ncol(data), by = 2)]
 #print(data)
 
