@@ -59,7 +59,7 @@ data[is.na(data)] <- 0
 #print(data)
 
 data <- data[, seq(1, ncol(data), by = 2)]
-print(data)
+#print(data)
 
 data <- reshape(data,
            #     varying = c("V1", "V2", "v3"),
@@ -73,8 +73,7 @@ data <- reshape(data,
  
 # remove id column (last column)
 #data <- subset(data, select = -c(id))
-#data <- subset(data, select = -c(0))
-print(data)
+#print(data)
 
 genplot <- function (type) {
 	#rm(list = ls())      # Clear all variables
@@ -97,6 +96,8 @@ genplot <- function (type) {
 		#emf('aapl.emf')
 	}
 
+	par(mar=c(5,5,1,1)) # good fit
+
 	#ggplot(data, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
 	#ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
 #	ggplot(data, aes(x=id*2, y=throughput, fill=VM)) + geom_area()
@@ -114,7 +115,7 @@ genplot <- function (type) {
         	                    #labels = c("Plastic", "Steel", "Cast Iron")
 		) +
         	theme(axis.text = element_text(size = 12, color = 'black'),
-        	      axis.title = element_text(size = 14),
+        	      axis.title = element_text(size = 12),
         	      #axis.title = element_text(size = 14, face = 'bold'),
         	      legend.title = element_text(size = 14, face = 'bold'),
         	      legend.text = element_text(size = 12),
