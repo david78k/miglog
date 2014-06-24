@@ -136,7 +136,7 @@ genplot <- function (type) {
         	      legend.text = element_text(size = 12),
 		      #panel.margin = unit(1, "cm"),
 		      #plot.margin = unit(c(0.5,0.5,0,0), "cm"),
-		      plot.margin = unit(c(1,1,0,0), "cm"),
+		      plot.margin = unit(c(2,2,1,1), "cm"),
         	      plot.title = element_text(size = 18, face = 'bold'))
 	plot(graph)
 
