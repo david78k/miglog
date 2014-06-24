@@ -101,26 +101,6 @@ genplot <- function (type) {
 	#ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
 	ggplot(data, aes(x=id*2, y=throughput, fill=VM)) + geom_area()
 
-	graph = ggplot(data, aes(x=id*2, y=throughput, fill=VM)) +
-		geom_area(position = 'stack') +
-        	labs(x = "TIME (SEC)", 
-        	     y = "THROUGHPUT (MB/s)",
-        	     #title = "Composition of Natural Gas Pipeline Material in the United States") +
-        	scale_fill_discrete(name = "Material", 
-        	                    breaks = c("plastic", "steel", "castiron"),
-        	                    labels = c("Plastic", "Steel", "Cast Iron")) +
-        	theme(axis.text = element_text(size = 12, color = 'black'),
-        	      axis.title = element_text(size = 14, face = 'bold'),
-        	      legend.title = element_text(size = 14, face = 'bold'),
-        	      legend.text = element_text(size = 12),
-        	      plot.title = element_text(size = 18, face = 'bold'))
-#	plot(graph)
-
-	# Plot the y1 data
-	#par(oma=c(2,2,2,4))               # Set outer margin areas (only necessary in order to plot extra y-axis)
-
-	# margins: oma for the number of lines in outer margin, mar for the number of lines in inside margin
-	# c(bottom, left, top, right)
 	#par(oma=c(0,0,0,0))               # Set outer margin areas (only necessary in order to plot extra y-axis)
 #	par(mar=c(5,5,1,1)) # good fit
 	#par(mar=c(4,5,0,0))  # both too tight
