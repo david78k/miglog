@@ -66,7 +66,8 @@ data <- reshape(data,
            #     varying = c("V1", "V2", "v3"),
                 varying = list(names(data)), 
                 #v.names = "mmiles",
-                timevar = "material",
+                v.names = "throughput",
+                timevar = "VM",
 		times = names(data),
             #    times = c("V1", "V2", "V3"),
                 direction = "long")
@@ -99,7 +100,7 @@ genplot <- function (type) {
 
 	#ggplot(data, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
 	#ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
-	ggplot(data, aes(x=id, y=V1, fill=material)) + geom_area()
+	ggplot(data, aes(x=id, y=throughput, fill=VM)) + geom_area()
 #	plot(data)
 
 	# Plot the y1 data
