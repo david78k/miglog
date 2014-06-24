@@ -101,27 +101,13 @@ genplot <- function (type) {
 
 	# margins: oma for the number of lines in outer margin, mar for the number of lines in inside margin
 	# c(bottom, left, top, right)
-	#par(oma=c(0,0,0,0))               # Set outer margin areas (only necessary in order to plot extra y-axis)
+	par(oma=c(0,0,0,0))               # Set outer margin areas (only necessary in order to plot extra y-axis)
 #	par(mar=c(5,5,1,1)) # good fit
 	#par(mar=c(4,5,0,0))  # both too tight
-	par(mar=c(4,6,0,0)) # bottom good, left wide
+	#par(mar=c(4,6,0,0)) # bottom good, left wide
 	#par(mar=c(6,6,0,0)) # bit wide
 
 	#layout(rbind(1,2), heights=c(7,1))  # put legend on bottom 1/8th of the chart
-
-	# Add a legend to the plot
-	#legend("topright",                       # x-y coordinates for location of the legend
-	#legend("bottom",                       # x-y coordinates for location of the legend
-	#legend(legendpos,                       # x-y coordinates for location of the legend
-	#       legend=c("AGGREGATE", "PER VM"),      # Legend labels
-	#       col=c("black", secondlc),   # Color of points or lines
-	#       pch=c(NA,20),                 # Point type
-	       #pch=c(21,19),                 # Point type
-	#       lty=c(1,secondlty),                    # Line type
-	#       lwd=c(1,2),                    # Line width
-	#       cex = fontsize,
-#		bty = 'n'
-#	)
 
 	#ggplot(data, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
 	#ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
@@ -140,12 +126,28 @@ genplot <- function (type) {
         	                    #labels = c("Plastic", "Steel", "Cast Iron")
 		) +
         	theme(axis.text = element_text(size = 12, color = 'black'),
-        	      axis.title = element_text(size = 12),
+        	      #axis.title = element_text(size = 12),
+        	      axis.title = element_text(size = 12, face = 'bold'),
         	      #axis.title = element_text(size = 14, face = 'bold'),
         	      legend.title = element_text(size = 14, face = 'bold'),
         	      legend.text = element_text(size = 12),
         	      plot.title = element_text(size = 18, face = 'bold'))
 	plot(graph)
+
+	# Add a legend to the plot
+	#legend("topright",                       # x-y coordinates for location of the legend
+	#legend("bottom",                       # x-y coordinates for location of the legend
+	#legend(legendpos,                       # x-y coordinates for location of the legend
+	#       legend=c("AGGREGATE", "PER VM"),      # Legend labels
+	#       col=c("black", secondlc),   # Color of points or lines
+	#       pch=c(NA,20),                 # Point type
+	       #pch=c(21,19),                 # Point type
+	#       lty=c(1,secondlty),                    # Line type
+	#       lwd=c(1,2),                    # Line width
+	#       cex = fontsize,
+#		bty = 'n'
+#	)
+
 }
 
 genplot("png")
