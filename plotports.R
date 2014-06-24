@@ -114,7 +114,8 @@ genplot <- function (type) {
         	                    #labels = c("Plastic", "Steel", "Cast Iron")
 		) +
         	theme(axis.text = element_text(size = 12, color = 'black'),
-        	      axis.title = element_text(size = 14, face = 'bold'),
+        	      axis.title = element_text(size = 14),
+        	      #axis.title = element_text(size = 14, face = 'bold'),
         	      legend.title = element_text(size = 14, face = 'bold'),
         	      legend.text = element_text(size = 12),
         	      plot.title = element_text(size = 18, face = 'bold'))
