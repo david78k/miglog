@@ -137,7 +137,7 @@ genplot <- function (type) {
 		      #panel.margin = unit(1, "cm"),
 			# c(right, top, left, bottom)
 		      #plot.margin = unit(c(0.5,0.5,0,0), "cm"),
-		      plot.margin = unit(c(2,2,5,6), "mm"),
+		      plot.margin = unit(c(2,2,6,6), "mm"),
         	      plot.title = element_text(size = 18, face = 'bold'))
 	plot(graph)
 
