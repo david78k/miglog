@@ -131,13 +131,13 @@ genplot <- function (type) {
         	      axis.title = element_text(size = 12, face = 'bold'),
         	      #axis.title = element_text(size = 14, face = 'bold'),
 		  	axis.title.x = element_text(vjust = -0.8), 
-			axis.title.y = element_text(vjust = 0),
+			axis.title.y = element_text(vjust = 0.1),
         	      legend.title = element_text(size = 14, face = 'bold'),
         	      legend.text = element_text(size = 12),
 		      #panel.margin = unit(1, "cm"),
 			# c(top, right, bottom, left)
 		      #plot.margin = unit(c(0.5,0.5,0,0), "cm"),
-		      plot.margin = unit(c(2,2,5,4), "mm"),
+		      plot.margin = unit(c(2,2,5,3), "mm"),
         	      plot.title = element_text(size = 18, face = 'bold'))
 	plot(graph)
 
