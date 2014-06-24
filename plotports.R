@@ -97,24 +97,11 @@ genplot <- function (type) {
 		#emf('aapl.emf')
 	}
 
-	# Plot the y1 data
-	#par(oma=c(2,2,2,4))               # Set outer margin areas (only necessary in order to plot extra y-axis)
-
-	# margins: oma for the number of lines in outer margin, mar for the number of lines in inside margin
-	# c(bottom, left, top, right)
-	#par(oma=c(0,0,0,0))               # Set outer margin areas (only necessary in order to plot extra y-axis)
-#	par(mar=c(5,5,1,1)) # good fit
-	#par(mar=c(4,5,0,0))  # both too tight
-	#par(mar=c(4,6,0,0)) # bottom good, left wide
-	#par(mar=c(6,6,0,0)) # bit wide
-
-	#layout(rbind(1,2), heights=c(7,1))  # put legend on bottom 1/8th of the chart
-
-	#ggplot(data, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
 	#ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
 #	ggplot(data, aes(x=id*2, y=throughput, fill=VM)) + geom_area()
 
-	graph = ggplot(data, aes(x=id*2, y=throughput, fill=VM)) +
+	graph = ggplot(data, aes(x=id*2, y=throughput/125, fill=VM)) +
+	#graph = ggplot(data, aes(x=id*2, y=throughput, fill=VM)) +
 		geom_area(position = 'stack') +
         	labs(x = "TIME (SEC)", 
         	     y = "THROUGHPUT (MB/S)"
