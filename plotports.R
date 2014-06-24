@@ -50,7 +50,6 @@ require(devEMF)
 # filter missing values
 data <- read.table(src, na.strings = "NA", fill = TRUE)
 #data <- data.frame(src)
-#aapl <- read.csv("http://www.google.com/finance/historical?q=NASDAQ:AAPL&authuser=0&output=csv ", sep=",", header=1)
 #data <- read.csv(src, sep=",", skip = startrow, header=1)
 #aapl = aapl[nrow(aapl):1, ]
 #print(data)
@@ -101,7 +100,21 @@ genplot <- function (type) {
 	#ggplot(data, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
 	#ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
 	ggplot(data, aes(x=id*2, y=throughput, fill=VM)) + geom_area()
-#	plot(data)
+
+	graph = ggplot(data, aes(x=id*2, y=throughput, fill=VM)) +
+		geom_area(position = 'stack') +
+        	labs(x = "TIME (SEC)", 
+        	     y = "THROUGHPUT (MB/s)",
+        	     #title = "Composition of Natural Gas Pipeline Material in the United States") +
+        	scale_fill_discrete(name = "Material", 
+        	                    breaks = c("plastic", "steel", "castiron"),
+        	                    labels = c("Plastic", "Steel", "Cast Iron")) +
+        	theme(axis.text = element_text(size = 12, color = 'black'),
+        	      axis.title = element_text(size = 14, face = 'bold'),
+        	      legend.title = element_text(size = 14, face = 'bold'),
+        	      legend.text = element_text(size = 12),
+        	      plot.title = element_text(size = 18, face = 'bold'))
+#	plot(graph)
 
 	# Plot the y1 data
 	#par(oma=c(2,2,2,4))               # Set outer margin areas (only necessary in order to plot extra y-axis)
@@ -132,16 +145,6 @@ genplot <- function (type) {
 	#     bty="l",                     # Box around plot to contain only left and lower lines
 #	     las = 1                      # labels are parallel (=0) or perpendicular(=2) to axis, 1 for x-axis = 0 and y-axis = 1
 #	)
-
-# Add y2 data to the same plot
-#points(data[,startcol]/1000000.0/N,
-#points(data[,startcol]/1024.0/1024.0/N,
-#       type="l",                  # Plot lines and points
-#       lty=secondlty,                     # Line type: 0=blank, 1=solid, 2=dashed, 3=dotted, 4=dotdash, 5=longdash, 6=twodash
-#       lwd=2,                     # Line width
-#       pch=20,                    # Point type: pch=19 - solid circle, pch=20 - bullet (smaller circle), pch=21 - circle, pch=22 - square, pch=23 - diamond, pch=24 - triangle point-up, pch=25 - triangle point down.
-#       pch=19,                    # Point type: pch=19 - solid circle, pch=20 - bullet (smaller circle), pch=21 - circle, pch=22 - square, pch=23 - diamond, pch=24 - triangle point-up, pch=25 - triangle point down.
-#       col=secondlc)                 # Color of the plotted data
 
 	# Add a legend to the plot
 	#legend("topright",                       # x-y coordinates for location of the legend
