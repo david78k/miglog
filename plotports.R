@@ -100,7 +100,7 @@ genplot <- function (type) {
 
 	#ggplot(data, aes(x=Year, y=Thousands, fill=AgeGroup)) + geom_area()
 	#ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
-	ggplot(data, aes(x=id, y=throughput, fill=VM)) + geom_area()
+	ggplot(data, aes(x=id*2, y=throughput, fill=VM)) + geom_area()
 #	plot(data)
 
 	# Plot the y1 data
