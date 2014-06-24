@@ -45,6 +45,7 @@ fontsize = 1
 
 library(ggplot2)
 library(reshape)
+library(grid)
 require(devEMF)
 
 # filter missing values
@@ -101,7 +102,7 @@ genplot <- function (type) {
 
 	# margins: oma for the number of lines in outer margin, mar for the number of lines in inside margin
 	# c(bottom, left, top, right)
-	par(oma=c(0,0,0,0))               # Set outer margin areas (only necessary in order to plot extra y-axis)
+	#par(oma=c(0,0,0,0))               # Set outer margin areas (only necessary in order to plot extra y-axis)
 #	par(mar=c(5,5,1,1)) # good fit
 	#par(mar=c(4,5,0,0))  # both too tight
 	#par(mar=c(4,6,0,0)) # bottom good, left wide
@@ -131,6 +132,7 @@ genplot <- function (type) {
         	      #axis.title = element_text(size = 14, face = 'bold'),
         	      legend.title = element_text(size = 14, face = 'bold'),
         	      legend.text = element_text(size = 12),
+		      plot.margin = unit(c(1,1,1,1), "cm"),
         	      plot.title = element_text(size = 18, face = 'bold'))
 	plot(graph)
 
