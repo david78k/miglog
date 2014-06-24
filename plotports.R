@@ -100,13 +100,13 @@ genplot <- function (type) {
 	#ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
 #	ggplot(data, aes(x=id*2, y=throughput, fill=VM)) + geom_area()
 
-	# link utilization (0-1)
-	graph = ggplot(data, aes(x=id*2, y=throughput/125, fill=VM)) +
+	# link utilization (%)
+	graph = ggplot(data, aes(x=id*2, y=100*throughput/125, fill=VM)) +
 	# throughput
 	#graph = ggplot(data, aes(x=id*2, y=throughput, fill=VM)) +
 		geom_area(position = 'stack') +
         	labs(x = "TIME (SEC)", 
-        	     y = "LINK UTILIZATION"
+        	     y = "LINK UTILIZATION (%)"
         	     #y = "THROUGHPUT (MB/S)"
         	     #title = "Composition of Natural Gas Pipeline Material in the United States"
 		) +
