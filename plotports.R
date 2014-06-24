@@ -131,7 +131,7 @@ genplot <- function (type) {
         	      axis.title = element_text(size = 12, face = 'bold'),
         	      #axis.title = element_text(size = 14, face = 'bold'),
 		  	axis.title.x = element_text(vjust = -1), 
-			axis.title.y = element_text(vjust = -0.1),
+		#	axis.title.y = element_text(vjust = -0.1),
         	      legend.title = element_text(size = 14, face = 'bold'),
         	      legend.text = element_text(size = 12),
 		      #panel.margin = unit(1, "cm"),
