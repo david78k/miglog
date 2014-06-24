@@ -105,7 +105,7 @@ genplot <- function (type) {
 	graph = ggplot(data, aes(x=id*2, y=throughput, fill=VM)) +
 		geom_area(position = 'stack') +
         	labs(x = "TIME (SEC)", 
-        	     y = "THROUGHPUT (MB/s)"
+        	     y = "THROUGHPUT (MB/S)"
         	     #title = "Composition of Natural Gas Pipeline Material in the United States"
 		) +
         	scale_fill_discrete(name = "VM", 
@@ -134,23 +134,6 @@ genplot <- function (type) {
 	#par(mar=c(6,6,0,0)) # bit wide
 
 	#layout(rbind(1,2), heights=c(7,1))  # put legend on bottom 1/8th of the chart
-
-	# aggregate throughput
-	#plot(data[,startcol]/1000000.0,            # Data to plot - x, y
-#	plot(data[,startcol]/1024.0/1024.0,            # Data to plot - x, y
-	#   type="b",                    # Plot lines and points. Use "p" for points only, "l" for lines only
-#	     type="l",                    # Plot lines and points. Use "p" for points only, "l" for lines only
-	#     main="Time series plot",     # Main title for the plot
-#	     xlab="TIME (SEC)",                 # Label for the x-axis
-#	     ylab="THROUGHPUT (MB/S)",   # Label for the y-axis
-#	     font.lab=2,                  # Font to use for the axis labels: 1=plain text, 2=bold, 3=italic, 4=bold italic
-#	     cex.axis = fontsize,
-#	     cex.lab = fontsize,
-	#     ylim=c(0,20),                # Range for the y-axis; "xlim" does same for x-axis
-	#     xaxp=c(0,50,5),              # X-axis min, max and number of intervals; "yaxp" does same for y-axis
-	#     bty="l",                     # Box around plot to contain only left and lower lines
-#	     las = 1                      # labels are parallel (=0) or perpendicular(=2) to axis, 1 for x-axis = 0 and y-axis = 1
-#	)
 
 	# Add a legend to the plot
 	#legend("topright",                       # x-y coordinates for location of the legend
