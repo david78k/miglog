@@ -59,7 +59,7 @@ data[is.na(data)] <- 0
 
 # select odd columns only
 data <- data[, seq(1, ncol(data), by = 2)]
-print(data)
+#print(data)
 
 #data <- reshape(data,
 #                varying = list(names(data)), 
@@ -134,7 +134,7 @@ genplot <- function (type) {
 	y <- cbind(data$V1)
 	#print (y)
 	#matplot(x, y, type = "l")
-	matplot(data, type = "l")
+	matplot(x, data, type = "l")
 	
 #	ggplot(data, aes(x=data[,0]*2), value) + geom_line()
 	#ggplot(data, aes(x=data[,0]*2, y=100*data/125)) + geom_line()
