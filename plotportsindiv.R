@@ -171,7 +171,7 @@ genplot <- function (type) {
 	#       col=c("black", secondlc),   # Color of points or lines
 	      #pch=c(NA,20),                 # Point type
 	      #pch=c(21,19),                 # Point type
-	#       lty=c(1,secondlty),                    # Line type
+	       lty=c(secondlty),                    # Line type
 	#       lwd=c(1,2),                    # Line width
 	#       cex = fontsize,
 		bty = 'n'
