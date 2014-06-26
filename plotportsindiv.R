@@ -59,7 +59,7 @@ data[is.na(data)] <- 0
 
 # select odd columns only
 data <- data[, seq(1, ncol(data), by = 2)]
-#print(data)
+print(data)
 
 #data <- reshape(data,
 #                varying = list(names(data)), 
@@ -104,32 +104,41 @@ genplot <- function (type) {
 	# link utilization (%)
 	# individual throughput
 	#plot(data[,startcol]/1024.0/1024.0,            # Data to plot - x, y
-	plot(data,            # Data to plot - x, y
+#	plot(data,            # Data to plot - x, y
 	#   type="b",                    # Plot lines and points. Use "p" for points only, "l" for lines only
 	#     type="l",                    # Plot lines and points. Use "p" for points only, "l" for lines only
 	#     main="Time series plot",     # Main title for the plot
 	#     xlab="TIME (SEC)",                 # Label for the x-axis
 	#	ylab = "LINK UTILIZATION (%)",
-	     font.lab=2,                  # Font to use for the axis labels: 1=plain text, 2=bold, 3=italic, 4=bold italic
-	     cex.axis = fontsize,
-	     cex.lab = fontsize,
+#	     font.lab=2,                  # Font to use for the axis labels: 1=plain text, 2=bold, 3=italic, 4=bold italic
+#	     cex.axis = fontsize,
+#	     cex.lab = fontsize,
 	#     ylim=c(0,20),                # Range for the y-axis; "xlim" does same for x-axis
 	#     xaxp=c(0,50,5),              # X-axis min, max and number of intervals; "yaxp" does same for y-axis
 	#     bty="l",                     # Box around plot to contain only left and lower lines
-	     las = 1                      # labels are parallel (=0) or perpendicular(=2) to axis, 1 for x-axis = 0 and y-axis = 1
-	)
+#	     las = 1                      # labels are parallel (=0) or perpendicular(=2) to axis, 1 for x-axis = 0 and y-axis = 1
+#	)
 
 	# Add y2 data to the same plot
 	# average throughput
-	points(mean(data),
-	       type="l",                  # Plot lines and points
-	       lty=secondlty,                     # Line type: 0=blank, 1=solid, 2=dashed, 3=dotted, 4=dotdash, 5=longdash, 6=twodash
-	       lwd=2,                     # Line width
+#	points(mean(data),
+#	       type="l",                  # Plot lines and points
+#	       lty=secondlty,                     # Line type: 0=blank, 1=solid, 2=dashed, 3=dotted, 4=dotdash, 5=longdash, 6=twodash
+#	       lwd=2,                     # Line width
 	#       pch=20,                    # Point type: pch=19 - solid circle, pch=20 - bullet (smaller circle), pch=21 - circle, pch=22 - square, pch=23 - diamond, pch=24 - triangle point-up, pch=25 - triangle point down.
 	#       pch=19,                    # Point type: pch=19 - solid circle, pch=20 - bullet (smaller circle), pch=21 - circle, pch=22 - square, pch=23 - diamond, pch=24 - triangle point-up, pch=25 - triangle point down.
-	       col=secondlc)                 # Color of the plotted data
+#	       col=secondlc)                 # Color of the plotted data
 
-	#graph = ggplot(data, aes(x=id*2, y=100*throughput/125, fill=VM)) +
+	x <- as.numeric(rownames (data))*2
+	print (x)
+	y <- cbind(data$V1)
+	print (y)
+	matplot(x, y, type = "l")
+	
+#	ggplot(data, aes(x=data[,0]*2), value) + geom_line()
+	#ggplot(data, aes(x=data[,0]*2, y=100*data/125)) + geom_line()
+		#+ geom_line(aes(colour=variable))
+#	graph = ggplot(data, aes(x=id*2, y=100*throughput/125, fill=VM)) +
 #		geom_area(position = 'stack') +
  #       	labs(x = "TIME (SEC)", 
   #      	     y = "LINK UTILIZATION (%)"
