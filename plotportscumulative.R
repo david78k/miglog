@@ -101,7 +101,7 @@ genplot <- function (type) {
 	#print (y)
 	matplot(x, y, type = "l", 
         	xlab = "TIME (SEC)", 
-        	ylab = "LINK UTILIZATION (%)"
+        	ylab = "CUMULATIVE DATA (MB/S)"
 	)
         #mtext ("LINK UTILIZATION (%)", side = 2, line = 3)
 	

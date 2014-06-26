@@ -117,6 +117,8 @@ do
 
 		if [[ ${cumulative: -2} == "KB" ]]; then
 			number2=`echo $number2 | awk '{$1/=1024; printf "%.2f\n", $1}'`
+		elif [[ ${cumulative: -2} == "GB" ]]; then
+			number2=`echo $number2 | awk '{$1*=1024; printf "%.2f\n", $1}'`
 		fi
 
 		#echo $number2
