@@ -96,7 +96,7 @@ genplot <- function (type) {
 	# margins: oma for the number of lines in outer margin, mar for the number of lines in inside margin
 	# c(bottom, left, top, right)
 	#par(oma=c(0,0,0,0))               # Set outer margin areas (only necessary in order to plot extra y-axis)
-	par(mar=c(4,4,1,1), mgp=c(3,1,0)) # good fit
+	par(mar=c(4,4,1,1) + 0.1, mgp=c(3,1,0)) # good fit
 	#par(mar=c(4,4,1,1)) # good fit
 	#par(mar=c(5,5,1,1)) # good fit
 	#par(mar=c(4,5,0,0))  # both too tight
@@ -139,7 +139,7 @@ genplot <- function (type) {
         	ylab = "LINK UTILIZATION (%)"
 	)
 	
-#	ggplot(data, aes(x=data[,0]*2), value) + geom_line()
+	#ggplot(data, aes(x = x, y = y)) + geom_line()
 	#ggplot(data, aes(x=data[,0]*2, y=100*data/125)) + geom_line()
 		#+ geom_line(aes(colour=variable))
 #	graph = ggplot(data, aes(x=id*2, y=100*throughput/125, fill=VM)) +
