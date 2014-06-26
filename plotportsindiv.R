@@ -96,6 +96,8 @@ genplot <- function (type) {
 	# margins: oma for the number of lines in outer margin, mar for the number of lines in inside margin
 	# c(bottom, left, top, right)
 	#par(oma=c(0,0,0,0))               # Set outer margin areas (only necessary in order to plot extra y-axis)
+	# mgp for space between label and axis
+	# default mgp = c(3, 1, 0)
 	par(mar=c(4,4,1,1) + 0.1, mgp=c(2.5,1,0)) # good fit
 	#par(mar=c(4,4,1,1)) # good fit
 	#par(mar=c(5,5,1,1)) # good fit
@@ -131,8 +133,8 @@ genplot <- function (type) {
 
 	x <- as.numeric(rownames (data))*2
 	#print (x)
-	#y <- cbind(data, mean(data))
-	y <- cbind(data)
+	y <- cbind(data, rowMeans(data))
+	#y <- cbind(data)
 	#print (y)
 	matplot(x, y, type = "l", 
         	xlab = "TIME (SEC)", 
