@@ -138,6 +138,7 @@ genplot <- function (type) {
         	xlab = "TIME (SEC)", 
         	ylab = "LINK UTILIZATION (%)"
 	)
+        mtext ("LINK UTILIZATION (%)", side = 2, line = 4)
 	
 	#ggplot(data, aes(x = x, y = y)) + geom_line()
 	#ggplot(data, aes(x=data[,0]*2, y=100*data/125)) + geom_line()
