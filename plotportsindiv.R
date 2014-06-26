@@ -130,10 +130,11 @@ genplot <- function (type) {
 #	       col=secondlc)                 # Color of the plotted data
 
 	x <- as.numeric(rownames (data))*2
-	print (x)
+	#print (x)
 	y <- cbind(data$V1)
-	print (y)
-	matplot(x, y, type = "l")
+	#print (y)
+	#matplot(x, y, type = "l")
+	matplot(data, type = "l")
 	
 #	ggplot(data, aes(x=data[,0]*2), value) + geom_line()
 	#ggplot(data, aes(x=data[,0]*2, y=100*data/125)) + geom_line()
