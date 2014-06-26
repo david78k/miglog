@@ -46,6 +46,7 @@ fontsize = 1
 library(ggplot2)
 library(reshape)
 library(grid)
+library(zoo)
 require(devEMF)
 
 # filter missing values
@@ -55,12 +56,20 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 #aapl = aapl[nrow(aapl):1, ]
 #print(data)
 
-# replace missing values to zero
-data[is.na(data)] <- 0
+# replace missing values to NA
+data[is.na(data)] <- NA
 #print(data)
 
-# select even columns only and convert to percentile for link utilization (%)
-data <- 100*data[, seq(2, ncol(data), by = 2)]/125
+# select even columns only 
+data <- data[, seq(2, ncol(data), by = 2)]
+print(data)
+
+# convert NA to previous values
+data <- do.call (rbind, lapply (data, na.locf))
+print (data)
+
+# convert to percentile for link utilization (%)
+#data <- 100*data/125
 #print(data)
 
 genplot <- function (type) {
@@ -99,9 +108,9 @@ genplot <- function (type) {
 	#y <- cbind(data, rowMeans(data))
 	y <- cbind(data)
 	#print (y)
-	matplot(x, y, type = "l", 
+	matplot(x, y, type = "l", xlim = c(0, 200),
         	xlab = "TIME (SEC)", 
-        	ylab = "CUMULATIVE DATA (MB/S)"
+        	ylab = "CUMULATIVE DATA (MB)"
 	)
         #mtext ("LINK UTILIZATION (%)", side = 2, line = 3)
 	
