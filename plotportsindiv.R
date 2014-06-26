@@ -57,7 +57,7 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 data[is.na(data)] <- 0
 #print(data)
 
-# select odd columns only
+# select odd columns only and convert to percentile for link utilization (%)
 data <- 100*data[, seq(1, ncol(data), by = 2)]/125
 #print(data)
 
@@ -136,7 +136,8 @@ genplot <- function (type) {
 	# average throughput
 	avg <- rowMeans(data)
 	
-	points(avg,
+	#points(avg,
+	points(x = x, y = avg,
 	       type="l",                  # Plot lines and points
 	       lty=secondlty,                     # Line type: 0=blank, 1=solid, 2=dashed, 3=dotted, 4=dotdash, 5=longdash, 6=twodash
 	       lwd=2,                     # Line width
