@@ -96,7 +96,7 @@ genplot <- function (type) {
 	# margins: oma for the number of lines in outer margin, mar for the number of lines in inside margin
 	# c(bottom, left, top, right)
 	#par(oma=c(0,0,0,0))               # Set outer margin areas (only necessary in order to plot extra y-axis)
-	par(mar=c(4,4,1,1) + 0.1, mgp=c(0,1,0)) # good fit
+	par(mar=c(4,4,1,1) + 0.1, mgp=c(1,1,0)) # good fit
 	#par(mar=c(4,4,1,1)) # good fit
 	#par(mar=c(5,5,1,1)) # good fit
 	#par(mar=c(4,5,0,0))  # both too tight
