@@ -135,7 +135,10 @@ genplot <- function (type) {
 	#y <- cbind(data, mean(data))
 	y <- cbind(data)
 	#print (y)
-	matplot(x, y, type = "l")
+	matplot(x, y, type = "l", 
+        	xlab = "TIME (SEC)", 
+        	ylab = "LINK UTILIZATION (%)"
+	)
 	
 #	ggplot(data, aes(x=data[,0]*2), value) + geom_line()
 	#ggplot(data, aes(x=data[,0]*2, y=100*data/125)) + geom_line()
