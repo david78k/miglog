@@ -169,6 +169,7 @@ genplot <- function (type) {
 	# Add a legend to the plot
 	legend(legendpos,                       # x-y coordinates for location of the legend
 	       legend=c("AVERAGE"),      # Legend labels
+	       col=c(secondlc),   # Color of points or lines
 	#       col=c("black", secondlc),   # Color of points or lines
 	      #pch=c(NA,20),                 # Point type
 	      #pch=c(21,19),                 # Point type
