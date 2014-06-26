@@ -98,54 +98,70 @@ genplot <- function (type) {
 		#emf('aapl.emf')
 	}
 
-	#ggplot(data, aes(x=id, y=material, fill=V1)) + geom_area()
-#	ggplot(data, aes(x=id*2, y=throughput, fill=VM)) + geom_area()
+	# margins: oma for the number of lines in outer margin, mar for the number of lines in inside margin
+	# c(bottom, left, top, right)
+	#par(oma=c(0,0,0,0))               # Set outer margin areas (only necessary in order to plot extra y-axis)
+	par(mar=c(5,5,1,1)) # good fit
+	#par(mar=c(4,5,0,0))  # both too tight
+	#par(mar=c(4,6,0,0)) # bottom good, left wide
+	#par(mar=c(6,6,0,0)) # bit wide
 
 	# link utilization (%)
-	graph = ggplot(data, aes(x=id*2, y=100*throughput/125, fill=VM)) +
-	# throughput
-	#graph = ggplot(data, aes(x=id*2, y=throughput, fill=VM)) +
-		geom_area(position = 'stack') +
-        	labs(x = "TIME (SEC)", 
-        	     y = "LINK UTILIZATION (%)"
+	# individual throughput
+	#plot(data[,startcol]/1024.0/1024.0,            # Data to plot - x, y
+	plot(data/1024.0/1024.0,            # Data to plot - x, y
+	#   type="b",                    # Plot lines and points. Use "p" for points only, "l" for lines only
+	     type="l",                    # Plot lines and points. Use "p" for points only, "l" for lines only
+	#     main="Time series plot",     # Main title for the plot
+	     xlab="TIME (SEC)",                 # Label for the x-axis
+		ylab = "LINK UTILIZATION (%)"
+	     font.lab=2,                  # Font to use for the axis labels: 1=plain text, 2=bold, 3=italic, 4=bold italic
+	     cex.axis = fontsize,
+	     cex.lab = fontsize,
+	#     ylim=c(0,20),                # Range for the y-axis; "xlim" does same for x-axis
+	#     xaxp=c(0,50,5),              # X-axis min, max and number of intervals; "yaxp" does same for y-axis
+	#     bty="l",                     # Box around plot to contain only left and lower lines
+	     las = 1                      # labels are parallel (=0) or perpendicular(=2) to axis, 1 for x-axis = 0 and y-axis = 1
+	)
+
+	# Add y2 data to the same plot
+	# average throughput
+	#points(data[,startcol]/1000000.0/N,
+	points(data[,startcol]/1024.0/1024.0/N,
+	       type="l",                  # Plot lines and points
+	       lty=secondlty,                     # Line type: 0=blank, 1=solid, 2=dashed, 3=dotted, 4=dotdash, 5=longdash, 6=twodash
+	       lwd=2,                     # Line width
+	#       pch=20,                    # Point type: pch=19 - solid circle, pch=20 - bullet (smaller circle), pch=21 - circle, pch=22 - square, pch=23 - diamond, pch=24 - triangle point-up, pch=25 - triangle point down.
+	#       pch=19,                    # Point type: pch=19 - solid circle, pch=20 - bullet (smaller circle), pch=21 - circle, pch=22 - square, pch=23 - diamond, pch=24 - triangle point-up, pch=25 - triangle point down.
+	       col=secondlc)                 # Color of the plotted data
+
+	#graph = ggplot(data, aes(x=id*2, y=100*throughput/125, fill=VM)) +
+#		geom_area(position = 'stack') +
+ #       	labs(x = "TIME (SEC)", 
+  #      	     y = "LINK UTILIZATION (%)"
         	     #y = "THROUGHPUT (MB/S)"
         	     #title = "Composition of Natural Gas Pipeline Material in the United States"
-		) +
-        	scale_fill_discrete(name = "VM", 
-        	                    breaks = names(data),
+#		) +
+ #       	scale_fill_discrete(name = "VM", 
+  #      	                    breaks = names(data),
         	                    #breaks = c("plastic", "steel", "castiron"),
-        	                    labels = names(data) 
+   #     	                    labels = names(data) 
         	                    #labels = c("Plastic", "Steel", "Cast Iron")
-		) +
-        	theme(axis.text = element_text(size = 12, color = 'black'),
-        	      #axis.title = element_text(size = 12),
-        	      axis.title = element_text(size = 12, face = 'bold'),
-        	      #axis.title = element_text(size = 14, face = 'bold'),
-		  	axis.title.x = element_text(vjust = -0.5), 
-			axis.title.y = element_text(vjust = 0.2),
-        	      legend.title = element_text(size = 14, face = 'bold'),
-        	      legend.text = element_text(size = 12),
-		      #panel.margin = unit(1, "cm"),
-			# c(top, right, bottom, left)
+#		) +
 		      #plot.margin = unit(c(0.5,0.5,0,0), "cm"),
-		      plot.margin = unit(c(2,2,4,4), "mm"),
-        	      plot.title = element_text(size = 18, face = 'bold'))
-	plot(graph)
+#		      plot.margin = unit(c(2,2,4,4), "mm"),
 
 	# Add a legend to the plot
-	#legend("topright",                       # x-y coordinates for location of the legend
-	#legend("bottom",                       # x-y coordinates for location of the legend
 	#legend(legendpos,                       # x-y coordinates for location of the legend
 	#       legend=c("AGGREGATE", "PER VM"),      # Legend labels
 	#       col=c("black", secondlc),   # Color of points or lines
-	#       pch=c(NA,20),                 # Point type
-	       #pch=c(21,19),                 # Point type
+	      #pch=c(NA,20),                 # Point type
+	      #pch=c(21,19),                 # Point type
 	#       lty=c(1,secondlty),                    # Line type
 	#       lwd=c(1,2),                    # Line width
 	#       cex = fontsize,
 #		bty = 'n'
 #	)
-
 }
 
 genplot("png")
