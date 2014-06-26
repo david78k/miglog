@@ -66,7 +66,11 @@ print(data)
 
 # convert NA to previous values
 data <- do.call (rbind, lapply (data, na.locf))
+#data[,-1] <- sapply(data[,-1], as.numeric)
 print (data)
+
+data <- t(data)
+print(data)
 
 # convert to percentile for link utilization (%)
 #data <- 100*data/125
@@ -103,12 +107,13 @@ genplot <- function (type) {
 	#par(mar=c(5,5,1,1)) # good fit
 	#par(mar=c(4,5,0,0))  # both too tight
 
-	x <- as.numeric(rownames (data))*2
+	#x <- as.numeric(rownames (data))*2
+	x <- 1:(nrow(data))*2
 	#print (x)
 	#y <- cbind(data, rowMeans(data))
 	y <- cbind(data)
 	#print (y)
-	matplot(x, y, type = "l", xlim = c(0, 200),
+	matplot(x, y, type = "l", 
         	xlab = "TIME (SEC)", 
         	ylab = "CUMULATIVE DATA (MB)"
 	)
