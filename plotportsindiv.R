@@ -131,10 +131,10 @@ genplot <- function (type) {
 
 	x <- as.numeric(rownames (data))*2
 	#print (x)
-	y <- cbind(data$V1)
+	#y <- cbind(data, mean(data))
+	y <- cbind(data)
 	#print (y)
-	#matplot(x, y, type = "l")
-	matplot(x, cbind(data), type = "l")
+	matplot(x, y, type = "l")
 	
 #	ggplot(data, aes(x=data[,0]*2), value) + geom_line()
 	#ggplot(data, aes(x=data[,0]*2, y=100*data/125)) + geom_line()
