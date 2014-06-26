@@ -29,7 +29,8 @@ secondlc = "red"
 # second line type: 2 for dashed, 3 for dotted, 4 for dotdash, 5 for longdash, 6 for twodash
 #secondlty = 5 # best
 #secondlty = 2 # good 
-secondlty = 1 # too pale
+#secondlty = 3 # too pale
+secondlty = 1
 
 # legend position
 #legendpos = "bottom"
@@ -165,16 +166,16 @@ genplot <- function (type) {
 #		      plot.margin = unit(c(2,2,4,4), "mm"),
 
 	# Add a legend to the plot
-	#legend(legendpos,                       # x-y coordinates for location of the legend
-	#       legend=c("AGGREGATE", "PER VM"),      # Legend labels
+	legend(legendpos,                       # x-y coordinates for location of the legend
+	       legend=c("AVERAGE"),      # Legend labels
 	#       col=c("black", secondlc),   # Color of points or lines
 	      #pch=c(NA,20),                 # Point type
 	      #pch=c(21,19),                 # Point type
 	#       lty=c(1,secondlty),                    # Line type
 	#       lwd=c(1,2),                    # Line width
 	#       cex = fontsize,
-#		bty = 'n'
-#	)
+		bty = 'n'
+	)
 }
 
 genplot("png")
