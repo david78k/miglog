@@ -33,8 +33,8 @@ secondlc = "red"
 secondlty = 1
 
 # legend position
-#legendpos = "bottom"
-legendpos = "center"
+legendpos = "bottom"
+#legendpos = "center"
 #legendpos = "topright"
 
 # cex
