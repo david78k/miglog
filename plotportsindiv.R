@@ -58,7 +58,7 @@ data[is.na(data)] <- 0
 #print(data)
 
 # select odd columns only
-data <- data[, seq(1, ncol(data), by = 2)]
+data <- 100*data[, seq(1, ncol(data), by = 2)]/125
 #print(data)
 
 #data <- reshape(data,
@@ -114,8 +114,6 @@ genplot <- function (type) {
 	)
         #mtext ("LINK UTILIZATION (%)", side = 2, line = 3)
 	
-	avg <- rowMeans(data)
-	
 	# link utilization (%)
 	# individual throughput
 	#plot(data[,startcol]/1024.0/1024.0,            # Data to plot - x, y
@@ -136,6 +134,8 @@ genplot <- function (type) {
 
 	# Add y2 data to the same plot
 	# average throughput
+	avg <- rowMeans(data)
+	
 	points(avg,
 	       type="l",                  # Plot lines and points
 	       lty=secondlty,                     # Line type: 0=blank, 1=solid, 2=dashed, 3=dotted, 4=dotdash, 5=longdash, 6=twodash
