@@ -140,7 +140,7 @@ genplot <- function (type) {
 	points(x = x, y = avg,
 	       type="l",                  # Plot lines and points
 	       lty=secondlty,                     # Line type: 0=blank, 1=solid, 2=dashed, 3=dotted, 4=dotdash, 5=longdash, 6=twodash
-	       lwd=2,                     # Line width
+	       lwd=3,                     # Line width
 	#       pch=20,                    # Point type: pch=19 - solid circle, pch=20 - bullet (smaller circle), pch=21 - circle, pch=22 - square, pch=23 - diamond, pch=24 - triangle point-up, pch=25 - triangle point down.
 	#       pch=19,                    # Point type: pch=19 - solid circle, pch=20 - bullet (smaller circle), pch=21 - circle, pch=22 - square, pch=23 - diamond, pch=24 - triangle point-up, pch=25 - triangle point down.
 	       col=secondlc)                 # Color of the plotted data
