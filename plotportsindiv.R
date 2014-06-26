@@ -31,7 +31,7 @@ secondlc = "red"
 #secondlty = 2 # good 
 #secondlty = 3 # too pale
 secondlty = 1
-secondlwd = 3
+secondlwd = 2
 
 # legend position
 legendpos = "bottom"
