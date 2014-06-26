@@ -134,7 +134,7 @@ genplot <- function (type) {
 	y <- cbind(data$V1)
 	#print (y)
 	#matplot(x, y, type = "l")
-	matplot(x, data, type = "l")
+	matplot(x, cbind(data), type = "l")
 	
 #	ggplot(data, aes(x=data[,0]*2), value) + geom_line()
 	#ggplot(data, aes(x=data[,0]*2, y=100*data/125)) + geom_line()
