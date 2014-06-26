@@ -9,13 +9,11 @@ src <- args[1]
 #N = 4 # number of parallel migrations
 #N <- as.numeric(args[2])
 
-prefix = src
-#prefix = paste0(src, ".send")
+#prefix = src
+prefix = paste0(src, ".indiv")
 
-# for receiver
-#startcol = 9
-# for sender
-startcol = 10
+# for average
+startcol = 9
 #integer: the number of lines of the data file to skip before beginning to read data.
 startrow = 6
 
@@ -63,15 +61,12 @@ data[is.na(data)] <- 0
 data <- data[, seq(1, ncol(data), by = 2)]
 #print(data)
 
-data <- reshape(data,
-           #     varying = c("V1", "V2", "v3"),
-                varying = list(names(data)), 
-                #v.names = "mmiles",
-                v.names = "throughput",
-                timevar = "VM",
-		times = names(data),
-            #    times = c("V1", "V2", "V3"),
-                direction = "long")
+#data <- reshape(data,
+#                varying = list(names(data)), 
+#                v.names = "throughput",
+#                timevar = "VM",
+#		times = names(data),
+#                direction = "long")
  
 # remove id column (last column)
 #data <- subset(data, select = -c(id))
@@ -109,12 +104,12 @@ genplot <- function (type) {
 	# link utilization (%)
 	# individual throughput
 	#plot(data[,startcol]/1024.0/1024.0,            # Data to plot - x, y
-	plot(data/1024.0/1024.0,            # Data to plot - x, y
+	plot(data,            # Data to plot - x, y
 	#   type="b",                    # Plot lines and points. Use "p" for points only, "l" for lines only
-	     type="l",                    # Plot lines and points. Use "p" for points only, "l" for lines only
+	#     type="l",                    # Plot lines and points. Use "p" for points only, "l" for lines only
 	#     main="Time series plot",     # Main title for the plot
-	     xlab="TIME (SEC)",                 # Label for the x-axis
-		ylab = "LINK UTILIZATION (%)"
+	#     xlab="TIME (SEC)",                 # Label for the x-axis
+	#	ylab = "LINK UTILIZATION (%)",
 	     font.lab=2,                  # Font to use for the axis labels: 1=plain text, 2=bold, 3=italic, 4=bold italic
 	     cex.axis = fontsize,
 	     cex.lab = fontsize,
@@ -126,8 +121,7 @@ genplot <- function (type) {
 
 	# Add y2 data to the same plot
 	# average throughput
-	#points(data[,startcol]/1000000.0/N,
-	points(data[,startcol]/1024.0/1024.0/N,
+	points(mean(data),
 	       type="l",                  # Plot lines and points
 	       lty=secondlty,                     # Line type: 0=blank, 1=solid, 2=dashed, 3=dotted, 4=dotdash, 5=longdash, 6=twodash
 	       lwd=2,                     # Line width
