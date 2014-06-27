@@ -62,15 +62,15 @@ data[is.na(data)] <- NA
 
 # select even columns only 
 data <- data[, seq(2, ncol(data), by = 2)]
-print(data)
+#print(data)
 
 # convert NA to previous values
 data <- do.call (rbind, lapply (data, na.locf))
 #data[,-1] <- sapply(data[,-1], as.numeric)
-print (data)
+#print (data)
 
 data <- t(data)
-print(data)
+#print(data)
 
 # convert to percentile for link utilization (%)
 #data <- 100*data/125
