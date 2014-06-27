@@ -21,7 +21,7 @@ prefix=${infile%.*}
 portsfile=$prefix.ports
 portslog=$portsfile.log
 ports=( 
-52704 34728 43955 57034 48048 50525 57442 39426
+50539 48062 39440 34750 52726 57456 57056 43977
 )
 
 suffix=KB
