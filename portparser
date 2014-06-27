@@ -12,8 +12,8 @@
 #INIT=true
 INIT=false
 
-#host=10.244.34.4
-host=10.244.34.5
+host=10.244.34.4
+#host=10.244.34.5
 
 # *.iftop file
 infile=$1 
@@ -21,7 +21,7 @@ prefix=${infile%.*}
 portsfile=$prefix.ports
 portslog=$portsfile.log
 ports=( 
-47851 33126
+52704 34728 43955 57034 48048 50525 57442 39426
 )
 
 suffix=KB
