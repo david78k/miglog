@@ -22,4 +22,8 @@ do
 	echo >> $outfile
 done
 
-echo $outfile generated.
+echo File $outfile generated.
+
+# parse total migration time
+grep real *.mig | awk '{print $2}' > totaltime
+echo File totaltime generated.
