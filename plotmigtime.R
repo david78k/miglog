@@ -56,16 +56,23 @@ genplot <- function (type) {
 	
 	#print(df)
 	
+	ylim <- range(data)
+	print (ylim)
+	print (ylim[0])
+	print (ylim[1])
+	print (ylim[2])
+	#ylim
+
 	# las = 2 to rotate xlabels
 	#boxplot(x = 1:nrow(data), y = c(data[1,8], data[1:2,7], data[1:3,6], data[1:4,5], data[1:5,4], data[1:6,3], data[1:7,2], data[1:8,1]),
 	boxplot(values ~ vars, data = df,
 		las = 2, 
 		xlab = xlabel,
 		ylab = ylabel,
-		names = c("1", "2", "3", "4", "5", "6", "7", "8") 
+		names = c("1", "2", "3", "4", "5", "6", "7", "8"),
 			#"9", "10", "12", "14", "16", "18", "20", "30", 
 			#"40", "50", "60", "70", "80", "90", "100"),
-		#ylim = c(0, 100)
+		ylim = c(0, ylim[2])
 	)
 }
 
