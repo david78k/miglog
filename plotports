@@ -1,0 +1,9 @@
+#!/bin/bash
+
+infile=$1
+basedir=/root/miglog
+
+$basedir/plotports.R $infile
+$basedir/plotportsindiv.R $infile
+$basedir/plotportscumulative.R $infile
+
