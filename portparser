@@ -21,7 +21,7 @@ prefix=${infile%.*}
 portsfile=$prefix.ports
 portslog=$portsfile.log
 ports=( 
-59513 34409
+59498 34394 38179 33058 47786 45971 39624
 )
 
 suffix=KB
@@ -31,7 +31,7 @@ suffix=KB
 # generates *.ports.log
 function initialize() {
 # extract rates of all ports
-grep $host: $infile | egrep -v "ssh|:728|:915|privatewire|jmb-cds2|asc-slmd|n1-rmgmt|n1-fwp|nssalertmgr|ctiprogramload" > $portslog
+grep $host: $infile | egrep -v "ssh|:728|:915|:34891|privatewire|jmb-cds2|asc-slmd|n1-rmgmt|n1-fwp|nssalertmgr|ctiprogramload" > $portslog
 #grep $host: $infile | egrep -v "ssh|728|privatewire" | grep -v jmb-cds2 | grep -v asc-slmd | grep -v n1-rmgmt  
 
 echo $portslog generated
