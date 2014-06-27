@@ -6,10 +6,20 @@ run=1
 infile=8vms-r$run.mig
 outfile=migtime
 
-grep "total time" $infile > $outfile
+cmd="grep \"total time\" $infile | awk '{print \$3}'"
+
+#"$cmd" > $outfile
+echo -n "8 " > $outfile
+grep "total time" $infile | awk '{print $3}' | tr '\n' ' ' >> $outfile
+echo >> $outfile
 
 for vm in ${vms[@]}
 do
 	infile=${vm}vms-r$run.mig
-	grep "total time" $infile >> $outfile
+	echo -n "$vm " >> $outfile
+	#"$cmd" >> $outfile
+	grep "total time" $infile | awk '{print $3}' | tr '\n' ' ' >> $outfile
+	echo >> $outfile
 done
+
+echo $outfile generated.
