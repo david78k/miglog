@@ -1,0 +1,106 @@
+Log of time -p /home/tsugawa/exp/controller 20 
+Fri Jul 13 03:37:29 2012
+
+rvms 40 cwnd 1 1
+summary 1 14000000 14000000
+rvms 40 cwnd 2 2
+summary 2 13000000 -1000000
+rvms 39 cwnd 1 1
+summary 1 20000000 7000000
+rvms 38 cwnd 2 2
+summary 2 13500000 -6500000
+rvms 38 cwnd 1 1
+summary 1 25000000 11500000
+rvms 36 cwnd 2 2
+summary 2 11000000 -14000000
+rvms 36 cwnd 1 1
+summary 1 32000000 21000000
+rvms 35 cwnd 2 2
+summary 2 9000000 -23000000
+rvms 34 cwnd 1 1
+summary 1 33000000 24000000
+rvms 33 cwnd 2 2
+summary 2 9500000 -23500000
+rvms 32 cwnd 1 1
+summary 1 33000000 23500000
+rvms 31 cwnd 2 2
+summary 2 10500000 -22500000
+rvms 30 cwnd 1 1
+summary 1 44000000 33500000
+rvms 28 cwnd 2 2
+summary 2 7500000 -36500000
+rvms 28 cwnd 1 1
+summary 1 39000000 31500000
+rvms 27 cwnd 2 2
+summary 2 10500000 -28500000
+rvms 26 cwnd 1 1
+summary 1 26000000 15500000
+rvms 25 cwnd 2 2
+summary 2 12000000 -14000000
+rvms 24 cwnd 1 1
+summary 1 39000000 27000000
+rvms 23 cwnd 2 2
+summary 2 11000000 -28000000
+rvms 22 cwnd 1 1
+summary 1 32000000 21000000
+rvms 21 cwnd 2 2
+summary 2 10500000 -21500000
+rvms 20 cwnd 1 1
+summary 1 27000000 16500000
+rvms 19 cwnd 2 2
+summary 2 12500000 -14500000
+rvms 18 cwnd 1 1
+summary 1 29000000 16500000
+rvms 17 cwnd 2 2
+summary 2 7500000 -21500000
+rvms 16 cwnd 1 1
+summary 1 30000000 22500000
+rvms 15 cwnd 2 2
+summary 2 11000000 -19000000
+rvms 15 cwnd 1 1
+summary 1 28000000 17000000
+rvms 14 cwnd 2 2
+summary 2 9000000 -19000000
+rvms 13 cwnd 1 1
+summary 1 22000000 13000000
+rvms 12 cwnd 2 2
+summary 2 11500000 -10500000
+rvms 11 cwnd 1 1
+summary 1 21000000 9500000
+rvms 11 cwnd 2 2
+summary 2 4295500 -16704500
+rvms 11 cwnd 1 1
+summary 1 13000000 8704500
+rvms 10 cwnd 2 2
+summary 2 9000000 -4000000
+rvms 9 cwnd 1 1
+summary 1 41000000 32000000
+rvms 8 cwnd 2 2
+summary 2 11000000 -30000000
+rvms 7 cwnd 1 1
+summary 1 28000000 17000000
+rvms 6 cwnd 2 2
+summary 2 11000000 -17000000
+rvms 5 cwnd 1 1
+summary 1 19000000 8000000
+rvms 4 cwnd 2 2
+summary 2 13000000 -6000000
+rvms 4 cwnd 1 1
+summary 1 23000000 10000000
+rvms 3 cwnd 2 2
+summary 2 9500000 -13500000
+rvms 2 cwnd 1 1
+summary 1 29000000 19500000
+rvms 1 cwnd 1 1
+summary 1 10000000 -19000000
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+total_summary #68 0
+real 924.64
+user 1.90
+sys 0.63
+
+Fri Jul 13 03:52:53 2012
+----------------

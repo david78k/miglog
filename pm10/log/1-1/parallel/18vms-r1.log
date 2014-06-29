@@ -1,0 +1,224 @@
+Log of time -p /home/tsugawa/vmanage/parallel 18 
+Thu May 24 04:11:23 2012
+
+rvms 40 vms 0 pm10-1
+rvms 40 vms 1 pm10-2
+rvms 40 vms 2 pm10-3
+rvms 40 vms 3 pm10-4
+rvms 40 vms 4 pm10-5
+rvms 40 vms 5 pm10-6
+rvms 40 vms 6 pm10-7
+rvms 40 vms 7 pm10-8
+rvms 40 vms 8 pm10-9
+rvms 40 vms 9 pm10-10
+rvms 40 vms 10 pm10-11
+rvms 40 vms 11 pm10-12
+rvms 40 vms 12 pm10-13
+rvms 40 vms 13 pm10-14
+rvms 40 vms 14 pm10-15
+rvms 40 vms 15 pm10-16
+rvms 40 vms 16 pm10-17
+rvms 40 vms 17 pm10-18
+
+real 67.94
+user 0.00
+sys 0.00
+rvms 39 vms 17 pm10-19
+
+real 85.79
+user 0.00
+sys 0.01
+rvms 38 vms 17 pm10-20
+
+real 99.00
+user 0.01
+sys 0.00
+rvms 37 vms 17 pm10-21
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/21
+Migration failed. Exit code tcp:0.0.0.0:49212(-98), exiting.
+
+
+real 8.73
+user 0.00
+sys 0.01
+
+real 105.82
+user 0.00
+sys 0.00
+rvms 34 vms 16 pm10-22
+rvms 34 vms 17 pm10-23
+
+real 106.66
+user 0.00
+sys 0.01
+rvms 34 vms 17 pm10-24
+
+real 108.57
+user 0.00
+sys 0.00
+rvms 33 vms 17 pm10-25
+
+real 108.22
+user 0.00
+sys 0.00
+rvms 32 vms 17 pm10-26
+
+real 110.31
+user 0.01
+sys 0.00
+rvms 32 vms 17 pm10-27
+
+real 113.24
+user 0.00
+sys 0.01
+rvms 31 vms 17 pm10-28
+
+real 119.23
+user 0.01
+sys 0.00
+rvms 29 vms 17 pm10-29
+
+real 121.73
+user 0.00
+sys 0.00
+
+rvms 27 vms 17 pm10-30
+real 36.98
+user 0.00
+sys 0.01
+rvms 27 vms 17 pm10-31
+
+real 122.87
+user 0.00
+sys 0.01
+rvms 27 vms 17 pm10-32
+
+real 125.06
+user 0.00
+sys 0.01
+rvms 26 vms 17 pm10-33
+
+real 128.33
+user 0.00
+sys 0.01
+rvms 25 vms 17 pm10-34
+
+real 134.30
+user 0.00
+sys 0.00
+rvms 24 vms 17 pm10-35
+
+real 140.94
+user 0.01
+sys 0.00
+rvms 23 vms 17 pm10-36
+
+real 154.55
+user 0.01
+sys 0.00
+rvms 22 vms 17 pm10-37
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/40
+Migration failed. Exit code tcp:0.0.0.0:49164(-98), exiting.
+
+
+real 7.48
+user 0.00
+sys 0.01
+rvms 22 vms 17 pm10-38
+
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/40
+Migration failed. Exit code tcp:0.0.0.0:49165(-98), exiting.
+
+
+real 60.05
+user 0.01
+sys 0.00
+real 7.43
+user 0.01
+sys 0.00
+rvms 21 vms 16 pm10-39
+rvms 21 vms 17 pm10-40
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/40
+Migration failed. Exit code tcp:0.0.0.0:49166(-98), exiting.
+
+
+real 7.54
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/40
+Migration failed. Exit code tcp:0.0.0.0:49167(-98), exiting.
+
+
+real 180.65
+user 0.01
+sys 0.00
+
+real 11.76
+user 0.01
+sys 0.00
+
+real 113.91
+user 0.01
+sys 0.00
+
+real 67.69
+user 0.01
+sys 0.00
+
+real 89.28
+user 0.01
+sys 0.00
+
+real 82.78
+user 0.01
+sys 0.00
+
+real 87.96
+user 0.00
+sys 0.01
+
+real 89.10
+user 0.01
+sys 0.00
+
+real 114.10
+user 0.00
+sys 0.00
+
+real 117.13
+user 0.01
+sys 0.00
+
+real 96.08
+user 0.01
+sys 0.00
+
+real 95.40
+user 0.01
+sys 0.00
+
+real 127.89
+user 0.01
+sys 0.00
+
+real 116.44
+user 0.02
+sys 0.00
+
+real 138.03
+user 0.01
+sys 0.01
+
+real 132.87
+user 0.00
+sys 0.00
+
+real 130.61
+user 0.00
+sys 0.00
+real 254.36
+user 9.53
+sys 16.32
+
+Thu May 24 04:15:37 2012
+----------------

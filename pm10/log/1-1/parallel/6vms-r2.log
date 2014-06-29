@@ -1,0 +1,172 @@
+Log of time -p /home/tsugawa/vmanage/parallel 
+Tue May 22 22:45:42 2012
+
+
+real 45.70
+user 0.00
+sys 0.00
+
+real 54.10
+user 0.01
+sys 0.00
+
+real 66.17
+user 0.00
+sys 0.01
+
+real 74.76
+user 0.01
+sys 0.00
+
+real 77.48
+user 0.01
+sys 0.00
+
+real 122.46
+user 0.00
+sys 0.00
+
+real 50.49
+user 0.01
+sys 0.00
+
+real 79.18
+user 0.00
+sys 0.00
+
+real 59.22
+user 0.01
+sys 0.00
+
+real 79.55
+user 0.01
+sys 0.00
+
+real 129.51
+user 0.00
+sys 0.00
+
+real 63.35
+user 0.00
+sys 0.00
+
+real 61.92
+user 0.00
+sys 0.00
+
+real 78.21
+user 0.00
+sys 0.01
+
+real 79.19
+user 0.00
+sys 0.00
+
+real 91.97
+user 0.01
+sys 0.00
+
+real 53.36
+user 0.00
+sys 0.00
+
+real 55.70
+user 0.01
+sys 0.00
+
+real 70.46
+user 0.00
+sys 0.01
+
+real 51.25
+user 0.00
+sys 0.00
+
+real 62.96
+user 0.01
+sys 0.00
+
+real 56.13
+user 0.01
+sys 0.00
+
+real 90.13
+user 0.00
+sys 0.00
+
+real 94.08
+user 0.00
+sys 0.01
+
+real 44.32
+user 0.01
+sys 0.00
+
+real 110.88
+user 0.01
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/38
+Migration failed. Exit code tcp:0.0.0.0:49212(-98), exiting.
+
+
+real 7.39
+user 0.01
+sys 0.01
+
+real 112.69
+user 0.00
+sys 0.00
+
+real 55.99
+user 0.01
+sys 0.00
+
+real 85.35
+user 0.00
+sys 0.01
+
+real 68.78
+user 0.01
+sys 0.01
+
+real 78.52
+user 0.01
+sys 0.00
+
+real 68.57
+user 0.01
+sys 0.00
+
+real 90.87
+user 0.01
+sys 0.00
+
+real 86.58
+user 0.01
+sys 0.00
+
+real 85.44
+user 0.00
+sys 0.01
+
+real 111.22
+user 0.01
+sys 0.00
+
+real 65.22
+user 0.00
+sys 0.00
+
+real 66.54
+user 0.00
+sys 0.00
+
+real 90.49
+user 0.00
+sys 0.00
+real 529.99
+user 19.44
+sys 35.25
+
+Tue May 22 22:54:32 2012
+----------------

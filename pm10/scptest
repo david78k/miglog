@@ -1,0 +1,17 @@
+basedir=/home/tsugawa/vmanage
+
+dest=f32:/root
+file=ubuntu-12.04-server-amd64.iso
+
+if [ $# == 1 ]
+then
+	for (( i = 1 ; i <= $1 ; i++ ))
+	do
+		scp $file $dest/$file-$i &
+#		sleep 5
+	done
+
+	wait
+else
+	echo "usage: $0 [concurrent number of scp connections]"
+fi

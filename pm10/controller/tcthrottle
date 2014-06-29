@@ -1,0 +1,15 @@
+# sleep in seconds and 
+#sleep 1
+sleep 250
+
+# run tc with bandwidth in MB/s
+service tc restart 30
+sleep 250
+
+service tc restart 20
+sleep 250
+
+service tc restart 30
+sleep 250
+
+service tc restart 40

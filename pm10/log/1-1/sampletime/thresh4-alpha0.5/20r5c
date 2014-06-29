@@ -1,0 +1,103 @@
+Log of time -p /home/tsugawa/exp/controller 20 
+Thu Jun  7 22:47:36 2012
+
+rvms 40 cwnd 1 1
+summary 1 1746000 1746000
+rvms 40 cwnd 2 2
+summary 2 10000000 8254000
+rvms 40 cwnd 4 4
+summary 4 18000000 8000000
+rvms 40 cwnd 5 5
+summary 5 25000000 7000000
+rvms 39 cwnd 6 6
+summary 6 40000000 15000000
+rvms 39 cwnd 7 7
+summary 7 54000000 14000000
+rvms 38 cwnd 8 8
+summary 8 0 -54000000
+rvms 37 cwnd 4 4
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+summary 4 0
+rvms 37 cwnd 5 5
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 2: syntax error
+summary 5
+(standard_in) 1: syntax error
+/home/tsugawa/exp/controller: line 75: [: -eq: unary operator expected
+rvms 37 cwnd 6 6
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 2: syntax error
+summary 6
+(standard_in) 1: syntax error
+/home/tsugawa/exp/controller: line 75: [: -eq: unary operator expected
+rvms 36 cwnd 7 7
+(standard_in) 2: syntax error
+summary 7 53000000
+(standard_in) 1: syntax error
+/home/tsugawa/exp/controller: line 75: [: -eq: unary operator expected
+rvms 33 cwnd 8 8
+summary 8 55000000 2000000
+rvms 32 cwnd 9 9
+summary 9 51000000 -4000000
+rvms 30 cwnd 4 4
+summary 4 44000000 -7000000
+rvms 29 cwnd 5 5
+summary 5 32000000 -12000000
+rvms 28 cwnd 2 2
+summary 2 32000000 0
+rvms 26 cwnd 3 3
+summary 3 31000000 -1000000
+rvms 24 cwnd 1 1
+summary 1 8833000 -22167000
+rvms 23 cwnd 2 2
+summary 2 16000000 7167000
+rvms 22 cwnd 3 3
+summary 3 26000000 10000000
+rvms 21 cwnd 4 4
+summary 4 25000000 -1000000
+rvms 21 cwnd 2 2
+summary 2 31000000 6000000
+rvms 21 cwnd 3 3
+summary 3 22000000 -9000000
+rvms 19 cwnd 1 1
+summary 1 23000000 1000000
+rvms 18 cwnd 2 2
+summary 2 17000000 -6000000
+rvms 17 cwnd 1 1
+summary 1 13000000 -4000000
+rvms 16 cwnd 2 2
+summary 2 15000000 2000000
+rvms 16 cwnd 3 3
+summary 3 21000000 6000000
+rvms 15 cwnd 4 4
+summary 4 26000000 5000000
+rvms 15 cwnd 5 5
+summary 5 40000000 14000000
+rvms 13 cwnd 6 6
+summary 6 53000000 13000000
+rvms 13 cwnd 7 7
+summary 7 58000000 5000000
+rvms 11 cwnd 8 8
+summary 8 56000000 -2000000
+rvms 9 cwnd 4 4
+summary 4 48000000 -8000000
+rvms 9 cwnd 5 5
+summary 5 38000000 -10000000
+rvms 7 cwnd 2 2
+summary 2 37000000 -1000000
+rvms 4 cwnd 3 3
+summary 3 17000000 -20000000
+rvms 2 cwnd 1 1
+summary 1 15000000 -2000000
+rvms 1 cwnd 1 1
+summary 1 20000000 5000000
+total_summary #156 0
+real 724.40
+user 1.68
+sys 0.58
+
+Thu Jun  7 22:59:41 2012
+----------------

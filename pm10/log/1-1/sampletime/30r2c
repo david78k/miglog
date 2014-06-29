@@ -1,0 +1,4307 @@
+Log of time -p /home/tsugawa/exp/controller 30 
+Sun Jul  8 22:56:11 2012
+
+rvms 40 cwnd 1 1
+summary 1 11000000 11000000
+rvms 40 cwnd 2 2
+summary 2 9000000 -2000000
+rvms 39 cwnd 1 1
+summary 1 0 -9000000
+rvms 37 cwnd 2 2
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+summary 2 0
+rvms 37 cwnd 3 3
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 3
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 4 4
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 4
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 5 5
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 5
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 6 6
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 6
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 7 7
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 7
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 8 8
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 8
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 9 9
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 9
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 10 10
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 10
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 11 11
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 11
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+Module dstat_net failed to load. (No suitable network interfaces found to monitor)
+None of the stats you selected are available.
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+summary 12
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 37 cwnd 12 12
+(standard_in) 2: syntax error
+summary 12 7333333
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+rvms 28 cwnd 12 12
+summary 12 6916666 -416667
+rvms 24 cwnd 9 9
+summary 9 10000000 3083334
+rvms 21 cwnd 10 10
+summary 10 8500000 -1500000
+rvms 15 cwnd 7 7
+summary 7 13428571 4928571
+rvms 10 cwnd 8 8
+summary 8 8125000 -5303571
+rvms 6 cwnd 6 6
+summary 6 9166666 1041666
+rvms 3 cwnd 3 3
+summary 3 1605333 -7561333
+total_summary #5716 0
+real 387.32
+user 21.42
+sys 7.12
+
+Sun Jul  8 23:02:38 2012
+----------------

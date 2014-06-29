@@ -1,0 +1,16 @@
+if [ $# -lt 2 ]; then
+        echo usage: $0 from to
+        exit 1
+fi
+
+prefix=$HOSTNAME
+
+for (( i = $1 ; i <= $2 ; i++ ))
+do
+	cmd="./import $prefix-$i"
+	echo "$cmd"
+	$cmd
+done
+
+#wait
+

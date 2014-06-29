@@ -1,0 +1,22 @@
+rounds=(10)
+#rounds=(1 2 3 4 5 6)
+
+#runex=run
+runex=run-throttle
+#runex=sysid
+#runex=sysidmultiple
+
+# start vms regularly, say 1vm every 15sec
+# starall totalvms interval
+#../vmanage/startall 20 50 &
+
+./tcthrottle &
+
+for round in ${rounds[@]}
+do
+#	echo ./$runex $vm $round
+	./$runex $round
+	# sleep 30min
+	sleep 1200
+done
+

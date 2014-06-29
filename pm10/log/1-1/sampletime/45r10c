@@ -1,0 +1,4683 @@
+Log of time -p /home/tsugawa/exp/controller 45 
+Thu Jul 12 00:50:13 2012
+
+rvms 40 cwnd 1 1
+summary 1 13000000 13000000
+rvms 39 cwnd 2 2
+summary 2 12000000 -1000000
+rvms 38 cwnd 1 1
+summary 1 18000000 6000000
+rvms 36 cwnd 2 2
+summary 2 13000000 -5000000
+rvms 35 cwnd 1 1
+summary 1 18000000 5000000
+rvms 33 cwnd 2 2
+summary 2 7500000 -10500000
+rvms 31 cwnd 1 1
+summary 1 18000000 10500000
+rvms 30 cwnd 2 2
+summary 2 9000000 -9000000
+rvms 28 cwnd 1 1
+summary 1 25000000 16000000
+rvms 26 cwnd 2 2
+summary 2 10500000 -14500000
+rvms 25 cwnd 1 1
+summary 1 22000000 11500000
+rvms 23 cwnd 2 2
+summary 2 12000000 -10000000
+rvms 22 cwnd 1 1
+summary 1 16000000 4000000
+rvms 20 cwnd 2 2
+summary 2 14500000 -1500000
+rvms 17 cwnd 1 1
+summary 1 24000000 9500000
+rvms 16 cwnd 2 2
+summary 2 11000000 -13000000
+rvms 15 cwnd 1 1
+summary 1 13000000 2000000
+rvms 13 cwnd 2 2
+summary 2 13000000 0
+rvms 11 cwnd 3 3
+summary 3 8666666 -4333334
+rvms 9 cwnd 2 2
+summary 2 13000000 4333334
+rvms 6 cwnd 3 3
+summary 3 10333333 -2666667
+rvms 4 cwnd 2 2
+summary 2 13000000 2666667
+rvms 4 cwnd 3 3
+summary 3 1459666 -11540334
+rvms 1 cwnd 1 1
+summary 1 11 -1459655
+rvms 1 cwnd 1 1
+summary 1 11 0
+rvms 1 cwnd 1 1
+summary 1 0 -11
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary 0
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 24
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 0
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 47 27
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -38
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 1333
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 912 -421
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -912
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -1
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 30
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 -6
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -24
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 29 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 24
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 0
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 22
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 26 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -12
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 26
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 -2
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -24
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 17
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 7
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 17
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 7
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 34 19
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -20
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 29 14
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 1291 1276
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 802 -489
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -802
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 23
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 26 3
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -12
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 24
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 27 3
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -13
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 21
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 3
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 5
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 29 24
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 21
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -16
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 13
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 11
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 16 -8
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -16
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 27 12
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 10 -17
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -10
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 1282 1258
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 802 -480
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -802
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 18 -6
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -18
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 29 14
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 26 11
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 18 -8
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -18
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 4
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 29 25
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 19
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 5
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 0
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 24
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 29 14
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 18
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 6
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 19
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 1291 1272
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 802 -489
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -802
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 44 29
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -30
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -1
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 27 7
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -18
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 5
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 19
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 21
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 3
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 26 6
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 16 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -16
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 764 740
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -755
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 23
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 1
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 24
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -19
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 23
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 20 -3
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -20
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 1291 1276
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 802 -489
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -802
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -1
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 26 6
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 13 -13
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -13
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 21
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 3
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 8 -12
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -8
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 5
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 19
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -19
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 22
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 2
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 28 8
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 116 88
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 1166 1050
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 802 -364
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -802
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -1
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 49
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -30
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 18
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 26 8
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -12
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 24
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 0
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 22
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 2
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 8 -12
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -8
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 18
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 6
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 19
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 5
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 16 -8
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -16
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 16
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 8
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -1
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 32
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 123 91
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 1968 1845
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -1959
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 5
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 19
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 23
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 26 3
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 0 -26
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary 0
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 32
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 22 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -22
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 22
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 2
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 29 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 28 8
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -14
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 24
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 0
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -19
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 5
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 19
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 19
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 5
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 25 1
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -16
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 24
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 0
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 0 -24
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary 0
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 1287
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 812 -475
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -812
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 33 13
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -19
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 32
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 22 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -22
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -19
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -1
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 23
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 1
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 21
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 29 8
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -20
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 5
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 19
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 0 -24
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary 0
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 28
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 -4
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -24
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 27 7
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -8
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 1291 1271
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 802 -489
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -802
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 19
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 27 8
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -13
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 8 -7
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -8
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 23
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 15 -8
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -15
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 26 6
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 13 -13
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -13
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 21
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 3
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 0 -24
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary 0
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 24
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 41 17
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -32
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 5
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 19
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 26 6
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 11 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -11
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 11 -13
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -11
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 5 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -5
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 18 -6
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -18
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 17 -7
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -17
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 24
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 0
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 1287
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 812 -475
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -812
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 9
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 15
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 4 -11
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -4
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 24
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 19 -5
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -19
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 9 -15
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -9
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 36
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 13 -23
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -13
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 28 8
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 16 -12
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -16
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 21
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 26 5
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 17 -9
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -17
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 20
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 24 4
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 14 -10
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -14
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 29
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 185 156
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 215 30
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 84 -131
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -84
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 5
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 77 72
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 32 -45
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 55: [: -eq: unary operator expected
+rvms 1 cwnd
+(standard_in) 2: syntax error
+expr: syntax error
+summary -32
+/home/tsugawa/exp/controller: line 100: [: 1: unary operator expected
+rvms 1 cwnd 1 1
+(standard_in) 2: syntax error
+summary 1 12000000
+(standard_in) 1: syntax error
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 79: [: -eq: unary operator expected
+/home/tsugawa/exp/controller: line 100: [: 2: unary operator expected
+rvms 1 cwnd 1 1
+summary 1 807000 -11193000
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+total_summary #2 0
+real 36847.32
+user 28.90
+sys 8.64
+
+Thu Jul 12 11:04:21 2012
+----------------

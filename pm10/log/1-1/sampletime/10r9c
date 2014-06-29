@@ -1,0 +1,182 @@
+Log of time -p /home/tsugawa/exp/controller 10 
+Wed Jul 11 13:19:19 2012
+
+rvms 40 cwnd 1 1
+summary 1 636000 636000
+rvms 40 cwnd 2 2
+summary 2 4542500 3906500
+rvms 40 cwnd 4 4
+summary 4 2193000 -2349500
+rvms 40 cwnd 3 3
+summary 3 14666666 12473666
+rvms 40 cwnd 4 4
+summary 4 8500000 -6166666
+rvms 40 cwnd 3 3
+summary 3 8333333 -166667
+rvms 40 cwnd 4 4
+summary 4 9250000 916667
+rvms 39 cwnd 5 5
+summary 5 9600000 350000
+rvms 37 cwnd 6 6
+summary 6 7833333 -1766667
+rvms 37 cwnd 4 4
+summary 4 12500000 4666667
+rvms 37 cwnd 5 5
+summary 5 6800000 -5700000
+rvms 37 cwnd 3 3
+summary 3 11333333 4533333
+rvms 35 cwnd 4 4
+summary 4 6500000 -4833333
+rvms 34 cwnd 3 3
+summary 3 10333333 3833333
+rvms 34 cwnd 4 4
+summary 4 8750000 -1583333
+rvms 34 cwnd 3 3
+summary 3 6333333 -2416667
+rvms 33 cwnd 4 4
+summary 4 6000000 -333333
+rvms 33 cwnd 3 3
+summary 3 9000000 3000000
+rvms 33 cwnd 4 4
+summary 4 6250000 -2750000
+rvms 31 cwnd 3 3
+summary 3 3666666 -2583334
+rvms 30 cwnd 4 4
+summary 4 7500000 3833334
+rvms 30 cwnd 5 5
+summary 5 6400000 -1100000
+rvms 30 cwnd 3 3
+summary 3 7666666 1266666
+rvms 30 cwnd 4 4
+summary 4 5750000 -1916666
+rvms 29 cwnd 3 3
+summary 3 7333333 1583333
+rvms 29 cwnd 4 4
+summary 4 7250000 -83333
+rvms 29 cwnd 3 3
+summary 3 9666666 2416666
+rvms 29 cwnd 4 4
+summary 4 7250000 -2416666
+rvms 29 cwnd 3 3
+summary 3 7666666 416666
+rvms 28 cwnd 4 4
+summary 4 2247500 -5419166
+rvms 27 cwnd 3 3
+summary 3 10000000 7752500
+rvms 26 cwnd 4 4
+summary 4 5750000 -4250000
+rvms 26 cwnd 3 3
+summary 3 10666666 4916666
+rvms 25 cwnd 4 4
+summary 4 4250000 -6416666
+rvms 25 cwnd 3 3
+summary 3 7000000 2750000
+rvms 24 cwnd 4 4
+summary 4 3500000 -3500000
+rvms 24 cwnd 3 3
+summary 3 8333333 4833333
+rvms 24 cwnd 4 4
+summary 4 6750000 -1583333
+rvms 24 cwnd 3 3
+summary 3 9666666 2916666
+rvms 24 cwnd 4 4
+summary 4 7250000 -2416666
+rvms 22 cwnd 3 3
+summary 3 4666666 -2583334
+rvms 22 cwnd 4 4
+summary 4 6250000 1583334
+rvms 22 cwnd 5 5
+summary 5 3800000 -2450000
+rvms 21 cwnd 3 3
+summary 3 12666666 8866666
+rvms 21 cwnd 4 4
+summary 4 5000000 -7666666
+rvms 21 cwnd 3 3
+summary 3 14000000 9000000
+rvms 20 cwnd 4 4
+summary 4 13000000 -1000000
+rvms 19 cwnd 3 3
+summary 3 7000000 -6000000
+rvms 18 cwnd 4 4
+summary 4 7250000 250000
+rvms 18 cwnd 5 5
+summary 5 6000000 -1250000
+rvms 18 cwnd 3 3
+summary 3 5333333 -666667
+rvms 17 cwnd 4 4
+summary 4 2750000 -2583333
+rvms 16 cwnd 3 3
+summary 3 7333333 4583333
+rvms 16 cwnd 4 4
+summary 4 6250000 -1083333
+rvms 16 cwnd 3 3
+summary 3 7666666 1416666
+rvms 15 cwnd 4 4
+summary 4 7250000 -416666
+rvms 14 cwnd 3 3
+summary 3 7333333 83333
+rvms 14 cwnd 4 4
+summary 4 4000000 -3333333
+rvms 14 cwnd 3 3
+summary 3 14000000 10000000
+rvms 14 cwnd 4 4
+summary 4 7250000 -6750000
+rvms 14 cwnd 3 3
+summary 3 5333333 -1916667
+rvms 13 cwnd 4 4
+summary 4 3500000 -1833333
+rvms 13 cwnd 3 3
+summary 3 7000000 3500000
+rvms 12 cwnd 4 4
+summary 4 3500000 -3500000
+rvms 12 cwnd 3 3
+summary 3 11666666 8166666
+rvms 11 cwnd 4 4
+summary 4 7500000 -4166666
+rvms 11 cwnd 3 3
+summary 3 9000000 1500000
+rvms 10 cwnd 4 4
+summary 4 3250000 -5750000
+rvms 9 cwnd 3 3
+summary 3 14000000 10750000
+rvms 9 cwnd 4 4
+summary 4 10000000 -4000000
+rvms 9 cwnd 3 3
+summary 3 13333333 3333333
+rvms 9 cwnd 4 4
+summary 4 3750000 -9583333
+rvms 8 cwnd 3 3
+summary 3 5333333 1583333
+rvms 8 cwnd 4 4
+summary 4 5000000 -333333
+rvms 7 cwnd 3 3
+summary 3 6666666 1666666
+rvms 6 cwnd 4 4
+summary 4 4750000 -1916666
+rvms 5 cwnd 3 3
+summary 3 6666666 1916666
+rvms 5 cwnd 4 4
+summary 4 8500000 1833334
+rvms 5 cwnd 5 5
+summary 5 4000000 -4500000
+rvms 5 cwnd 3 3
+summary 3 8000000 4000000
+rvms 5 cwnd 4 4
+summary 4 5000000 -3000000
+rvms 5 cwnd 3 3
+summary 3 8000000 3000000
+rvms 5 cwnd 4 4
+summary 4 4500000 -3500000
+rvms 5 cwnd 3 3
+summary 3 7666666 3166666
+rvms 5 cwnd 4 4
+summary 4 11500000 3833334
+rvms 3 cwnd 3 3
+summary 3 6333333 -5166667
+total_summary #309 0
+real 868.07
+user 3.63
+sys 1.23
+
+Wed Jul 11 13:33:47 2012
+----------------

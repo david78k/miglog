@@ -1,0 +1,1 @@
+/home/tsugawa/qemu-kvm-0.14.1/roms/seabios/Makefile

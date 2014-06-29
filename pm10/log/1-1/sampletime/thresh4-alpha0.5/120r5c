@@ -1,0 +1,26 @@
+Log of time -p /home/tsugawa/exp/controller 120 
+Fri Jun  8 04:31:11 2012
+
+rvms 40 cwnd 1 1
+summary 1 12000000 12000000
+rvms 38 cwnd 2 2
+summary 2 19000000 7000000
+rvms 34 cwnd 4 4
+summary 4 27000000 8000000
+rvms 29 cwnd 5 5
+summary 5 39000000 12000000
+rvms 21 cwnd 6 6
+summary 6 36000000 -3000000
+rvms 14 cwnd 3 3
+summary 3 23000000 -13000000
+rvms 8 cwnd 4 4
+summary 4 28000000 5000000
+rvms 2 cwnd 2 2
+summary 2 2133000 -25867000
+total_summary #27 0
+real 961.47
+user 0.33
+sys 0.12
+
+Fri Jun  8 04:47:13 2012
+----------------

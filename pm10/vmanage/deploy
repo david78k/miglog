@@ -1,0 +1,15 @@
+vmname=$1
+
+./import $vmname
+
+virsh edit $vmname
+
+virsh destroy $vmname
+
+sleep 3
+
+virsh start $vmname
+
+sleep 1
+
+virsh list --all

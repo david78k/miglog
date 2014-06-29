@@ -1,0 +1,41 @@
+#nvms=(1)
+nvms=(1 2 4 5 8 9 10)
+
+dest=pm11
+
+if [ $# -lt 1 ]; then
+	echo usage: $0 round
+	exit 1
+fi
+
+title=r$1
+
+basedir=/home/tsugawa
+logdir=$basedir/log/2-2/sysid
+log=$logdir/$title
+
+mkdir -p $logdir
+ssh $dest mkdir -p $logdir
+
+log1=/tmp/sysid1
+log2=/tmp/sysid2
+
+for vms in ${nvms[@]}
+do
+	#ssh $dest $basedir/concurrent $vms &
+	logsave $log1 ssh $dest $basedir/controller/concurrent $vms &
+	logsave $log2 $basedir/controller/concurrent $vms 
+	wait
+	
+	echo -n "$vms " >> $log
+	grep real $log1 | tail -1 | awk '{printf "%s ", $2}' >> $log
+	grep real $log2 | tail -1 | awk '{print $2}' >> $log
+done
+
+ssh f31 /root/migration/vmanage/destroy &
+ssh f32 /root/migration/vmanage/destroy
+
+sleep 60
+
+ssh $dest $basedir/vmanage/startall 39 &
+$basedir/vmanage/startall 39

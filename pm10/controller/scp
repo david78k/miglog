@@ -1,0 +1,4 @@
+#
+dest=c11node8
+scp $1 $dest:$PWD/
+

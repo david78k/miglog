@@ -1,0 +1,23 @@
+if [ $# -lt 1 ]; then
+	echo usage: $0 vm-name
+	exit 1
+fi
+
+vm=$1
+dest=pm11
+dest=f31
+
+#if [ $HOSTNAME == "f32" ]; then
+#	dest=aist1
+#elif [ $HOSTNAME == "pm10" ]; then
+#	dest=fg1
+#elif [ $HOSTNAME == "c11node10" ]; then
+#	dest=c11node9
+#fi
+
+virsh migrate --live $vm qemu+ssh://$dest/system
+#virsh migrate --live $vm qemu+ssh://$dest/system --verbose
+
+ssh $dest virsh destroy $vm &
+
+virsh start $vm &

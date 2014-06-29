@@ -1,0 +1,62 @@
+# base dir
+basedir=/root/controller
+
+# number of vms to migrate concurrently
+vms0=$1
+
+# total number of vms migrated
+total_vms=0
+
+# number of vms running
+rvms=`virsh list | grep running | grep vm512- | wc -l`
+
+# monitor throughput
+prev_thruput=0
+total_time=0
+ek_1=0
+
+# do until empty
+#while [ $rvms -ne 0 ] && [ $total_vms -lt 10 ]
+while [ $rvms -ne 0 ]
+do
+	vms=$vms0
+	comp=`echo "$rvms < $vms0" | bc -l`
+	if [ $comp -eq 1 ]; then
+		vms=$rvms
+	fi 
+
+#	echo rvms $rvms vms $vms
+	#echo rvms $rvms vms ${vms/.*} $vms
+	
+	# migrate and log
+	$basedir/concurrent $vms
+	#logsave $tmplog time -p $basedir/concurrent ${vms/.*}
+
+	# migration time
+#	t=`cat $tmplog | grep real | awk '{print $2}'`
+
+	# yk = 3600*uk/t
+#	thruput=`echo "3600 * ${vms/.*} / $t" | bc -l`
+
+#	total_time=`echo "$total_time + $t" | bc -l`
+	total_vms=`expr ${total_vms/.*} "+" ${vms/.*}`
+
+#	echo summary $vms ${vms/.*} $t $thruput 
+	#echo summary $vms $t $thruput $total_vms $total_time
+
+	rvms=`virsh list | grep running | grep vm512- | wc -l`
+done
+
+# total summary
+# [total number of vms] [total time] [total throughput]
+#total_vms=`expr $rvms0 "-" $rvms`
+#comp=`echo "$total_time == 0" | bc -l`
+
+#if [ $comp -eq 1 ]; then
+#	total_thruput=0
+#else
+#	total_thruput=`echo "3600 * $total_vms / $total_time" | bc -l`
+#fi
+
+#echo total_summary total ${total_vms/.*} $total_time $total_thruput
+

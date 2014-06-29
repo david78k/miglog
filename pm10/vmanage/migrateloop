@@ -1,0 +1,27 @@
+basedir=/home/tsugawa/vmanage
+
+prefix=$HOSTNAME
+
+#if [ $# == 1 ]
+#then
+        #vms=`virsh list | grep running | awk '{print $2}' | grep vm512- | head -1`
+
+        rvms=`virsh list | grep running | grep $prefix- | wc -l`
+        echo rvms $rvms
+
+	t=`echo $((RANDOM%100))/1000 | bc -l`
+	echo $t
+	sleep $t
+
+        #for vm in ${vms[@]}
+        while [ $rvms -ne 0 ]
+        do
+        #       echo "./migrate $vm &"
+                echo rvms $rvms
+                vm=`virsh list | grep running | awk '{print $2}' | grep $prefix- | head -1`
+                time -p $basedir/migrate $vm
+
+                rvms=`virsh list | grep running | grep $prefix- | wc -l`
+        done
+#       wait
+

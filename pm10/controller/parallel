@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# migrate vms in parallel
+basedir=/home/tsugawa
+vmanage=$basedir/vmanage
+
+vms=12
+round=1
+title=${vms}vms-r${round}
+
+webdir=1-1/parallel
+logdir=$basedir/log/$webdir
+log=$logdir/$title.log
+dstat=$logdir/$title.dstat
+
+genplot=$basedir/log/plot/genplot
+
+exec=parallel
+
+mkdir -p $logdir
+
+dstat -nc -N eth0 --nocolor --noheaders > $dstat &
+
+logsave $log time -p $vmanage/$exec $vms
+
+sleep 3
+
+pgrep -fl dstat| awk '{print $1}' | xargs kill -9
+
+$genplot $log $webdir
+
+ssh f31 /root/migration/vmanage/destroy
+
+sleep 60
+
+$vmanage/startall 40

@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# usage: $0 [num of vms] [interval in seconds]
+
+prefix=$HOSTNAME
+
+if [ $# -ge 2 ]; then
+	# sleep time in seconds
+	sleeptime=$2
+
+	vms=`virsh list --all | grep "shut off" | awk '{print $2}' | grep $prefix- | head -$1`
+
+	#for (( i = 1; i <= $1; i++ ))
+	for vm in ${vms[@]}
+	do
+		sleep $sleeptime
+		virsh start $vm
+	done
+	exit
+fi
+
+#if [ $# -ge 1 ]; then
+if [ $# -eq 1 ]; then
+	#vms=`virsh list --all | grep "shut off" | awk '{print $2}' | grep $prefix- | head -$1`
+	for (( i = 1; i <= $1; i++ ))
+	#for vm in ${vms[@]}
+	do
+	#	sleep $sleeptime
+		vm=$prefix-$i
+		virsh start $vm
+	done
+	exit
+else
+	vms=`virsh list --all | grep "shut off" | awk '{print $2}' | grep $prefix-`
+fi 
+
+for vm in ${vms[@]}
+do
+	virsh start $vm
+done
+

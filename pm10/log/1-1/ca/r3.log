@@ -1,0 +1,195 @@
+Log of time -p ./ca 
+Sat May 12 14:47:24 2012
+
+rvms 40 cwnd 8 8
+
+real 53.35
+user 0.01
+sys 0.00
+
+real 56.00
+user 0.00
+sys 0.00
+
+real 57.26
+user 0.00
+sys 0.00
+
+real 62.96
+user 0.00
+sys 0.00
+
+real 71.10
+user 0.01
+sys 0.00
+
+real 72.54
+user 0.01
+sys 0.00
+
+real 73.36
+user 0.01
+sys 0.00
+
+real 74.95
+user 0.00
+sys 0.00
+real 74.99
+user 0.07
+sys 0.06
+summary 8 74.99 384.05120682757701026803 74.99
+rvms 32 cwnd 9 9
+
+real 47.21
+user 0.01
+sys 0.00
+
+real 63.70
+user 0.01
+sys 0.00
+
+real 65.03
+user 0.00
+sys 0.01
+
+real 66.25
+user 0.00
+sys 0.00
+
+real 66.53
+user 0.01
+sys 0.00
+
+real 67.82
+user 0.00
+sys 0.00
+
+real 72.47
+user 0.00
+sys 0.00
+
+real 74.44
+user 0.00
+sys 0.01
+
+real 81.28
+user 0.01
+sys 0.00
+real 81.33
+user 0.08
+sys 0.07
+summary 9 81.33 398.37698266322390261895 156.32
+rvms 23 cwnd 10 10
+
+real 36.63
+user 0.00
+sys 0.00
+
+real 63.42
+user 0.01
+sys 0.00
+
+real 64.41
+user 0.01
+sys 0.00
+
+real 74.04
+user 0.01
+sys 0.00
+
+real 75.46
+user 0.00
+sys 0.00
+
+real 75.93
+user 0.00
+sys 0.01
+
+real 76.10
+user 0.01
+sys 0.00
+
+real 79.55
+user 0.00
+sys 0.01
+
+real 85.60
+user 0.00
+sys 0.00
+
+real 89.42
+user 0.00
+sys 0.00
+real 89.44
+user 0.08
+sys 0.08
+summary 10 89.44 402.50447227191413237924 245.76
+rvms 13 cwnd 11 11
+
+real 58.57
+user 0.00
+sys 0.00
+
+real 70.53
+user 0.00
+sys 0.01
+
+real 73.27
+user 0.01
+sys 0.00
+
+real 74.16
+user 0.00
+sys 0.00
+
+real 75.64
+user 0.00
+sys 0.01
+
+real 76.56
+user 0.01
+sys 0.00
+
+real 80.05
+user 0.00
+sys 0.00
+
+real 88.51
+user 0.00
+sys 0.00
+
+real 93.52
+user 0.00
+sys 0.00
+
+real 94.31
+user 0.00
+sys 0.00
+
+real 97.56
+user 0.00
+sys 0.00
+real 97.58
+user 0.09
+sys 0.07
+summary 11 97.58 405.82086493133838901414 343.34
+rvms 2 cwnd 2 2
+
+real 34.46
+user 0.00
+sys 0.00
+
+real 35.69
+user 0.00
+sys 0.00
+real 35.69
+user 0.01
+sys 0.01
+summary 2 35.69 201.73718128327262538526 379.03
+total_summary #40 379.03 379.91715695327546632192
+real 379.60
+user 0.35
+sys 0.32
+
+Sat May 12 14:53:44 2012
+----------------

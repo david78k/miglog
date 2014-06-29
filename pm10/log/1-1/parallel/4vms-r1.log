@@ -1,0 +1,178 @@
+Log of time -p /home/tsugawa/vmanage/parallel 
+Tue May 22 20:51:15 2012
+
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/0
+Migration failed. Exit code tcp:0.0.0.0:49165(-98), exiting.
+
+
+real 7.83
+user 0.00
+sys 0.00
+error: error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/0
+Migration failed. Exit code tcp:0.0.0.0:49166(-98), exiting.
+internal error process exited while connecting to monitor: char device redirected to /dev/pts/0
+Migration failed. Exit code tcp:0.0.0.0:49167(-98), exiting.
+
+
+
+
+real 14.71
+real 15.01
+user 0.01
+user 0.00
+sys 0.00
+sys 0.00
+
+real 94.81
+user 0.00
+sys 0.01
+
+real 104.19
+user 0.00
+sys 0.00
+
+real 105.78
+user 0.00
+sys 0.01
+
+real 126.97
+user 0.01
+sys 0.00
+
+real 130.32
+user 0.00
+sys 0.00
+
+real 126.54
+user 0.00
+sys 0.00
+
+real 70.21
+user 0.01
+sys 0.00
+
+real 64.44
+user 0.01
+sys 0.00
+
+real 72.85
+user 0.01
+sys 0.00
+
+real 46.28
+user 0.01
+sys 0.00
+
+real 92.13
+user 0.01
+sys 0.00
+
+real 93.06
+user 0.02
+sys 0.00
+
+real 103.64
+user 0.00
+sys 0.01
+
+real 47.47
+user 0.01
+sys 0.00
+
+real 73.84
+user 0.01
+sys 0.00
+
+real 66.27
+user 0.00
+sys 0.00
+
+real 86.54
+user 0.01
+sys 0.00
+
+real 71.53
+user 0.00
+sys 0.01
+
+real 90.04
+user 0.01
+sys 0.00
+
+real 86.40
+user 0.01
+sys 0.00
+
+real 69.91
+user 0.00
+sys 0.00
+
+real 76.64
+user 0.00
+sys 0.00
+
+real 69.95
+user 0.01
+sys 0.00
+
+real 95.39
+user 0.00
+sys 0.00
+
+real 115.21
+user 0.00
+sys 0.00
+
+real 54.29
+user 0.00
+sys 0.00
+
+real 56.52
+user 0.00
+sys 0.00
+
+real 59.31
+user 0.00
+sys 0.00
+
+real 93.86
+user 0.01
+sys 0.00
+
+real 97.38
+user 0.00
+sys 0.00
+
+real 76.35
+user 0.00
+sys 0.00
+
+real 116.79
+user 0.00
+sys 0.00
+
+real 82.68
+user 0.00
+sys 0.01
+
+real 57.25
+user 0.00
+sys 0.01
+
+real 77.53
+user 0.01
+sys 0.00
+
+real 81.34
+user 0.01
+sys 0.00
+
+real 83.09
+user 0.00
+sys 0.00
+real 571.32
+user 21.46
+sys 37.04
+
+Tue May 22 21:00:47 2012
+----------------

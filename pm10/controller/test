@@ -1,0 +1,8 @@
+comp=`expr 0.5 "<" 1`
+echo $comp
+#if [ 0.5 -lt 1 ]; then
+if [ $comp -eq 1 ]; then
+	echo yes
+else
+	echo no
+fi

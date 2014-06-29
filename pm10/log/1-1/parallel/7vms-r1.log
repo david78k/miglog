@@ -1,0 +1,181 @@
+Log of time -p /home/tsugawa/vmanage/parallel 7 
+Wed May 23 11:35:31 2012
+
+
+real 140.74
+user 0.01
+sys 0.00
+
+real 150.89
+user 0.00
+sys 0.00
+
+real 157.90
+user 0.01
+sys 0.00
+
+real 167.07
+user 0.00
+sys 0.01
+
+real 172.24
+user 0.01
+sys 0.00
+
+real 178.63
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/14
+Migration failed. Exit code tcp:0.0.0.0:49164(-98), exiting.
+
+
+real 7.37
+user 0.02
+sys 0.00
+
+real 186.73
+user 0.00
+sys 0.01
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/14
+Migration failed. Exit code tcp:0.0.0.0:49165(-98), exiting.
+
+
+real 7.34
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/14
+Migration failed. Exit code tcp:0.0.0.0:49166(-98), exiting.
+
+
+real 10.23
+user 0.01
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/14
+Migration failed. Exit code tcp:0.0.0.0:49167(-98), exiting.
+
+
+real 7.50
+user 0.01
+sys 0.00
+
+real 63.45
+user 0.01
+sys 0.00
+
+real 74.52
+user 0.00
+sys 0.01
+
+real 133.17
+user 0.01
+sys 0.00
+
+real 173.03
+user 0.01
+sys 0.00
+
+real 141.72
+user 0.00
+sys 0.01
+
+real 115.27
+user 0.01
+sys 0.00
+
+real 80.52
+user 0.01
+sys 0.00
+
+real 135.14
+user 0.01
+sys 0.00
+
+real 134.17
+user 0.00
+sys 0.01
+
+real 86.23
+user 0.01
+sys 0.00
+
+real 99.24
+user 0.01
+sys 0.00
+
+real 96.48
+user 0.00
+sys 0.01
+
+real 88.05
+user 0.00
+sys 0.00
+
+real 135.73
+user 0.00
+sys 0.00
+
+real 112.11
+user 0.00
+sys 0.00
+
+real 143.21
+user 0.00
+sys 0.00
+
+real 77.55
+user 0.00
+sys 0.00
+
+real 119.60
+user 0.01
+sys 0.00
+
+real 82.53
+user 0.00
+sys 0.01
+
+real 88.56
+user 0.00
+sys 0.00
+
+real 162.35
+user 0.00
+sys 0.01
+
+real 163.23
+user 0.01
+sys 0.00
+
+real 166.83
+user 0.00
+sys 0.00
+
+real 268.66
+user 0.01
+sys 0.00
+
+real 160.53
+user 0.00
+sys 0.01
+
+real 170.18
+user 0.00
+sys 0.01
+
+real 159.66
+user 0.00
+sys 0.00
+
+real 254.59
+user 0.00
+sys 0.00
+
+real 240.88
+user 0.00
+sys 0.00
+real 804.12
+user 24.07
+sys 48.13
+
+Wed May 23 11:48:55 2012
+----------------

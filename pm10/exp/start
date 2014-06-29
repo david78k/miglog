@@ -1,0 +1,39 @@
+# another hosts to run this code
+#hosts=( pm10 )
+hosts=( )
+
+expname=parallel
+
+homedir=/home/tsugawa
+basedir=$homedir/exp
+exppath=$basedir/$expname
+
+# sleep time in seconds
+sleep_time=1800
+
+runs=( 1 )
+#runs=( 1 2 3 4 5 6 7 8 9 10 )
+
+# number of concurrent vms to migrate
+cwnds=( 40 )
+#cwnds=( 1 2 4 6 8 10 )
+#cwnds=( 1 2 4 6 8 10 12 14 16 18 20 )
+
+for run in ${runs[@]}
+do
+	for cwnd in ${cwnds[@]}
+	do
+		cmd="$exppath $cwnd"
+
+		#echo $cmd r$run $(( run + 1 ))
+	        $cmd $run
+
+         	sleep $sleep_time
+	done
+done
+
+# plot all with statistics
+# vms total_migration_time avg_indiv_time variance stdev
+genplotall=$homedir/log/plot/gendataall
+$genplotall
+

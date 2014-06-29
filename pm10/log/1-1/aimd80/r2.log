@@ -1,0 +1,471 @@
+Log of time -p ./aimd80 
+Tue May  8 12:05:31 2012
+
+rvms 40 cwnd 1 1
+
+real 74.79
+user 0.01
+sys 0.00
+real 74.83
+user 0.02
+sys 0.00
+Domain pm10-11 started
+
+summary 1 74.83 48.10904717359347855138 74.83 1
+rvms 40 cwnd 2 2
+
+real 78.05
+user 0.00
+sys 0.00
+
+real 78.28
+user 0.01
+sys 0.00
+real 78.31
+user 0.02
+sys 0.00
+Domain pm10-13 started
+
+summary 2 78.31 91.94228067935129613076 153.14 3
+rvms 40 cwnd 4 4
+
+real 77.92
+user 0.01
+sys 0.00
+Domain pm10-15 destroyed
+
+
+real 82.26
+user 0.01
+sys 0.00
+Domain pm10-17 destroyed
+
+
+
+real 149.34
+user 0.00
+sys 0.00
+real 149.34
+user 0.00
+sys 0.00
+real 149.37
+user 0.03
+sys 0.02
+Domain pm10-15 started
+
+summary 4 149.37 96.40490058244627435227 302.51 7
+rvms 40 cwnd 8 8
+
+real 176.63
+user 0.00
+sys 0.00
+Domain pm10-21 destroyed
+
+
+
+real 245.77
+user 0.00
+sys 0.01
+real 245.76
+user 0.00
+sys 0.00
+Domain pm10-20 destroyed
+
+Domain pm10-22 destroyed
+
+
+
+
+real 253.89
+user 0.00
+sys 0.01
+
+real 253.89
+user 0.00
+sys 0.01
+
+real 253.89
+user 0.01
+sys 0.00
+real 253.89
+user 0.01
+sys 0.00
+real 253.88
+user 0.00
+sys 0.00
+real 253.93
+user 0.06
+sys 0.06
+Domain pm10-23 destroyed
+
+Domain pm10-18 destroyed
+
+summary 8 253.93 113.41708344819438427913 556.44 15
+rvms 37 cwnd 9 9
+
+real 68.53
+user 0.01
+sys 0.00
+Domain pm10-25 destroyed
+
+
+real 79.89
+user 0.00
+sys 0.00
+
+real 80.23
+user 0.01
+sys 0.00
+
+real 82.70
+user 0.00
+sys 0.00
+Domain pm10-29 destroyed
+
+
+real 83.29
+user 0.00
+sys 0.00
+Domain pm10-3 destroyed
+
+Domain pm10-27 destroyed
+
+
+real 86.01
+user 0.01
+sys 0.00
+Domain pm10-28 destroyed
+
+Domain pm10-32 destroyed
+
+Domain pm10-25 started
+
+Domain pm10-29 started
+
+
+
+real 221.90
+user 0.00
+sys 0.01
+real 221.90
+user 0.00
+sys 0.00
+
+real 221.91
+user 0.01
+sys 0.00
+real 302.91
+user 0.08
+sys 0.05
+Domain pm10-30 destroyed
+
+summary 9 302.91 106.96246409824700406061 859.35 24
+rvms 38 cwnd 4 4
+
+real 38.52
+user 0.01
+sys 0.00
+
+real 39.56
+user 0.00
+sys 0.00
+Domain pm10-33 destroyed
+
+Domain pm10-34 destroyed
+
+
+real 51.91
+user 0.00
+sys 0.00
+Domain pm10-35 destroyed
+
+Domain pm10-33 started
+
+
+real 87.87
+user 0.01
+sys 0.00
+real 113.04
+user 0.04
+sys 0.01
+Domain pm10-34 started
+
+summary 4 113.04 127.38853503184713375796 972.39 28
+rvms 40 cwnd 5 5
+
+real 35.41
+user 0.00
+sys 0.00
+Domain pm10-39 destroyed
+
+
+
+real 87.70
+user 0.01
+sys 0.00
+real 87.70
+user 0.01
+sys 0.00
+
+
+real 87.71
+user 0.00
+sys 0.00
+real 87.71
+user 0.00
+sys 0.00
+real 119.15
+user 0.04
+sys 0.03
+Domain pm10-4 destroyed
+
+Domain pm10-38 destroyed
+
+summary 5 119.15 151.07007973143096936634 1091.54 33
+rvms 37 cwnd 6 6
+
+real 120.48
+user 0.00
+sys 0.01
+Domain pm10-44 destroyed
+
+
+
+real 163.90
+user 0.01
+sys 0.00
+real 163.90
+user 0.00
+sys 0.00
+Domain pm10-45 destroyed
+
+Domain pm10-43 destroyed
+
+
+
+
+real 210.78
+user 0.01
+sys 0.00
+real 210.78
+user 0.00
+sys 0.00
+real 210.78
+user 0.00
+sys 0.00
+real 307.32
+user 0.06
+sys 0.03
+Domain pm10-42 destroyed
+
+summary 6 307.32 70.28504490433424443576 1398.86 39
+rvms 37 cwnd 3 3
+
+real 41.82
+user 0.00
+sys 0.01
+Domain pm10-10 destroyed
+
+
+real 82.27
+user 0.00
+sys 0.00
+Domain pm10-11 destroyed
+
+
+real 145.35
+user 0.00
+sys 0.01
+real 450.80
+user 0.02
+sys 0.03
+Domain pm10-13 destroyed
+
+Domain pm10-10 started
+
+summary 3 450.80 23.95740905057675244010 1849.66 42
+rvms 40 cwnd 4 4
+
+real 148.56
+user 0.00
+sys 0.00
+Domain pm10-17 destroyed
+
+
+real 166.14
+user 0.01
+sys 0.00
+Domain pm10-15 destroyed
+
+
+real 219.02
+user 0.01
+sys 0.00
+
+real 220.56
+user 0.01
+sys 0.00
+real 486.58
+user 0.05
+sys 0.02
+Domain pm10-12 destroyed
+
+Domain pm10-16 destroyed
+
+summary 4 486.58 29.59431131571375724444 2336.24 46
+rvms 39 cwnd 5 5
+
+real 202.21
+user 0.00
+sys 0.00
+Domain pm10-14 destroyed
+
+Domain pm10-14 started
+
+
+real 244.64
+user 0.01
+sys 0.00
+Domain pm10-22 destroyed
+
+Domain pm10-22 started
+
+
+real 266.10
+user 0.00
+sys 0.00
+
+real 266.44
+user 0.01
+sys 0.00
+Domain pm10-21 destroyed
+
+Domain pm10-19 destroyed
+
+Domain pm10-21 started
+
+Domain pm10-19 started
+
+
+real 274.07
+user 0.01
+sys 0.00
+real 297.84
+user 0.06
+sys 0.01
+Domain pm10-20 destroyed
+
+summary 5 297.84 60.43513295729250604351 2634.08 51
+rvms 40 cwnd 6 6
+
+real 166.80
+user 0.01
+sys 0.00
+Domain pm10-18 destroyed
+
+Domain pm10-18 started
+
+
+real 191.26
+user 0.00
+sys 0.00
+Domain pm10-2 destroyed
+
+Domain pm10-2 started
+
+
+real 209.98
+user 0.00
+sys 0.00
+
+real 210.90
+user 0.00
+sys 0.01
+Domain pm10-24 destroyed
+
+Domain pm10-29 destroyed
+
+
+real 224.82
+user 0.01
+sys 0.00
+Domain pm10-23 destroyed
+
+Domain pm10-24 started
+
+Domain pm10-29 started
+
+Domain pm10-23 started
+
+
+real 241.37
+user 0.00
+sys 0.00
+real 256.42
+user 0.05
+sys 0.04
+Domain pm10-25 destroyed
+
+Domain pm10-25 started
+
+summary 6 256.42 84.23679900163793775836 2890.50 57
+rvms 40 cwnd 7 7
+
+real 178.48
+user 0.01
+sys 0.00
+Domain pm10-28 destroyed
+
+
+real 183.35
+user 0.01
+sys 0.00
+Domain pm10-27 destroyed
+
+Domain pm10-28 started
+
+Domain pm10-27 started
+
+
+real 195.36
+user 0.01
+sys 0.00
+Domain pm10-3 destroyed
+
+Domain pm10-3 started
+
+
+real 210.03
+user 0.01
+sys 0.00
+Domain pm10-32 destroyed
+
+Domain pm10-32 started
+
+
+real 235.10
+user 0.01
+sys 0.00
+Domain pm10-31 destroyed
+
+
+real 245.55
+user 0.01
+sys 0.00
+
+real 248.42
+user 0.00
+sys 0.00
+real 252.97
+user 0.09
+sys 0.02
+Domain pm10-26 destroyed
+
+summary 7 252.97 99.61655532276554532157 3143.47 64
+total_summary 64 3143.47 73.29479842339834641335
+real 4020.89
+user 0.73
+sys 0.40
+
+Tue May  8 13:12:32 2012
+----------------

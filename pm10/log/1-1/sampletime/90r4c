@@ -1,0 +1,38 @@
+Log of time -p /home/tsugawa/exp/controller 90 
+Mon Jul  9 19:20:09 2012
+
+rvms 40 cwnd 1 1
+summary 1 15000000 15000000
+rvms 38 cwnd 2 2
+summary 2 14500000 -500000
+rvms 33 cwnd 1 1
+summary 1 25000000 10500000
+rvms 29 cwnd 2 2
+summary 2 12500000 -12500000
+rvms 25 cwnd 1 1
+summary 1 19000000 6500000
+rvms 22 cwnd 2 2
+summary 2 12500000 -6500000
+rvms 18 cwnd 1 1
+summary 1 13000000 500000
+rvms 16 cwnd 2 2
+summary 2 12500000 -500000
+rvms 12 cwnd 1 1
+summary 1 19000000 6500000
+rvms 9 cwnd 2 2
+summary 2 16000000 -3000000
+rvms 5 cwnd 1 1
+summary 1 21000000 5000000
+rvms 1 cwnd 1 1
+summary 1 2799000 -18201000
+expr: syntax error
+/home/tsugawa/exp/controller: line 107: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 113: [: -eq: unary operator expected
+total_summary #17 0
+real 1085.30
+user 0.50
+sys 0.14
+
+Mon Jul  9 19:38:15 2012
+----------------

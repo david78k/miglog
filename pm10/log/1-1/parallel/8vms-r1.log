@@ -1,0 +1,172 @@
+Log of time -p /home/tsugawa/vmanage/parallel 8 
+Wed May 23 04:38:22 2012
+
+
+real 49.84
+user 0.00
+sys 0.00
+
+real 49.49
+user 0.00
+sys 0.01
+
+real 60.26
+user 0.00
+sys 0.00
+
+real 64.77
+user 0.00
+sys 0.01
+
+real 77.99
+user 0.00
+sys 0.00
+
+real 85.37
+user 0.00
+sys 0.01
+
+real 96.60
+user 0.00
+sys 0.00
+
+real 112.48
+user 0.00
+sys 0.01
+
+real 66.81
+user 0.01
+sys 0.00
+
+real 73.97
+user 0.00
+sys 0.01
+
+real 62.64
+user 0.00
+sys 0.00
+
+real 66.44
+user 0.00
+sys 0.01
+
+real 89.50
+user 0.02
+sys 0.00
+
+real 54.35
+user 0.02
+sys 0.00
+
+real 87.60
+user 0.01
+sys 0.00
+
+real 77.77
+user 0.00
+sys 0.01
+
+real 58.54
+user 0.00
+sys 0.00
+
+real 66.75
+user 0.01
+sys 0.00
+
+real 86.26
+user 0.00
+sys 0.00
+
+real 49.92
+user 0.01
+sys 0.00
+
+real 74.53
+user 0.00
+sys 0.00
+
+real 62.25
+user 0.01
+sys 0.00
+
+real 86.25
+user 0.00
+sys 0.01
+
+real 80.83
+user 0.00
+sys 0.01
+
+real 134.98
+user 0.01
+sys 0.00
+
+real 146.29
+user 0.00
+sys 0.00
+
+real 87.06
+user 0.01
+sys 0.00
+
+real 69.32
+user 0.01
+sys 0.00
+
+real 80.91
+user 0.01
+sys 0.00
+
+real 114.45
+user 0.00
+sys 0.01
+
+real 86.88
+user 0.00
+sys 0.00
+
+real 41.10
+user 0.00
+sys 0.00
+
+real 90.84
+user 0.01
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/46
+Migration failed. Exit code tcp:0.0.0.0:49212(-98), exiting.
+
+
+real 8.34
+user 0.00
+sys 0.00
+
+real 72.14
+user 0.00
+sys 0.00
+
+real 115.02
+user 0.00
+sys 0.01
+
+real 47.86
+user 0.01
+sys 0.00
+
+real 95.34
+user 0.00
+sys 0.00
+
+real 109.14
+user 0.01
+sys 0.00
+
+real 106.15
+user 0.00
+sys 0.00
+real 434.87
+user 15.80
+sys 28.90
+
+Wed May 23 04:45:37 2012
+----------------

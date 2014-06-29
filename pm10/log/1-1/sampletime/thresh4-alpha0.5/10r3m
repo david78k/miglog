@@ -1,0 +1,209 @@
+Log of time -p /home/tsugawa/vmanage/migrator 
+Thu Jun  7 06:19:53 2012
+
+rvms 40 nvms 0 cwnd 1 pm10-1
+rvms 40 nvms 1 cwnd 2 pm10-2
+rvms 40 nvms 2 cwnd 4 pm10-3
+rvms 40 nvms 3 cwnd 4 pm10-4
+rvms 40 nvms 4 cwnd 5 pm10-5
+
+real 34.11
+user 0.01
+sys 0.00
+rvms 39 nvms 4 cwnd 5 pm10-6
+rvms 39 nvms 5 cwnd 6 pm10-7
+
+real 43.95
+user 0.01
+sys 0.00
+
+real 35.24
+user 0.01
+sys 0.00
+
+real 61.37
+user 0.01
+sys 0.00
+rvms 39 nvms 3 cwnd 4 pm10-8
+rvms 36 nvms 4 cwnd 5 pm10-9
+
+real 84.05
+user 0.00
+sys 0.00
+
+real 98.03
+user 0.00
+sys 0.00
+
+real 111.07
+user 0.01
+sys 0.00
+
+real 74.81
+user 0.00
+sys 0.00
+rvms 36 nvms 1 cwnd 2 pm10-10
+
+real 83.52
+user 0.00
+sys 0.00
+rvms 31 nvms 1 cwnd 2 pm10-11
+rvms 31 nvms 2 cwnd 3 pm10-12
+
+real 48.50
+user 0.01
+sys 0.00
+rvms 31 nvms 2 cwnd 3 pm10-13
+
+real 37.01
+user 0.00
+sys 0.01
+rvms 30 nvms 2 cwnd 3 pm10-14
+
+real 73.83
+user 0.01
+sys 0.00
+rvms 28 nvms 2 cwnd 3 pm10-15
+rvms 28 nvms 3 cwnd 4 pm10-16
+
+real 45.96
+user 0.00
+sys 0.01
+rvms 28 nvms 3 cwnd 4 pm10-17
+
+real 57.08
+user 0.00
+sys 0.01
+rvms 27 nvms 3 cwnd 4 pm10-18
+
+real 46.07
+user 0.01
+sys 0.00
+rvms 26 nvms 3 cwnd 4 pm10-19
+
+real 38.79
+user 0.00
+sys 0.01
+rvms 25 nvms 3 cwnd 4 pm10-20
+
+real 30.32
+user 0.00
+sys 0.00
+rvms 24 nvms 3 cwnd 4 pm10-21
+
+real 72.26
+user 0.01
+sys 0.00
+
+real 61.04
+user 0.01
+sys 0.00
+rvms 23 nvms 2 cwnd 3 pm10-22
+rvms 21 nvms 3 cwnd 4 pm10-23
+rvms 21 nvms 4 cwnd 5 pm10-24
+rvms 21 nvms 5 cwnd 6 pm10-25
+rvms 21 nvms 6 cwnd 7 pm10-26
+
+real 64.20
+user 0.01
+sys 0.00
+rvms 21 nvms 6 cwnd 7 pm10-27
+rvms 20 nvms 7 cwnd 8 pm10-28
+
+real 72.88
+user 0.01
+sys 0.00
+rvms 19 nvms 7 cwnd 8 pm10-29
+
+real 49.27
+user 0.01
+sys 0.00
+rvms 19 nvms 7 cwnd 8 pm10-30
+
+real 62.95
+user 0.00
+sys 0.01
+
+real 61.71
+user 0.00
+sys 0.01
+
+real 58.87
+user 0.01
+sys 0.00
+
+real 63.31
+user 0.00
+sys 0.00
+
+real 65.13
+user 0.00
+sys 0.00
+
+real 89.17
+user 0.00
+sys 0.00
+rvms 18 nvms 2 cwnd 3 pm10-31
+
+real 67.47
+user 0.00
+sys 0.01
+rvms 12 nvms 2 cwnd 3 pm10-32
+
+real 92.68
+user 0.00
+sys 0.00
+rvms 11 nvms 2 cwnd 3 pm10-33
+rvms 10 nvms 3 cwnd 4 pm10-34
+rvms 10 nvms 4 cwnd 5 pm10-35
+rvms 10 nvms 5 cwnd 6 pm10-36
+
+real 58.42
+user 0.00
+sys 0.00
+rvms 10 nvms 5 cwnd 6 pm10-37
+
+real 65.05
+user 0.01
+sys 0.00
+rvms 9 nvms 5 cwnd 6 pm10-38
+
+real 67.51
+user 0.01
+sys 0.00
+
+real 36.52
+user 0.00
+sys 0.01
+rvms 8 nvms 4 cwnd 5 pm10-39
+
+real 66.97
+user 0.00
+sys 0.00
+
+real 58.19
+user 0.00
+sys 0.01
+rvms 6 nvms 3 cwnd 4 pm10-40
+
+real 81.69
+user 0.01
+sys 0.00
+
+real 108.03
+user 0.00
+sys 0.01
+
+real 67.06
+user 0.01
+sys 0.00
+
+real 49.43
+user 0.01
+sys 0.00
+real 632.48
+user 17.22
+sys 39.31
+
+Thu Jun  7 06:30:25 2012
+----------------

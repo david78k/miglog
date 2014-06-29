@@ -1,0 +1,221 @@
+Log of time -p /home/tsugawa/vmanage/parallel 20 
+Thu May 24 03:30:07 2012
+
+rvms 40 vms 0 pm10-1
+rvms 40 vms 1 pm10-2
+rvms 40 vms 2 pm10-3
+rvms 40 vms 3 pm10-4
+rvms 40 vms 4 pm10-5
+rvms 40 vms 5 pm10-6
+rvms 40 vms 6 pm10-7
+rvms 40 vms 7 pm10-8
+rvms 40 vms 8 pm10-9
+rvms 40 vms 9 pm10-10
+rvms 40 vms 10 pm10-11
+rvms 40 vms 11 pm10-12
+rvms 40 vms 12 pm10-13
+rvms 40 vms 13 pm10-14
+rvms 40 vms 14 pm10-15
+rvms 40 vms 15 pm10-16
+rvms 40 vms 16 pm10-17
+rvms 40 vms 17 pm10-18
+rvms 40 vms 18 pm10-19
+rvms 40 vms 19 pm10-20
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/12
+Migration failed. Exit code tcp:0.0.0.0:49164(-98), exiting.
+
+
+real 9.83
+user 0.01
+sys 0.00
+rvms 40 vms 19 pm10-21
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/12
+Migration failed. Exit code tcp:0.0.0.0:49167(-98), exiting.
+
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/12
+Migration failed. Exit code tcp:0.0.0.0:49165(-98), exiting.
+
+
+
+real 22.56
+user 0.00
+sys 0.00
+real 21.61
+user 0.00
+sys 0.01
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/12
+Migration failed. Exit code tcp:0.0.0.0:49166(-98), exiting.
+
+
+real 21.30
+user 0.00
+sys 0.00
+rvms 40 vms 17 pm10-22
+rvms 40 vms 18 pm10-23
+rvms 40 vms 19 pm10-24
+
+real 109.69
+user 0.01
+sys 0.00
+rvms 39 vms 19 pm10-25
+
+real 115.09
+user 0.00
+sys 0.00
+rvms 36 vms 19 pm10-26
+
+real 118.59
+user 0.00
+sys 0.00
+rvms 36 vms 19 pm10-27
+
+real 122.14
+user 0.01
+sys 0.00
+rvms 36 vms 19 pm10-28
+
+real 135.69
+user 0.00
+sys 0.00
+rvms 34 vms 19 pm10-29
+
+real 124.40
+user 0.00
+sys 0.00
+rvms 34 vms 19 pm10-30
+
+real 140.25
+user 0.00
+sys 0.00
+rvms 33 vms 19 pm10-31
+
+real 161.44
+user 0.00
+sys 0.01
+rvms 31 vms 19 pm10-32
+
+real 159.68
+user 0.01
+sys 0.00
+rvms 31 vms 19 pm10-33
+
+real 166.28
+user 0.00
+sys 0.01
+rvms 30 vms 19 pm10-34
+
+real 170.32
+user 0.00
+sys 0.01
+rvms 28 vms 19 pm10-35
+
+real 175.11
+user 0.00
+sys 0.01
+rvms 28 vms 19 pm10-36
+
+real 184.30
+user 0.00
+sys 0.01
+rvms 26 vms 19 pm10-37
+
+real 184.27
+user 0.01
+sys 0.00
+rvms 26 vms 19 pm10-38
+
+real 187.20
+user 0.01
+sys 0.00
+rvms 24 vms 19 pm10-39
+
+real 163.89
+user 0.01
+sys 0.00
+rvms 24 vms 19 pm10-40
+
+real 169.52
+user 0.01
+sys 0.00
+
+real 204.08
+user 0.00
+sys 0.00
+
+real 183.79
+user 0.01
+sys 0.00
+
+real 236.13
+user 0.01
+sys 0.00
+
+real 159.58
+user 0.01
+sys 0.00
+
+real 144.36
+user 0.00
+sys 0.01
+
+real 146.66
+user 0.01
+sys 0.00
+
+real 146.65
+user 0.00
+sys 0.01
+
+real 170.16
+user 0.01
+sys 0.00
+
+real 112.71
+user 0.00
+sys 0.01
+
+real 135.93
+user 0.01
+sys 0.00
+
+real 189.53
+user 0.01
+sys 0.00
+
+real 128.17
+user 0.00
+sys 0.01
+
+real 192.66
+user 0.01
+sys 0.00
+
+real 131.21
+user 0.01
+sys 0.00
+
+real 133.05
+user 0.00
+sys 0.01
+
+real 166.69
+user 0.01
+sys 0.00
+
+real 194.49
+user 0.00
+sys 0.02
+
+real 204.87
+user 0.01
+sys 0.00
+
+real 233.06
+user 0.00
+sys 0.02
+real 402.15
+user 11.77
+sys 17.14
+
+Thu May 24 03:36:49 2012
+----------------

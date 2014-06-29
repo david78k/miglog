@@ -1,0 +1,212 @@
+Log of time -p /home/tsugawa/vmanage/parallel 12 
+Tue May 29 03:23:07 2012
+
+rvms 40 vms 0 pm10-1
+rvms 40 vms 1 pm10-2
+rvms 40 vms 2 pm10-3
+rvms 40 vms 3 pm10-4
+rvms 40 vms 4 pm10-5
+rvms 40 vms 5 pm10-6
+rvms 40 vms 6 pm10-7
+rvms 40 vms 7 pm10-8
+rvms 40 vms 8 pm10-9
+rvms 40 vms 9 pm10-10
+rvms 40 vms 10 pm10-11
+rvms 40 vms 11 pm10-12
+
+real 64.27
+user 0.01
+sys 0.00
+rvms 37 vms 11 pm10-13
+
+real 64.51
+user 0.00
+sys 0.00
+
+real 65.84
+user 0.00
+sys 0.00
+rvms 36 vms 10 pm10-14
+rvms 36 vms 11 pm10-15
+
+real 65.30
+user 0.01
+sys 0.00
+rvms 36 vms 11 pm10-16
+
+real 74.36
+user 0.00
+sys 0.00
+rvms 35 vms 11 pm10-17
+
+real 79.38
+user 0.00
+sys 0.00
+rvms 34 vms 11 pm10-18
+
+real 82.24
+user 0.00
+sys 0.00
+rvms 33 vms 11 pm10-19
+
+real 82.47
+user 0.01
+sys 0.00
+rvms 32 vms 11 pm10-20
+
+real 88.50
+user 0.00
+sys 0.00
+rvms 31 vms 11 pm10-21
+
+real 92.13
+user 0.00
+sys 0.00
+rvms 30 vms 11 pm10-22
+
+real 97.90
+user 0.01
+sys 0.00
+rvms 29 vms 11 pm10-23
+
+real 99.74
+user 0.01
+sys 0.00
+rvms 28 vms 11 pm10-24
+
+real 54.65
+user 0.00
+sys 0.00
+rvms 27 vms 11 pm10-25
+
+real 62.37
+user 0.01
+sys 0.00
+rvms 26 vms 11 pm10-26
+
+real 82.43
+user 0.01
+sys 0.00
+rvms 25 vms 11 pm10-27
+
+real 71.35
+user 0.00
+sys 0.00
+rvms 24 vms 11 pm10-28
+
+real 54.77
+user 0.00
+sys 0.01
+rvms 23 vms 11 pm10-29
+
+real 68.62
+user 0.01
+sys 0.00
+rvms 22 vms 11 pm10-30
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/31
+Migration failed. Exit code tcp:0.0.0.0:49212(-98), exiting.
+
+
+real 97.28
+user 0.01
+sys 0.00
+
+real 7.63
+user 0.01
+sys 0.00
+rvms 21 vms 10 pm10-31
+rvms 21 vms 11 pm10-32
+
+real 103.50
+user 0.00
+sys 0.01
+rvms 19 vms 11 pm10-33
+
+real 71.25
+user 0.01
+sys 0.00
+rvms 19 vms 11 pm10-34
+
+real 95.68
+user 0.01
+sys 0.00
+rvms 18 vms 11 pm10-35
+
+real 66.49
+user 0.01
+sys 0.00
+rvms 17 vms 11 pm10-36
+
+real 128.22
+user 0.01
+sys 0.00
+rvms 16 vms 11 pm10-37
+
+real 119.01
+user 0.01
+sys 0.00
+rvms 15 vms 11 pm10-38
+
+real 92.33
+user 0.01
+sys 0.00
+rvms 14 vms 11 pm10-39
+
+real 78.06
+user 0.00
+sys 0.01
+rvms 13 vms 11 pm10-40
+
+real 42.58
+user 0.00
+sys 0.01
+
+real 108.70
+user 0.01
+sys 0.00
+
+real 111.27
+user 0.00
+sys 0.00
+
+real 108.38
+user 0.01
+sys 0.00
+
+real 104.95
+user 0.02
+sys 0.00
+
+real 85.58
+user 0.00
+sys 0.00
+
+real 107.36
+user 0.01
+sys 0.00
+
+real 115.58
+user 0.00
+sys 0.01
+
+real 107.23
+user 0.00
+sys 0.01
+
+real 72.94
+user 0.00
+sys 0.01
+
+real 114.86
+user 0.01
+sys 0.00
+
+real 108.95
+user 0.01
+sys 0.00
+real 350.62
+user 12.42
+sys 21.17
+
+Tue May 29 03:28:57 2012
+----------------

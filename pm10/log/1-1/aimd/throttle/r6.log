@@ -1,0 +1,264 @@
+Log of time -p ./aimd 
+Tue May 15 16:36:33 2012
+
+rvms 40 cwnd 1 1
+
+real 29.13
+user 0.01
+sys 0.00
+real 29.18
+user 0.02
+sys 0.00
+summary 1 29.18 123.37217272104180945853 29.18
+rvms 39 cwnd 2 2
+
+real 36.93
+user 0.01
+sys 0.00
+
+real 40.67
+user 0.01
+sys 0.00
+real 40.71
+user 0.03
+sys 0.00
+summary 2 40.71 176.86072218128224023581 69.89
+rvms 37 cwnd 4 4
+
+real 76.02
+user 0.00
+sys 0.00
+
+real 79.71
+user 0.00
+sys 0.00
+
+real 82.80
+user 0.00
+sys 0.00
+
+real 91.01
+user 0.00
+sys 0.00
+real 91.04
+user 0.03
+sys 0.03
+summary 4 91.04 158.17223198594024604569 160.93
+rvms 33 cwnd 2 2
+
+real 39.53
+user 0.00
+sys 0.00
+
+real 40.19
+user 0.00
+sys 0.01
+real 40.25
+user 0.02
+sys 0.02
+summary 2 40.25 178.88198757763975155279 201.18
+rvms 31 cwnd 3 3
+
+real 42.40
+user 0.00
+sys 0.01
+
+real 42.58
+user 0.00
+sys 0.01
+
+real 56.85
+user 0.00
+sys 0.01
+real 56.88
+user 0.01
+sys 0.04
+summary 3 56.88 189.87341772151898734177 258.06
+rvms 28 cwnd 4 4
+
+real 70.66
+user 0.00
+sys 0.00
+
+real 72.10
+user 0.00
+sys 0.01
+
+real 73.46
+user 0.00
+sys 0.00
+
+real 90.29
+user 0.00
+sys 0.00
+real 90.32
+user 0.02
+sys 0.03
+summary 4 90.32 159.43312666076173604960 348.38
+rvms 24 cwnd 2 2
+
+real 40.30
+user 0.00
+sys 0.00
+
+real 40.53
+user 0.00
+sys 0.01
+real 40.55
+user 0.01
+sys 0.02
+summary 2 40.55 177.55856966707768187422 388.93
+rvms 22 cwnd 3 3
+
+real 60.04
+user 0.00
+sys 0.00
+
+real 60.54
+user 0.00
+sys 0.01
+
+real 71.90
+user 0.00
+sys 0.00
+real 71.92
+user 0.02
+sys 0.02
+summary 3 71.92 150.16685205784204671857 460.85
+rvms 19 cwnd 1 1
+
+real 29.37
+user 0.00
+sys 0.00
+real 29.39
+user 0.00
+sys 0.00
+summary 1 29.39 122.49064307587614834977 490.24
+rvms 18 cwnd 2 2
+
+real 40.17
+user 0.00
+sys 0.01
+
+real 40.36
+user 0.01
+sys 0.00
+real 40.38
+user 0.01
+sys 0.02
+summary 2 40.38 178.30609212481426448736 530.62
+rvms 16 cwnd 3 3
+
+real 58.19
+user 0.00
+sys 0.00
+
+real 60.31
+user 0.00
+sys 0.01
+
+real 108.92
+user 0.00
+sys 0.00
+real 108.94
+user 0.02
+sys 0.02
+summary 3 108.94 99.13713970993207270056 639.56
+rvms 13 cwnd 1 1
+
+real 29.26
+user 0.00
+sys 0.00
+real 29.27
+user 0.01
+sys 0.00
+summary 1 29.27 122.99282541851725316023 668.83
+rvms 12 cwnd 2 2
+
+real 39.01
+user 0.00
+sys 0.00
+
+real 40.54
+user 0.00
+sys 0.00
+real 40.55
+user 0.01
+sys 0.01
+summary 2 40.55 177.55856966707768187422 709.38
+rvms 10 cwnd 3 3
+
+real 57.90
+user 0.00
+sys 0.00
+
+real 60.46
+user 0.01
+sys 0.00
+
+real 63.15
+user 0.00
+sys 0.01
+real 63.16
+user 0.02
+sys 0.02
+summary 3 63.16 170.99430018999366687777 772.54
+rvms 7 cwnd 1 1
+
+real 29.42
+user 0.00
+sys 0.00
+real 29.43
+user 0.01
+sys 0.00
+summary 1 29.43 122.32415902140672782874 801.97
+rvms 6 cwnd 2 2
+
+real 35.30
+user 0.00
+sys 0.00
+
+real 40.90
+user 0.00
+sys 0.00
+real 40.91
+user 0.01
+sys 0.01
+summary 2 40.91 175.99608897580053776582 842.88
+rvms 4 cwnd 3 3
+
+real 47.78
+user 0.00
+sys 0.00
+
+real 52.74
+user 0.00
+sys 0.00
+
+real 54.26
+user 0.01
+sys 0.00
+real 54.27
+user 0.03
+sys 0.01
+summary 3 54.27 199.00497512437810945273 897.15
+rvms 1 cwnd 1 1
+
+real 29.02
+user 0.00
+sys 0.00
+real 29.03
+user 0.00
+sys 0.00
+summary 1 29.03 124.00964519462624870823 926.18
+expr: syntax error
+./aimd: line 104: [: ==: unary operator expected
+expr: syntax error
+./aimd: line 110: [: ==: unary operator expected
+total_summary #40 926.18 155.47733701872206266600
+real 927.17
+user 0.37
+sys 0.40
+
+Tue May 15 16:52:00 2012
+----------------

@@ -1,0 +1,50 @@
+dest=c11node8
+
+#expname=runexp
+expname=throttle
+
+basedir=/root/controller
+filepath=$basedir/$expname
+
+# sleep time in seconds
+sleep_time=15
+
+# network limit throttled by tc in MB/s
+limits=( 50 )
+#limits=( 75 50 40 )
+
+# migration bandwidths set by KVM/QEMU
+#bws=( 10000 1000 500 250 200 150 125 100 75 50 )
+#bws=( 200 )
+#bws=( 40 )
+
+run=1
+
+#for bw in ${bws[@]}
+for limit in ${limits[@]}
+do
+	cmd="$filepath $limit $run"
+
+	# 1st run 
+	#$filepath $run 
+	$cmd
+	sleep $sleep_time
+
+	run=`expr $run "+" 1`
+
+	# 2nd run
+	ssh $dest $cmd
+	sleep $sleep_time
+
+	run=`expr $run "+" 1`
+	
+	# 3rd run
+	$cmd
+	sleep $sleep_time
+
+	run=`expr $run "+" 1`
+
+	# 4th run
+	ssh $dest $cmd
+	sleep $sleep_time
+done

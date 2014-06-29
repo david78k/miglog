@@ -1,0 +1,102 @@
+# target host
+dest=c11node8
+
+if [ $HOSTNAME == "c11node8" ]; then
+        dest=c11node7
+elif [ $HOSTNAME == "c11node9" ]; then
+        dest=c11node10
+elif [ $HOSTNAME == "c11node10" ]; then
+        dest=c11node9
+fi
+
+# network throttle by tc in MB/s
+#limit=100
+limit=$1
+vms=$2
+run=$3
+
+# /area/scheme/type/expname/limit/
+# /wan/1-1/controller/none/$limit/all.log
+# /wan/1-1/controller/none/$limit/$vms.log
+# /wan/1-1/controller/none/$limit/$vms-r*.log
+area=wan
+scheme=1-1
+type=controller
+#expname=none
+expname=aimd
+#expname=aiad
+expfile=controller
+#expfile=exp
+
+# log files
+entirelogfile=all.log
+vmslogfile="$vms.log"
+logfile="$vms-r$run.log"
+datfile="$vms-r$run.dat"
+
+explogdir=/var/lib/libvirt/images/nfs/explog
+#logdir=$explogdir/$area/$scheme/$type/$expname/$limit/to40
+logdir=$explogdir/$area/$scheme/$type/$expname/$limit
+vmslog=$logdir/$vmslogfile
+logpath=$logdir/$logfile
+datpath=$logdir/$datfile
+entirelog=$logdir/$entirelogfile
+
+dstatcmd="dstat -ncm --noheaders" 
+#dstatcmd="dstat -ncm --noupdate 5" 
+dstat1="$logdir/$vms-r$run.dstat"
+dstat2="$logdir/$vms-r$run-2.dstat"
+
+# base dir
+basedir=/root/controller
+
+# migration bandwidth in MB/s
+#bw=40
+
+if [ $# -lt 3 ]; then
+	echo "usage: runexp [run]"
+	exit
+fi
+
+mkdir -p $logdir
+
+#if [ $run == "1" ]; then
+#	echo "============= $expname limit $limit MB/s $vms VMs ===========" >> $vmslog
+#fi
+
+#echo "------------- $vms VMs run $run -------------" >> $vmslog
+
+#./setspeed $bw
+#sleep 1
+
+# throttle the network
+#service tc restart $limit
+#ssh $dest service tc restart $limit
+
+$dstatcmd > $dstat1 &
+ssh $dest $dstatcmd > $dstat2 &
+
+logsave $logpath time -p $basedir/$expfile $vms
+
+#service tc stop
+#ssh $dest service tc stop
+pgrep -fl dstat | awk '{print $1}'| xargs kill -9
+
+# logging total time
+cat $logpath | grep real | awk '{print $NF}' | sed ':a;N;$!ba;s/\n/ /g' >> $vmslog
+#cat $logpath | grep real | awk '{print $NF}' | sed ':a;N;$!ba;s/\n/ /g' >> $entirelog
+
+# log total summary 
+# [number of total vms] [total running time] [total throughput]
+#cat $logpath | grep summary | awk '{print $2, $3, $4, $5}' >> $vmslog
+grep summary $logpath | awk '{print $2, $3, $4}' > $datpath
+
+cat $datpath
+cat $vmslog
+#cat $entirelog
+
+#scp $entirelog david78k@ssh.acis.ufl.edu:/net/10.5.144.12/home/users/david78k/migration/
+
+# plot and send to the web server
+#./genplot $expname.p
+

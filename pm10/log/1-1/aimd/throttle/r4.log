@@ -1,0 +1,214 @@
+Log of time -p ./aimd 
+Tue May 15 15:15:58 2012
+
+rvms 40 cwnd 1 1
+
+real 29.53
+user 0.00
+sys 0.00
+real 29.57
+user 0.01
+sys 0.01
+summary 1 29.57 121.74501183632059519783 29.57
+rvms 39 cwnd 2 2
+
+real 38.10
+user 0.01
+sys 0.00
+
+real 41.77
+user 0.01
+sys 0.00
+real 41.81
+user 0.03
+sys 0.00
+summary 2 41.81 172.20760583592441999521 71.38
+rvms 37 cwnd 4 4
+
+real 66.91
+user 0.01
+sys 0.00
+
+real 72.34
+user 0.01
+sys 0.00
+
+real 74.25
+user 0.00
+sys 0.00
+
+real 78.81
+user 0.01
+sys 0.00
+real 78.84
+user 0.04
+sys 0.02
+summary 4 78.84 182.64840182648401826484 150.22
+rvms 33 cwnd 8 8
+
+real 86.47
+user 0.00
+sys 0.00
+
+real 92.96
+user 0.00
+sys 0.00
+
+real 107.46
+user 0.00
+sys 0.00
+
+real 117.21
+user 0.01
+sys 0.00
+
+real 118.13
+user 0.00
+sys 0.00
+
+real 125.62
+user 0.00
+sys 0.01
+
+real 125.82
+user 0.00
+sys 0.01
+
+real 134.16
+user 0.00
+sys 0.01
+real 134.20
+user 0.06
+sys 0.07
+summary 8 134.20 214.60506706408345752608 284.42
+rvms 25 cwnd 9 9
+
+real 82.74
+user 0.00
+sys 0.00
+
+real 91.20
+user 0.01
+sys 0.00
+
+real 94.16
+user 0.00
+sys 0.00
+
+real 111.84
+user 0.00
+sys 0.00
+
+real 117.46
+user 0.00
+sys 0.00
+
+real 123.72
+user 0.00
+sys 0.00
+
+real 139.35
+user 0.01
+sys 0.00
+
+real 139.50
+user 0.00
+sys 0.00
+
+real 149.90
+user 0.01
+sys 0.00
+real 149.93
+user 0.08
+sys 0.05
+summary 9 149.93 216.10084706196224904955 434.35
+rvms 16 cwnd 10 10
+
+real 86.00
+user 0.00
+sys 0.00
+
+real 86.51
+user 0.00
+sys 0.01
+
+real 127.55
+user 0.00
+sys 0.00
+
+real 128.22
+user 0.00
+sys 0.00
+
+real 128.30
+user 0.00
+sys 0.01
+
+real 151.39
+user 0.00
+sys 0.00
+
+real 154.38
+user 0.00
+sys 0.00
+
+real 156.38
+user 0.00
+sys 0.00
+
+real 162.00
+user 0.00
+sys 0.00
+
+real 169.06
+user 0.00
+sys 0.00
+real 169.07
+user 0.05
+sys 0.08
+summary 10 169.07 212.92955580528775063583 603.42
+rvms 6 cwnd 5 5
+
+real 72.17
+user 0.00
+sys 0.00
+
+real 74.05
+user 0.00
+sys 0.00
+
+real 89.15
+user 0.00
+sys 0.00
+
+real 91.30
+user 0.01
+sys 0.00
+
+real 109.02
+user 0.00
+sys 0.00
+real 109.03
+user 0.04
+sys 0.02
+summary 5 109.03 165.09217646519306612858 712.45
+rvms 1 cwnd 1 1
+
+real 30.25
+user 0.01
+sys 0.00
+real 30.26
+user 0.01
+sys 0.00
+summary 1 30.26 118.96893588896232650363 742.71
+expr: syntax error
+./aimd: line 104: [: ==: unary operator expected
+expr: syntax error
+./aimd: line 110: [: ==: unary operator expected
+total_summary #40 742.71 193.88455790281536535121
+real 743.39
+user 0.41
+sys 0.29
+
+Tue May 15 15:28:21 2012
+----------------

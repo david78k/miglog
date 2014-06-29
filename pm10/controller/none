@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# base dir
+basedir=/home/tsugawa/controller
+
+# initial number of vms to migrate
+#nvms=9
+nvms=$1
+total_nvms=0
+
+# monitor throughput
+prev_thruput=0
+total_time=0 
+
+# number of vms running
+prefix=$HOSTNAME
+rvms=`virsh list | grep running | grep $prefix- | wc -l`
+rvms0=$rvms
+
+tmplog=/tmp/exptime
+
+while [ $rvms -ne 0 ]
+do
+	comp=`echo "$rvms < $nvms" | bc -l`
+        if [ $comp -eq 1 ]; then
+                nvms=$rvms
+        fi
+
+        echo rvms $rvms nvms ${nvms/.*} $nvms
+
+	# migrate and log
+	logsave $tmplog time -p $basedir/concurrent $nvms
+
+	t=`grep real $tmplog | tail -1 | awk '{print $2}'`
+
+	thruput=`echo "3600 * $nvms / $t" | bc -l`
+
+	total_time=`echo "$total_time + $t" | bc -l`
+	total_nvms=`expr $total_nvms "+" $nvms`
+	echo summary $nvms $t $thruput $total_time
+
+	rvms=`virsh list | grep running | grep $prefix- | wc -l`
+done
+
+# total summary
+# [total number of vms] [total time] [total throughput]
+#total_nvms=`expr $rvms0 "-" $rvms`
+comp=`echo "$total_time == 0" | bc -l`
+
+if [ $comp -eq 1 ]; then
+	total_thruput=0
+else
+	total_thruput=`echo "3600 * $total_nvms / $total_time" | bc -l`
+fi
+
+echo total_summary \#$total_nvms $total_time $total_thruput
+

@@ -1,0 +1,210 @@
+Log of time -p /home/tsugawa/vmanage/migrator 
+Fri Jul 13 06:13:41 2012
+
+/home/tsugawa/vmanage/migrator: line 37: [: 0: unary operator expected
+rvms 40 nvms 0 cwnd pm10-1
+
+real 36.89
+user 0.01
+sys 0.00
+rvms 40 nvms 0 cwnd 1 pm10-2
+rvms 39 nvms 1 cwnd 2 pm10-3
+
+real 29.41
+user 0.01
+sys 0.00
+rvms 39 nvms 1 cwnd 2 pm10-4
+
+real 44.44
+user 0.00
+sys 0.00
+rvms 38 nvms 1 cwnd 2 pm10-5
+
+real 29.50
+user 0.00
+sys 0.00
+rvms 37 nvms 1 cwnd 2 pm10-6
+rvms 36 nvms 2 cwnd 4 pm10-7
+rvms 36 nvms 3 cwnd 4 pm10-8
+
+real 28.40
+user 0.01
+sys 0.00
+rvms 36 nvms 3 cwnd 4 pm10-9
+
+real 69.73
+user 0.01
+sys 0.00
+
+
+real 66.65
+user 0.00
+sys 0.00
+real 87.22
+user 0.00
+sys 0.00
+rvms 35 nvms 1 cwnd 3 pm10-10
+rvms 32 nvms 2 cwnd 3 pm10-11
+
+real 98.75
+user 0.01
+sys 0.00
+rvms 32 nvms 2 cwnd 3 pm10-12
+rvms 31 nvms 3 cwnd 4 pm10-13
+
+real 58.63
+user 0.00
+sys 0.00
+rvms 30 nvms 3 cwnd 4 pm10-14
+
+real 72.40
+user 0.01
+sys 0.00
+
+real 62.57
+user 0.00
+sys 0.00
+rvms 28 nvms 2 cwnd 4 pm10-15
+rvms 28 nvms 3 cwnd 4 pm10-16
+
+real 96.29
+user 0.00
+sys 0.00
+
+real 77.54
+user 0.01
+sys 0.00
+rvms 28 nvms 2 cwnd 3 pm10-17
+
+real 77.64
+user 0.00
+sys 0.00
+rvms 25 nvms 2 cwnd 3 pm10-18
+
+real 30.31
+user 0.00
+sys 0.00
+rvms 25 nvms 2 cwnd 3 pm10-19
+
+real 30.87
+user 0.01
+sys 0.00
+rvms 23 nvms 2 cwnd 3 pm10-20
+rvms 23 nvms 3 cwnd 4 pm10-21
+
+real 59.10
+user 0.00
+sys 0.01
+
+real 54.26
+user 0.01
+sys 0.00
+
+real 59.08
+user 0.01
+sys 0.00
+rvms 23 nvms 1 cwnd 3 pm10-22
+rvms 20 nvms 2 cwnd 3 pm10-23
+
+real 30.85
+user 0.01
+sys 0.00
+rvms 20 nvms 2 cwnd 3 pm10-24
+
+real 32.93
+user 0.00
+sys 0.00
+rvms 19 nvms 2 cwnd 3 pm10-25
+rvms 18 nvms 3 cwnd 4 pm10-26
+
+real 29.55
+user 0.00
+sys 0.01
+rvms 18 nvms 3 cwnd 4 pm10-27
+
+real 248.22
+user 0.01
+sys 0.00
+rvms 17 nvms 3 cwnd 4 pm10-28
+
+real 28.77
+user 0.00
+sys 0.00
+rvms 16 nvms 3 cwnd 4 pm10-29
+rvms 15 nvms 4 cwnd 5 pm10-30
+
+real 49.59
+user 0.01
+sys 0.00
+rvms 15 nvms 4 cwnd 5 pm10-31
+
+real 30.91
+user 0.01
+sys 0.00
+rvms 14 nvms 4 cwnd 5 pm10-32
+
+real 94.87
+user 0.00
+sys 0.00
+rvms 13 nvms 4 cwnd 5 pm10-33
+
+real 70.17
+user 0.00
+sys 0.00
+
+real 50.26
+user 0.01
+sys 0.00
+
+real 54.08
+user 0.01
+sys 0.00
+rvms 12 nvms 2 cwnd 3 pm10-34
+
+real 29.94
+user 0.01
+sys 0.00
+rvms 9 nvms 2 cwnd 3 pm10-35
+
+real 42.48
+user 0.00
+sys 0.00
+rvms 8 nvms 2 cwnd 3 pm10-36
+rvms 7 nvms 3 cwnd 4 pm10-37
+
+real 32.41
+user 0.00
+sys 0.00
+rvms 7 nvms 3 cwnd 4 pm10-38
+
+real 35.15
+user 0.01
+sys 0.00
+rvms 6 nvms 3 cwnd 4 pm10-39
+
+real 32.25
+user 0.01
+sys 0.00
+rvms 5 nvms 3 cwnd 4 pm10-40
+
+real 31.63
+user 0.01
+sys 0.00
+
+real 59.96
+user 0.01
+sys 0.00
+
+real 61.94
+user 0.01
+sys 0.00
+
+real 54.54
+user 0.01
+sys 0.00
+real 672.73
+user 16.08
+sys 36.34
+
+Fri Jul 13 06:24:54 2012
+----------------

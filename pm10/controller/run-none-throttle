@@ -1,0 +1,46 @@
+# throttle
+scheme=1-1
+#scheme=2-2
+type=none
+logdir=/home/tsugawa/log/$scheme/$type/throttle
+webdir=$scheme/$type/throttle
+controller=$type
+
+# bandwidth limit
+limit=40
+
+title=$1vms-r$2
+#title=r12
+
+dest=f31
+
+logfile=$title.log
+dstatfile=$title.dstat
+
+mkdir -p $logdir
+
+service tc restart $limit
+
+dstat -nc -N eth0 --noheaders > $logdir/$dstatfile &
+
+logsave $logdir/$logfile time -p ./$controller $1
+
+service tc stop
+
+sleep 3
+
+#killdstat
+pgrep -fl dstat| awk '{print $1}' | xargs kill -9
+
+/home/tsugawa/log/plot/genplot $logdir/$logfile $webdir
+
+sleep 10
+
+# shutdown vms on remote host
+#ssh $dest /root/migration/vmanage/shutdownall
+ssh $dest /root/migration/vmanage/destroy
+sleep 60
+
+# start all vms 
+../vmanage/startall 40
+

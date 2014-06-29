@@ -1,0 +1,216 @@
+Log of time -p /home/tsugawa/exp/controller 5 
+Fri Jun  8 05:31:23 2012
+
+rvms 40 cwnd 1 1
+summary 1 153000 153000
+rvms 40 cwnd 2 2
+summary 2 1105000 952000
+rvms 40 cwnd 4 4
+summary 4 6477000 5372000
+rvms 40 cwnd 5 5
+summary 5 11000000 4523000
+rvms 40 cwnd 6 6
+summary 6 19000000 8000000
+rvms 40 cwnd 7 7
+summary 7 23000000 4000000
+rvms 40 cwnd 8 8
+summary 8 25000000 2000000
+rvms 40 cwnd 9 9
+summary 9 26000000 1000000
+rvms 40 cwnd 10 10
+summary 10 31000000 5000000
+rvms 40 cwnd 11 11
+summary 11 34000000 3000000
+rvms 40 cwnd 12 12
+summary 12 36000000 2000000
+rvms 40 cwnd 12 12
+summary 12 35000000 -1000000
+rvms 40 cwnd 6 6
+summary 6 38000000 3000000
+rvms 40 cwnd 7 7
+summary 7 43000000 5000000
+rvms 40 cwnd 8 8
+summary 8 58000000 15000000
+rvms 40 cwnd 9 9
+summary 9 78000000 20000000
+rvms 40 cwnd 10 10
+summary 10 80000000 2000000
+rvms 40 cwnd 11 11
+summary 11 79000000 -1000000
+rvms 40 cwnd 5 5
+summary 5 79000000 0
+rvms 40 cwnd 6 6
+summary 6 86000000 7000000
+rvms 40 cwnd 7 7
+summary 7 80000000 -6000000
+rvms 40 cwnd 3 3
+summary 3 78000000 -2000000
+rvms 40 cwnd 4 4
+summary 4 71000000 -7000000
+rvms 40 cwnd 2 2
+summary 2 70000000 -1000000
+rvms 40 cwnd 3 3
+summary 3 61000000 -9000000
+rvms 39 cwnd 1 1
+summary 1 23000000 -38000000
+rvms 33 cwnd 2 2
+summary 2 1386000 -21614000
+rvms 29 cwnd 1 1
+summary 1 1681000 295000
+rvms 28 cwnd 2 2
+summary 2 52000 -1629000
+rvms 28 cwnd 1 1
+summary 1 1498000 1446000
+rvms 28 cwnd 2 2
+summary 2 19000000 17502000
+rvms 28 cwnd 3 3
+summary 3 81000000 62000000
+rvms 28 cwnd 4 4
+summary 4 68000000 -13000000
+rvms 28 cwnd 2 2
+summary 2 53000000 -15000000
+rvms 26 cwnd 3 3
+summary 3 6086000 -46914000
+rvms 26 cwnd 1 1
+summary 1 10000000 3914000
+rvms 26 cwnd 2 2
+summary 2 36000000 26000000
+rvms 26 cwnd 3 3
+summary 3 66000000 30000000
+rvms 26 cwnd 4 4
+summary 4 60000000 -6000000
+rvms 26 cwnd 2 2
+summary 2 41000000 -19000000
+rvms 25 cwnd 3 3
+summary 3 37000000 -4000000
+rvms 25 cwnd 1 1
+summary 1 50000000 13000000
+rvms 25 cwnd 2 2
+summary 2 49000000 -1000000
+rvms 24 cwnd 1 1
+summary 1 31000000 -18000000
+rvms 24 cwnd 2 2
+summary 2 34000000 3000000
+rvms 24 cwnd 3 3
+summary 3 25000000 -9000000
+rvms 22 cwnd 1 1
+summary 1 2376000 -22624000
+rvms 22 cwnd 2 2
+summary 2 10000000 7624000
+rvms 22 cwnd 3 3
+summary 3 44000000 34000000
+rvms 22 cwnd 4 4
+summary 4 22000000 -22000000
+rvms 22 cwnd 2 2
+summary 2 30000000 8000000
+rvms 22 cwnd 3 3
+summary 3 58000000 28000000
+rvms 22 cwnd 4 4
+summary 4 65000000 7000000
+rvms 22 cwnd 5 5
+summary 5 73000000 8000000
+rvms 22 cwnd 6 6
+summary 6 38000000 -35000000
+rvms 22 cwnd 3 3
+summary 3 45000000 7000000
+rvms 21 cwnd 4 4
+summary 4 83000000 38000000
+rvms 19 cwnd 5 5
+summary 5 78000000 -5000000
+rvms 19 cwnd 2 2
+summary 2 64000000 -14000000
+rvms 19 cwnd 3 3
+summary 3 52000000 -12000000
+rvms 16 cwnd 1 1
+summary 1 15000000 -37000000
+rvms 16 cwnd 2 2
+summary 2 46000000 31000000
+rvms 16 cwnd 3 3
+summary 3 70000000 24000000
+rvms 16 cwnd 4 4
+summary 4 68000000 -2000000
+rvms 16 cwnd 2 2
+summary 2 20000000 -48000000
+rvms 14 cwnd 3 3
+summary 3 14000000 -6000000
+rvms 14 cwnd 1 1
+summary 1 51000000 37000000
+rvms 14 cwnd 2 2
+summary 2 70000000 19000000
+rvms 14 cwnd 3 3
+summary 3 66000000 -4000000
+rvms 14 cwnd 1 1
+summary 1 11000000 -55000000
+rvms 14 cwnd 2 2
+summary 2 1762000 -9238000
+rvms 14 cwnd 1 1
+summary 1 8668000 6906000
+rvms 14 cwnd 2 2
+summary 2 27000000 18332000
+rvms 12 cwnd 3 3
+summary 3 34000000 7000000
+rvms 12 cwnd 4 4
+summary 4 35000000 1000000
+rvms 12 cwnd 5 5
+summary 5 18000000 -17000000
+rvms 11 cwnd 2 2
+summary 2 44000000 26000000
+rvms 11 cwnd 3 3
+summary 3 60000000 16000000
+rvms 11 cwnd 4 4
+summary 4 77000000 17000000
+rvms 10 cwnd 5 5
+summary 5 55000000 -22000000
+rvms 10 cwnd 2 2
+summary 2 58000000 3000000
+rvms 9 cwnd 3 3
+summary 3 40000000 -18000000
+rvms 9 cwnd 1 1
+summary 1 33000000 -7000000
+rvms 8 cwnd 2 2
+summary 2 23000000 -10000000
+rvms 8 cwnd 1 1
+summary 1 22000000 -1000000
+rvms 8 cwnd 2 2
+summary 2 26000000 4000000
+rvms 8 cwnd 3 3
+summary 3 31000000 5000000
+rvms 8 cwnd 4 4
+summary 4 32000000 1000000
+rvms 8 cwnd 5 5
+summary 5 32000000 0
+rvms 8 cwnd 6 6
+summary 6 43000000 11000000
+rvms 7 cwnd 7 7
+summary 7 59000000 16000000
+rvms 7 cwnd 7 7
+summary 7 50000000 -9000000
+rvms 7 cwnd 3 3
+summary 3 47000000 -3000000
+rvms 6 cwnd 4 4
+summary 4 50000000 3000000
+rvms 6 cwnd 5 5
+summary 5 67000000 17000000
+rvms 5 cwnd 5 5
+summary 5 48000000 -19000000
+rvms 4 cwnd 2 2
+summary 2 51000000 3000000
+rvms 3 cwnd 3 3
+summary 3 23000000 -28000000
+rvms 3 cwnd 1 1
+summary 1 31000000 8000000
+rvms 3 cwnd 2 2
+summary 2 47000000 16000000
+rvms 3 cwnd 3 3
+summary 3 58000000 11000000
+rvms 2 cwnd 2 2
+summary 2 56000000 -2000000
+rvms 1 cwnd 1 1
+summary 1 11000000 -45000000
+total_summary #387 0
+real 576.57
+user 4.39
+sys 1.56
+
+Fri Jun  8 05:40:59 2012
+----------------

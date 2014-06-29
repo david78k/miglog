@@ -1,0 +1,47 @@
+# base location on the http server
+server="david78k@ssh.acis.ufl.edu"
+basedir="net/10.5.144.12/home/users/david78k"
+
+expdir=migration/wan/2-2/aimd
+
+path=$server:/$basedir/$expdir/
+
+# data file *.dstat
+file=$1
+prefix=${file%\.*}-net
+#data=$file
+data=$prefix.dat
+log=$prefix.dstat
+
+script=$prefix.p
+figures="$prefix.png $prefix.eps"
+webpage=$prefix.php
+all="$figures $log $script $webpage"
+#net=$prefix.net
+#all="$figures $data $net $script $webpage"
+
+if [ $# -ne 1 ]; then
+	echo "usage: $0 [script prefix]"
+	exit 1
+fi
+
+# make *-net.dat
+if [ ! -e $data ]; then
+	./gendatacpunet $file
+fi
+
+# make png
+./genscriptcpunet $data
+gnuplot $script
+
+# make eps
+./genscriptcpunet $data eps
+gnuplot $script
+
+./genphp $prefix
+
+#tar cf $prefix.tar $figures $data $script $webpage
+
+ssh $server "mkdir -p /$basedir/$expdir"
+scp $all $path
+

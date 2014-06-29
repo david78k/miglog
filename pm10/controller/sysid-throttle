@@ -1,0 +1,117 @@
+# migrate VMs both on pm10 and pm11 sequentially
+# under low bandwidth 40MB/s
+# first 40vms (1 2 4 6 8 9 10) and
+# then 38vms (11 12 16)
+
+limit=40
+
+# 40VMs
+nvms=(1 2 4 6 8 9 10)
+total_nvms=40
+# 39 VMs
+nvms1=(11 12 16)
+totla_nvms1=39
+# 38 VMs
+#nvms2=(18 20)
+
+dest=pm11
+
+if [ $# -lt 1 ]; then
+	echo usage: $0 round
+	exit 1
+fi
+
+title=$limit-r$1
+
+basedir=/home/tsugawa
+logdir=$basedir/log/1-1/sysid/throttle
+log=$logdir/$title.log
+dat=$logdir/$title.dat
+webdir=1-1/sysid/throttle
+dstatfile=$title.dstat
+
+mkdir -p $logdir
+#ssh $dest mkdir -p $logdir
+
+log1=/tmp/sysid1
+log2=/tmp/sysid2
+
+service tc restart $limit
+
+echo "#vms time throughput" > $log
+
+dstat -nc -N eth0 --noheaders > $logdir/$dstatfile &
+
+for vms in ${nvms[@]}
+do
+#	logsave $log2 ssh $dest $basedir/controller/concurrent $vms 
+	logsave $log1 $basedir/controller/concurrent $vms 
+#	wait
+	
+	t=`grep real $log1| tail -1 | awk '{print $2}'`
+        thruput=`echo "3600 * $vms / $t" | bc -l`
+
+	echo "$vms $t $thruput" >> $log
+	
+#	grep real $log2 | tail -1 | awk '{printf "%s ", $2}' >> $log
+#	grep real $log1 | tail -1 | awk '{print $2}' >> $log
+done
+
+service tc stop
+
+sleep 3
+
+#killdstat
+pgrep -fl dstat| awk '{print $1}' | xargs kill -9
+
+cp $log $dat
+$basedir/log/plot/genplot $log $webdir
+
+ssh f31 /root/migration/vmanage/destroy 
+#ssh f32 /root/migration/vmanage/destroy
+
+sleep 60
+
+#ssh $dest $basedir/vmanage/startall 40 &
+$basedir/vmanage/startall 40
+
+# sleep 20min
+sleep 1200
+
+service tc restart $limit
+
+dstat -nc -N eth0 --noheaders >> $logdir/$dstatfile &
+
+#nvms=(18 20)
+for vms in ${nvms1[@]}
+do
+#	logsave $log2 ssh $dest $basedir/controller/concurrent $vms 
+	logsave $log1 $basedir/controller/concurrent $vms 
+	
+	t=`grep real $log1| tail -1 | awk '{print $2}'`
+        thruput=`echo "3600 * $vms / $t" | bc -l`
+
+	echo "$vms $t $thruput" >> $log
+
+#	grep real $log2 | tail -1 | awk '{printf "%s ", $2}' >> $log
+#	grep real $log1 | tail -1 | awk '{print $2}' >> $log
+done
+
+service tc stop
+
+sleep 3
+
+#killdstat
+pgrep -fl dstat| awk '{print $1}' | xargs kill -9
+
+cp $log $dat
+$basedir/log/plot/genplot $log $webdir
+
+ssh f31 /root/migration/vmanage/destroy 
+#ssh f32 /root/migration/vmanage/destroy
+
+sleep 60
+
+#ssh $dest $basedir/vmanage/startall 38 &
+$basedir/vmanage/startall 39
+

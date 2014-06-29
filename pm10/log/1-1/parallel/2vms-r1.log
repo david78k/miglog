@@ -1,0 +1,184 @@
+Log of time -p /home/tsugawa/vmanage/parallel 2 
+Wed May 23 02:23:28 2012
+
+
+real 68.14
+user 0.00
+sys 0.00
+
+real 114.93
+user 0.00
+sys 0.00
+
+real 76.30
+user 0.00
+sys 0.00
+
+real 82.46
+user 0.01
+sys 0.00
+
+real 172.78
+user 0.00
+sys 0.00
+
+real 155.04
+user 0.00
+sys 0.00
+
+real 90.91
+user 0.01
+sys 0.00
+
+real 117.43
+user 0.01
+sys 0.00
+
+real 167.86
+user 0.01
+sys 0.00
+
+real 153.18
+user 0.00
+sys 0.00
+
+real 175.90
+user 0.00
+sys 0.01
+
+real 229.33
+user 0.00
+sys 0.00
+
+real 117.92
+user 0.01
+sys 0.00
+
+real 133.54
+user 0.00
+sys 0.01
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/17
+Migration failed. Exit code tcp:0.0.0.0:49212(-98), exiting.
+
+
+real 7.35
+user 0.00
+sys 0.00
+
+real 157.47
+user 0.01
+sys 0.00
+
+real 159.26
+user 0.00
+sys 0.01
+
+real 178.72
+user 0.00
+sys 0.00
+
+real 233.28
+user 0.01
+sys 0.00
+
+real 154.25
+user 0.00
+sys 0.00
+
+real 122.44
+user 0.00
+sys 0.01
+
+real 76.73
+user 0.00
+sys 0.00
+
+real 105.59
+user 0.01
+sys 0.00
+
+real 99.48
+user 0.00
+sys 0.01
+
+real 114.78
+user 0.01
+sys 0.00
+
+real 108.79
+user 0.01
+sys 0.00
+
+real 121.04
+user 0.01
+sys 0.00
+
+real 154.31
+user 0.00
+sys 0.00
+
+real 98.39
+user 0.00
+sys 0.00
+
+real 182.36
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Migration failed. Exit code tcp:0.0.0.0:49164(-98), exiting.
+
+
+real 7.36
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Migration failed. Exit code tcp:0.0.0.0:49165(-98), exiting.
+
+
+real 7.36
+user 0.01
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Migration failed. Exit code tcp:0.0.0.0:49166(-98), exiting.
+
+
+real 7.45
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Migration failed. Exit code tcp:0.0.0.0:49167(-98), exiting.
+
+
+real 7.39
+user 0.00
+sys 0.01
+
+real 80.22
+user 0.00
+sys 0.00
+
+real 254.05
+user 0.01
+sys 0.00
+
+real 119.33
+user 0.01
+sys 0.00
+
+real 136.32
+user 0.00
+sys 0.00
+
+real 159.72
+user 0.01
+sys 0.00
+
+real 118.31
+user 0.00
+sys 0.00
+real 2437.75
+user 107.75
+sys 158.60
+
+Wed May 23 03:04:06 2012
+----------------

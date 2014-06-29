@@ -1,0 +1,82 @@
+Log of time -p /home/tsugawa/exp/controller 20 
+Thu Jun  7 15:12:48 2012
+
+rvms 40 cwnd 1 1
+summary 1 12000000 12000000
+rvms 40 cwnd 2 2
+summary 2 25000000 13000000
+rvms 39 cwnd 4 4
+summary 4 49000000 24000000
+rvms 38 cwnd 5 5
+summary 5 54000000 5000000
+rvms 35 cwnd 6 6
+summary 6 58000000 4000000
+rvms 35 cwnd 7 7
+summary 7 84000000 26000000
+rvms 31 cwnd 8 8
+summary 8 58000000 -26000000
+rvms 30 cwnd 4 4
+summary 4 96000000 38000000
+rvms 28 cwnd 5 5
+summary 5 67000000 -29000000
+rvms 23 cwnd 2 2
+summary 2 49000000 -18000000
+rvms 21 cwnd 3 3
+summary 3 1756000 -47244000
+rvms 21 cwnd 1 1
+summary 1 2653000 897000
+rvms 21 cwnd 2 2
+summary 2 4047000 1394000
+rvms 21 cwnd 3 3
+summary 3 3787000 -260000
+rvms 21 cwnd 1 1
+summary 1 12000000 8213000
+rvms 20 cwnd 2 2
+summary 2 4519000 -7481000
+rvms 20 cwnd 1 1
+summary 1 10000000 5481000
+rvms 20 cwnd 2 2
+summary 2 22000000 12000000
+rvms 19 cwnd 3 3
+summary 3 41000000 19000000
+rvms 17 cwnd 4 4
+summary 4 65000000 24000000
+rvms 15 cwnd 5 5
+summary 5 48000000 -17000000
+rvms 13 cwnd 2 2
+summary 2 71000000 23000000
+rvms 11 cwnd 3 3
+summary 3 33000000 -38000000
+rvms 10 cwnd 1 1
+summary 1 34000000 1000000
+rvms 8 cwnd 2 2
+summary 2 23000000 -11000000
+rvms 7 cwnd 1 1
+summary 1 41000000 18000000
+rvms 6 cwnd 2 2
+summary 2 24000000 -17000000
+rvms 5 cwnd 1 1
+summary 1 36000000 12000000
+rvms 3 cwnd 2 2
+summary 2 26000000 -10000000
+rvms 3 cwnd 1 1
+summary 1 30000000 4000000
+rvms 1 cwnd 1 1
+summary 1 20000000 -10000000
+expr: syntax error
+/home/tsugawa/exp/controller: line 103: [: -eq: unary operator expected
+expr: syntax error
+/home/tsugawa/exp/controller: line 109: [: -eq: unary operator expected
+(standard_in) 2: syntax error
+/home/tsugawa/exp/controller: line 52: [: -eq: unary operator expected
+rvms 1 cwnd
+expr: syntax error
+summary 8496000 -11504000
+/home/tsugawa/exp/controller: line 96: [: 1: unary operator expected
+total_summary # 0
+real 643.68
+user 1.30
+sys 0.52
+
+Thu Jun  7 15:23:31 2012
+----------------
