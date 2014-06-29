@@ -5,11 +5,11 @@ basedir=/root/miglog/plot
 
 outfile=$infile.density
 
-# parse density from dstat file
-awk '{print $2}' $infile | cut -d "|" -f 1 | grep M > $densfile
+# parse density over 1M throughput from dstat file
+awk '{print $2}' $infile | cut -d "|" -f 1 | grep M | cut -d "M" -f 1 > $outfile
 #awk '{print $2}' 2vms-r1.dstat | cut -d "|" -f 1 | grep M
 
 echo $outfile generated.
 
-$basedir/plotdensity.R $densfile
+$basedir/plotdensity.R $outfile
 
