@@ -55,12 +55,12 @@ genplot <- function (type) {
 	# c(bottom, left, top, right)
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
-#	plot(density(data[,1]), main = NULL)	
+	plot(density(data[,1]), main = NULL)	
 
-	library(KernSmooth)
-	attach(faithful)
-	fhat <- bkde(x=waiting)
-	plot(fhat, xlab="x", ylab="Density function")
+	#library(KernSmooth)
+	#attach(faithful)
+	#fhat <- bkde(x=waiting)
+	#plot(fhat, xlab="x", ylab="Density function")
 
 #	df <- data.frame(values = c(data[1,8], data[1:2,7], data[1:3,6], data[1:4,5], data[1:5,4], data[1:6,3], data[1:7,2], data[1:8,1]), 
 #		vars = rep(c("1", "2", "3", "4", "5", "6", "7", "8"), times = c(1,2,3,4,5,6,7,8)))
