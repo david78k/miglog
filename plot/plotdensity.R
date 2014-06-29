@@ -6,7 +6,8 @@ src <- args[1]
 #prefix = src
 prefix = paste(src, sep = ".", "dens")
 
-xlabel = "THROUGHPUT (MB/S)"
+xlabel = "LINK UTILIZATION (MB/S)"
+#xlabel = "THROUGHPUT (MB/S)"
 ylabel = "DENSITY"
 #ylabel = "FREQUENCY"
 
@@ -23,6 +24,8 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 # replace missing values to zero
 data[is.na(data)] <- 0
 #print(data)
+
+data <- data*100/125
 
 # transpose
 #data <- t(data[,-1]/1000)
