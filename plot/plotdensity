@@ -1,9 +1,11 @@
 #!/bin/bash
 
 infile=$1
+prefix=${infile%.*}
+
 basedir=/root/miglog/plot
 
-outfile=$infile.density
+outfile=$prefix.density
 
 # parse density over 1M throughput from dstat file
 awk '{print $2}' $infile | cut -d "|" -f 1 | grep M | cut -d "M" -f 1 > $outfile
