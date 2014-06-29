@@ -56,7 +56,7 @@ genplot <- function (type) {
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
 	plot(density(data[,1]), main = "")	
-	#title(main = NULL)
+	title(main = NULL)
 	#dev.off()
 
 	#library(KernSmooth)
