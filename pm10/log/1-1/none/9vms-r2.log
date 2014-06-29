@@ -1,0 +1,195 @@
+Log of time -p ./none 
+Fri May 11 14:08:04 2012
+
+rvms 40 nvms 9 9
+
+real 57.63
+user 0.01
+sys 0.00
+
+real 68.14
+user 0.00
+sys 0.01
+
+real 74.02
+user 0.00
+sys 0.01
+
+real 76.70
+user 0.00
+sys 0.00
+
+real 86.00
+user 0.01
+sys 0.00
+
+real 89.95
+user 0.00
+sys 0.00
+
+real 90.39
+user 0.01
+sys 0.00
+
+real 101.69
+user 0.00
+sys 0.01
+
+real 115.62
+user 0.00
+sys 0.00
+real 115.66
+user 0.07
+sys 0.07
+summary 9 115.66 280.13141967836762925817 115.66
+rvms 31 nvms 9 9
+
+real 44.73
+user 0.00
+sys 0.00
+
+real 65.80
+user 0.00
+sys 0.00
+
+real 71.24
+user 0.01
+sys 0.00
+
+real 77.01
+user 0.00
+sys 0.01
+
+real 79.92
+user 0.01
+sys 0.00
+
+real 82.82
+user 0.01
+sys 0.00
+
+real 86.07
+user 0.00
+sys 0.00
+
+real 99.35
+user 0.00
+sys 0.01
+
+real 118.34
+user 0.00
+sys 0.01
+real 118.38
+user 0.07
+sys 0.06
+summary 9 118.38 273.69488089204257475924 234.04
+rvms 22 nvms 9 9
+
+real 42.28
+user 0.00
+sys 0.00
+
+real 68.73
+user 0.00
+sys 0.00
+
+real 75.87
+user 0.00
+sys 0.00
+
+real 80.10
+user 0.00
+sys 0.01
+
+real 92.10
+user 0.00
+sys 0.00
+
+real 94.95
+user 0.01
+sys 0.00
+
+real 95.38
+user 0.00
+sys 0.00
+
+real 110.86
+user 0.00
+sys 0.00
+
+real 117.93
+user 0.00
+sys 0.00
+real 117.95
+user 0.06
+sys 0.06
+summary 9 117.95 274.69266638406104281475 351.99
+rvms 13 nvms 9 9
+
+real 75.04
+user 0.00
+sys 0.01
+
+real 102.81
+user 0.01
+sys 0.00
+
+real 104.84
+user 0.00
+sys 0.00
+
+real 108.83
+user 0.00
+sys 0.01
+
+real 111.46
+user 0.00
+sys 0.01
+
+real 112.57
+user 0.00
+sys 0.00
+
+real 116.07
+user 0.01
+sys 0.00
+
+real 121.19
+user 0.01
+sys 0.00
+
+real 132.20
+user 0.00
+sys 0.01
+real 132.22
+user 0.07
+sys 0.07
+summary 9 132.22 245.04613522916351535319 484.21
+rvms 4 nvms 4 4
+
+real 82.41
+user 0.00
+sys 0.00
+
+real 108.12
+user 0.00
+sys 0.00
+
+real 138.37
+user 0.01
+sys 0.00
+
+real 145.07
+user 0.00
+sys 0.00
+real 145.08
+user 0.02
+sys 0.02
+summary 4 145.08 99.25558312655086848635 629.29
+total_summary #40 629.29 228.82931557787347645759
+real 629.67
+user 0.33
+sys 0.32
+
+Fri May 11 14:18:33 2012
+----------------

@@ -1,0 +1,195 @@
+Log of time -p ./none 8 
+Tue May 15 04:51:40 2012
+
+rvms 40 nvms 8 8
+
+real 81.96
+user 0.00
+sys 0.01
+
+real 103.94
+user 0.00
+sys 0.01
+
+real 124.52
+user 0.00
+sys 0.00
+
+real 129.80
+user 0.01
+sys 0.00
+
+real 141.32
+user 0.00
+sys 0.00
+
+real 142.45
+user 0.00
+sys 0.00
+
+real 142.92
+user 0.00
+sys 0.01
+
+real 146.24
+user 0.00
+sys 0.00
+real 146.29
+user 0.05
+sys 0.07
+summary 8 146.29 196.86923234670859252170 146.29
+rvms 32 nvms 8 8
+
+real 94.09
+user 0.00
+sys 0.00
+
+real 102.27
+user 0.00
+sys 0.01
+
+real 104.52
+user 0.00
+sys 0.01
+
+real 123.47
+user 0.01
+sys 0.00
+
+real 134.33
+user 0.00
+sys 0.00
+
+real 158.38
+user 0.01
+sys 0.00
+
+real 190.00
+user 0.01
+sys 0.00
+
+real 214.38
+user 0.00
+sys 0.00
+real 214.41
+user 0.07
+sys 0.05
+summary 8 214.41 134.32209318595214775430 360.70
+rvms 24 nvms 8 8
+
+real 36.77
+user 0.00
+sys 0.00
+
+real 95.93
+user 0.00
+sys 0.01
+
+real 113.20
+user 0.00
+sys 0.00
+
+real 130.62
+user 0.00
+sys 0.00
+
+real 158.99
+user 0.00
+sys 0.00
+
+real 164.97
+user 0.00
+sys 0.00
+
+real 167.85
+user 0.00
+sys 0.01
+
+real 175.96
+user 0.01
+sys 0.00
+real 175.99
+user 0.04
+sys 0.07
+summary 8 175.99 163.64566168532302971759 536.69
+rvms 16 nvms 8 8
+
+real 88.91
+user 0.00
+sys 0.01
+
+real 116.61
+user 0.00
+sys 0.00
+
+real 133.74
+user 0.00
+sys 0.01
+
+real 139.93
+user 0.01
+sys 0.00
+
+real 167.90
+user 0.01
+sys 0.00
+
+real 177.91
+user 0.00
+sys 0.00
+
+real 179.95
+user 0.01
+sys 0.00
+
+real 188.10
+user 0.00
+sys 0.00
+real 188.12
+user 0.06
+sys 0.05
+summary 8 188.12 153.09376993408462683393 724.81
+rvms 8 nvms 8 8
+
+real 104.26
+user 0.00
+sys 0.00
+
+real 120.17
+user 0.00
+sys 0.00
+
+real 124.80
+user 0.00
+sys 0.00
+
+real 134.81
+user 0.01
+sys 0.00
+
+real 142.39
+user 0.01
+sys 0.00
+
+real 145.04
+user 0.00
+sys 0.00
+
+real 148.03
+user 0.01
+sys 0.00
+
+real 164.73
+user 0.01
+sys 0.00
+real 164.75
+user 0.09
+sys 0.02
+summary 8 164.75 174.81031866464339908952 889.56
+total_summary #40 889.56 161.87778227438284095507
+real 889.82
+user 0.34
+sys 0.30
+
+Tue May 15 05:06:29 2012
+----------------

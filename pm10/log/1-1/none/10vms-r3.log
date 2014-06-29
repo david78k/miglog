@@ -1,0 +1,190 @@
+Log of time -p ./none 10 
+Fri May 11 17:43:23 2012
+
+rvms 40 nvms 10 10
+
+real 108.51
+user 0.01
+sys 0.00
+
+real 126.85
+user 0.00
+sys 0.01
+
+real 155.84
+user 0.00
+sys 0.00
+
+real 160.83
+user 0.00
+sys 0.00
+
+real 161.08
+user 0.00
+sys 0.00
+
+real 185.75
+user 0.01
+sys 0.00
+
+real 187.25
+user 0.01
+sys 0.00
+
+real 188.57
+user 0.00
+sys 0.00
+
+real 198.38
+user 0.00
+sys 0.00
+
+real 205.65
+user 0.00
+sys 0.00
+real 205.69
+user 0.09
+sys 0.06
+summary 10 205.69 175.02066216150517769458 205.69
+rvms 30 nvms 10 10
+
+real 134.33
+user 0.01
+sys 0.00
+
+real 146.32
+user 0.00
+sys 0.00
+
+real 182.64
+user 0.00
+sys 0.01
+
+real 185.83
+user 0.01
+sys 0.00
+
+real 186.26
+user 0.01
+sys 0.00
+
+real 202.80
+user 0.00
+sys 0.00
+
+real 207.56
+user 0.01
+sys 0.00
+
+real 212.63
+user 0.00
+sys 0.00
+
+real 214.27
+user 0.00
+sys 0.00
+
+real 220.56
+user 0.00
+sys 0.01
+real 220.61
+user 0.10
+sys 0.07
+summary 10 220.61 163.18389918861339014550 426.30
+rvms 20 nvms 10 10
+
+real 93.24
+user 0.00
+sys 0.01
+
+real 117.91
+user 0.01
+sys 0.00
+
+real 137.37
+user 0.01
+sys 0.00
+
+real 143.51
+user 0.00
+sys 0.00
+
+real 149.64
+user 0.01
+sys 0.00
+
+real 162.63
+user 0.01
+sys 0.00
+
+real 176.86
+user 0.01
+sys 0.00
+
+real 203.31
+user 0.00
+sys 0.01
+
+real 207.07
+user 0.01
+sys 0.00
+
+real 230.18
+user 0.00
+sys 0.00
+real 230.20
+user 0.09
+sys 0.06
+summary 10 230.20 156.38575152041702867072 656.50
+rvms 10 nvms 10 10
+
+real 61.85
+user 0.00
+sys 0.00
+
+real 125.45
+user 0.01
+sys 0.00
+
+real 128.05
+user 0.00
+sys 0.01
+
+real 133.14
+user 0.00
+sys 0.01
+
+real 138.69
+user 0.00
+sys 0.00
+
+real 149.77
+user 0.01
+sys 0.00
+
+real 155.29
+user 0.00
+sys 0.01
+
+real 158.21
+user 0.00
+sys 0.00
+
+real 176.33
+user 0.00
+sys 0.01
+
+real 204.91
+user 0.01
+sys 0.00
+real 204.92
+user 0.08
+sys 0.07
+summary 10 204.92 175.67831348819051337107 861.42
+total_summary #40 861.42 167.16584244619349446263
+real 861.89
+user 0.38
+sys 0.30
+
+Fri May 11 17:57:45 2012
+----------------

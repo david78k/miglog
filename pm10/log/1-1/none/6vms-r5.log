@@ -1,0 +1,205 @@
+Log of time -p ./none 6 
+Sat May 12 00:56:54 2012
+
+rvms 40 nvms 6 6
+
+real 71.49
+user 0.00
+sys 0.00
+
+real 86.78
+user 0.00
+sys 0.00
+
+
+real 86.78
+user 0.01
+sys 0.00
+
+real 86.78
+user 0.00
+sys 0.01
+
+real 86.79
+user 0.01
+sys 0.00
+real 86.79
+user 0.00
+sys 0.00
+real 86.82
+user 0.06
+sys 0.04
+summary 6 86.82 248.79060124395300621976 86.82
+rvms 34 nvms 6 6
+
+real 53.83
+user 0.00
+sys 0.01
+
+real 61.40
+user 0.00
+sys 0.00
+
+
+real 63.75
+user 0.00
+sys 0.00
+real 63.75
+user 0.00
+sys 0.00
+
+real 64.11
+user 0.00
+sys 0.01
+
+real 64.11
+user 0.00
+sys 0.00
+real 64.15
+user 0.04
+sys 0.05
+summary 6 64.15 336.71083398285268901013 150.97
+rvms 28 nvms 6 6
+
+real 112.90
+user 0.00
+sys 0.01
+
+real 130.98
+user 0.00
+sys 0.00
+
+
+real 130.98
+user 0.00
+sys 0.00
+real 130.98
+user 0.00
+sys 0.01
+
+real 130.98
+user 0.00
+sys 0.00
+
+real 130.99
+user 0.01
+sys 0.00
+real 131.01
+user 0.03
+sys 0.04
+summary 6 131.01 164.87291046485001144950 281.98
+rvms 22 nvms 6 6
+
+real 85.22
+user 0.00
+sys 0.00
+
+real 91.06
+user 0.00
+sys 0.01
+
+real 102.53
+user 0.01
+sys 0.00
+
+
+real 109.10
+user 0.00
+sys 0.00
+real 109.10
+user 0.00
+sys 0.01
+
+real 157.37
+user 0.00
+sys 0.01
+real 157.39
+user 0.04
+sys 0.05
+summary 6 157.39 137.23870639811932143084 439.37
+rvms 16 nvms 6 6
+
+real 120.64
+user 0.01
+sys 0.00
+
+real 121.00
+user 0.00
+sys 0.01
+
+real 121.00
+user 0.00
+sys 0.00
+
+real 126.04
+user 0.01
+sys 0.00
+
+real 126.81
+user 0.01
+sys 0.00
+
+real 131.38
+user 0.00
+sys 0.00
+real 131.40
+user 0.05
+sys 0.03
+summary 6 131.40 164.38356164383561643835 570.77
+rvms 10 nvms 6 6
+
+real 52.80
+user 0.00
+sys 0.00
+
+real 56.96
+user 0.01
+sys 0.00
+
+real 64.25
+user 0.01
+sys 0.00
+
+real 65.42
+user 0.01
+sys 0.00
+
+real 66.92
+user 0.01
+sys 0.00
+
+real 69.09
+user 0.00
+sys 0.00
+real 69.10
+user 0.08
+sys 0.01
+summary 6 69.10 312.59044862518089725036 639.87
+rvms 4 nvms 4 4
+
+real 51.34
+user 0.00
+sys 0.00
+
+real 65.75
+user 0.00
+sys 0.00
+
+real 69.10
+user 0.00
+sys 0.01
+
+real 69.53
+user 0.00
+sys 0.00
+real 69.54
+user 0.02
+sys 0.03
+summary 4 69.54 207.07506471095772217428 709.41
+total_summary #40 709.41 202.98557956611832367742
+real 710.02
+user 0.36
+sys 0.30
+
+Sat May 12 01:08:44 2012
+----------------

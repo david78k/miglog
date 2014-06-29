@@ -1,0 +1,33 @@
+
+#input=$1
+#prefix=${input%\.*}
+#output=$prefix.dat
+output=all.dat
+
+vms=(6 7 8 9 10)
+rounds=(1 2 3 4 5 6)
+
+for vm in ${vms[@]}
+do
+	for round in ${rounds[@]}
+	do
+		vmlog=$vm.log
+
+		echo "${vm}vms-r$round.log"
+		if [ $round -eq 1 ]; then
+			grep total ${vm}vms-r$round.log | awk '{print $2,$3,$4,$5,$6}' > $vmlog
+		else
+			grep total ${vm}vms-r$round.log | awk '{print $2,$3,$4,$5,$6}' >> $vmlog
+		fi
+	done
+
+	#grep total 6vms-r1.log > 6vms.dat
+	echo $vmlog has been generated
+	
+	#awk '{print $2}' $vmlog
+	cat $vmlog >> $output
+done
+
+echo $output has been generated
+
+#vi $output

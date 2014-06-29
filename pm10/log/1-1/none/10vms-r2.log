@@ -1,0 +1,190 @@
+Log of time -p ./none 10 
+Fri May 11 14:47:09 2012
+
+rvms 40 nvms 10 10
+
+real 47.32
+user 0.00
+sys 0.00
+
+real 59.68
+user 0.00
+sys 0.00
+
+real 61.24
+user 0.00
+sys 0.00
+
+real 63.94
+user 0.00
+sys 0.01
+
+real 66.20
+user 0.00
+sys 0.00
+
+real 66.30
+user 0.00
+sys 0.00
+
+real 72.85
+user 0.00
+sys 0.00
+
+real 74.65
+user 0.00
+sys 0.00
+
+real 78.84
+user 0.01
+sys 0.00
+
+real 86.87
+user 0.00
+sys 0.01
+real 86.90
+user 0.06
+sys 0.08
+summary 10 86.90 414.26927502876869965477 86.90
+rvms 30 nvms 10 10
+
+real 57.39
+user 0.01
+sys 0.00
+
+real 64.26
+user 0.01
+sys 0.00
+
+real 64.59
+user 0.01
+sys 0.00
+
+real 73.12
+user 0.01
+sys 0.00
+
+real 75.10
+user 0.01
+sys 0.00
+
+real 79.58
+user 0.00
+sys 0.00
+
+real 82.16
+user 0.00
+sys 0.00
+
+real 82.16
+user 0.01
+sys 0.00
+
+real 82.91
+user 0.00
+sys 0.01
+
+real 89.37
+user 0.00
+sys 0.00
+real 89.42
+user 0.10
+sys 0.05
+summary 10 89.42 402.59449787519570565868 176.32
+rvms 20 nvms 10 10
+
+real 48.41
+user 0.00
+sys 0.00
+
+real 51.42
+user 0.00
+sys 0.01
+
+real 62.03
+user 0.00
+sys 0.00
+
+real 64.83
+user 0.00
+sys 0.00
+
+real 74.81
+user 0.00
+sys 0.01
+
+real 76.71
+user 0.01
+sys 0.00
+
+real 78.63
+user 0.00
+sys 0.00
+
+real 90.99
+user 0.00
+sys 0.01
+
+real 92.38
+user 0.00
+sys 0.00
+
+real 92.81
+user 0.00
+sys 0.01
+real 92.82
+user 0.06
+sys 0.09
+summary 10 92.82 387.84744667097608274078 269.14
+rvms 10 nvms 10 10
+
+real 59.83
+user 0.00
+sys 0.01
+
+real 71.94
+user 0.01
+sys 0.00
+
+real 82.36
+user 0.01
+sys 0.00
+
+real 86.62
+user 0.00
+sys 0.00
+
+real 87.73
+user 0.01
+sys 0.00
+
+real 94.58
+user 0.00
+sys 0.00
+
+real 97.94
+user 0.00
+sys 0.00
+
+real 104.57
+user 0.00
+sys 0.00
+
+real 106.06
+user 0.00
+sys 0.00
+
+real 117.14
+user 0.00
+sys 0.00
+real 117.15
+user 0.09
+sys 0.05
+summary 10 117.15 307.29833546734955185659 386.29
+total_summary #40 386.29 372.77692925004530275181
+real 386.73
+user 0.33
+sys 0.30
+
+Fri May 11 14:53:36 2012
+----------------

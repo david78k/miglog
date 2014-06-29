@@ -1,0 +1,203 @@
+Log of time -p ./none 8 
+Tue May 15 03:54:34 2012
+
+rvms 40 nvms 8 8
+Command exited with non-zero status 129
+real 0.64
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 8 0.64 45000.00000000000000000000 .64
+rvms 40 nvms 8 8
+
+real 95.72
+user 0.00
+sys 0.01
+
+real 106.01
+user 0.00
+sys 0.00
+
+real 106.38
+user 0.00
+sys 0.00
+
+real 111.70
+user 0.00
+sys 0.00
+
+real 132.85
+user 0.01
+sys 0.00
+
+real 132.92
+user 0.00
+sys 0.01
+
+real 163.87
+user 0.00
+sys 0.01
+
+real 174.76
+user 0.00
+sys 0.01
+real 174.80
+user 0.05
+sys 0.07
+summary 8 174.80 164.75972540045766590389 175.44
+rvms 32 nvms 8 8
+
+real 69.50
+user 0.00
+sys 0.01
+
+real 78.97
+user 0.00
+sys 0.00
+
+real 90.92
+user 0.00
+sys 0.00
+
+real 124.80
+user 0.00
+sys 0.00
+
+real 124.81
+user 0.00
+sys 0.00
+
+real 124.86
+user 0.01
+sys 0.00
+
+real 137.51
+user 0.00
+sys 0.00
+
+real 141.09
+user 0.00
+sys 0.01
+real 141.12
+user 0.06
+sys 0.06
+summary 8 141.12 204.08163265306122448979 316.56
+rvms 24 nvms 8 8
+
+real 72.71
+user 0.00
+sys 0.00
+
+real 81.47
+user 0.00
+sys 0.00
+
+real 100.79
+user 0.00
+sys 0.01
+
+real 112.99
+user 0.00
+sys 0.01
+
+real 117.60
+user 0.01
+sys 0.00
+
+real 140.32
+user 0.01
+sys 0.00
+
+real 142.91
+user 0.00
+sys 0.00
+
+real 155.14
+user 0.00
+sys 0.01
+real 155.17
+user 0.07
+sys 0.05
+summary 8 155.17 185.60288715602242701553 471.73
+rvms 16 nvms 8 8
+
+real 45.87
+user 0.00
+sys 0.00
+
+real 131.18
+user 0.00
+sys 0.00
+
+real 139.01
+user 0.00
+sys 0.00
+
+real 143.68
+user 0.00
+sys 0.01
+
+real 165.32
+user 0.00
+sys 0.01
+
+real 166.51
+user 0.00
+sys 0.00
+
+real 167.17
+user 0.00
+sys 0.00
+
+real 190.39
+user 0.01
+sys 0.00
+real 190.41
+user 0.04
+sys 0.07
+summary 8 190.41 151.25256026469198046321 662.14
+rvms 8 nvms 8 8
+
+real 104.47
+user 0.00
+sys 0.01
+
+real 131.46
+user 0.01
+sys 0.00
+
+real 131.49
+user 0.01
+sys 0.00
+
+real 134.87
+user 0.00
+sys 0.00
+
+real 135.44
+user 0.00
+sys 0.00
+
+real 138.77
+user 0.00
+sys 0.00
+
+real 139.57
+user 0.00
+sys 0.00
+
+real 144.07
+user 0.00
+sys 0.01
+real 144.08
+user 0.06
+sys 0.06
+summary 8 144.08 199.88895058300943920044 806.22
+total_summary #40 806.22 178.61129716454565751283
+real 806.53
+user 0.32
+sys 0.35
+
+Tue May 15 04:08:01 2012
+----------------

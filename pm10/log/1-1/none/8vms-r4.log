@@ -1,0 +1,195 @@
+Log of time -p ./none 8 
+Fri May 11 22:55:17 2012
+
+rvms 40 nvms 8 8
+
+real 60.17
+user 0.01
+sys 0.00
+
+real 67.99
+user 0.01
+sys 0.00
+
+real 72.69
+user 0.01
+sys 0.00
+
+real 79.96
+user 0.00
+sys 0.01
+
+real 81.98
+user 0.01
+sys 0.00
+
+real 82.85
+user 0.00
+sys 0.01
+
+real 96.70
+user 0.01
+sys 0.00
+
+real 102.33
+user 0.00
+sys 0.00
+real 102.89
+user 0.08
+sys 0.04
+summary 8 102.89 279.91058411896199825055 102.89
+rvms 32 nvms 8 8
+
+real 54.67
+user 0.00
+sys 0.00
+
+real 57.20
+user 0.01
+sys 0.00
+
+real 58.80
+user 0.00
+sys 0.01
+
+real 60.40
+user 0.00
+sys 0.00
+
+real 60.50
+user 0.01
+sys 0.00
+
+real 63.43
+user 0.01
+sys 0.00
+
+real 65.68
+user 0.00
+sys 0.00
+
+real 78.35
+user 0.00
+sys 0.00
+real 78.53
+user 0.07
+sys 0.06
+summary 8 78.53 366.73882592639755507449 181.42
+rvms 24 nvms 8 8
+
+real 54.77
+user 0.00
+sys 0.00
+
+real 59.07
+user 0.00
+sys 0.01
+
+real 62.04
+user 0.01
+sys 0.00
+
+real 64.32
+user 0.00
+sys 0.01
+
+real 67.32
+user 0.00
+sys 0.01
+
+real 69.25
+user 0.00
+sys 0.00
+
+real 71.72
+user 0.00
+sys 0.00
+
+real 79.12
+user 0.00
+sys 0.00
+real 79.14
+user 0.05
+sys 0.07
+summary 8 79.14 363.91205458680818802122 260.56
+rvms 16 nvms 8 8
+
+real 57.32
+user 0.00
+sys 0.01
+
+real 60.20
+user 0.00
+sys 0.01
+
+real 64.78
+user 0.00
+sys 0.00
+
+real 73.11
+user 0.00
+sys 0.00
+
+real 75.17
+user 0.00
+sys 0.01
+
+real 77.82
+user 0.00
+sys 0.00
+
+real 78.23
+user 0.00
+sys 0.00
+
+real 81.08
+user 0.00
+sys 0.00
+real 81.10
+user 0.03
+sys 0.07
+summary 8 81.10 355.11713933415536374845 341.66
+rvms 8 nvms 8 8
+
+real 53.34
+user 0.01
+sys 0.00
+
+real 65.30
+user 0.00
+sys 0.00
+
+real 67.45
+user 0.00
+sys 0.00
+
+real 67.96
+user 0.00
+sys 0.00
+
+real 73.02
+user 0.00
+sys 0.00
+
+real 73.11
+user 0.00
+sys 0.00
+
+real 76.58
+user 0.01
+sys 0.00
+
+real 89.65
+user 0.00
+sys 0.00
+real 89.67
+user 0.06
+sys 0.04
+summary 8 89.67 321.17765138842422214787 431.33
+total_summary #40 431.33 333.85111167783367723089
+real 439.50
+user 0.33
+sys 0.30
+
+Fri May 11 23:02:36 2012
+----------------

@@ -1,0 +1,370 @@
+Log of time -p ./none 1 
+Thu May 17 03:37:41 2012
+
+rvms 40 nvms 1 1
+
+real 58.19
+user 0.01
+sys 0.00
+real 58.23
+user 0.02
+sys 0.00
+summary 1 58.23 61.82380216383307573415 58.23
+rvms 39 nvms 1 1
+
+real 81.63
+user 0.00
+sys 0.00
+real 81.67
+user 0.01
+sys 0.01
+summary 1 81.67 44.07983347618464552467 139.90
+rvms 38 nvms 1 1
+
+real 81.42
+user 0.00
+sys 0.00
+real 81.45
+user 0.01
+sys 0.00
+summary 1 81.45 44.19889502762430939226 221.35
+rvms 37 nvms 1 1
+
+real 87.77
+user 0.00
+sys 0.01
+real 87.81
+user 0.01
+sys 0.01
+summary 1 87.81 40.99760847283908438674 309.16
+rvms 36 nvms 1 1
+
+real 120.55
+user 0.01
+sys 0.00
+real 120.59
+user 0.01
+sys 0.01
+summary 1 120.59 29.85322166017082676838 429.75
+rvms 35 nvms 1 1
+
+real 110.52
+user 0.01
+sys 0.00
+real 110.55
+user 0.01
+sys 0.01
+summary 1 110.55 32.56445047489823609226 540.30
+rvms 34 nvms 1 1
+
+real 85.49
+user 0.00
+sys 0.00
+real 85.53
+user 0.02
+sys 0.00
+summary 1 85.53 42.09049456331111890564 625.83
+rvms 33 nvms 1 1
+
+real 95.44
+user 0.01
+sys 0.00
+real 95.48
+user 0.02
+sys 0.00
+summary 1 95.48 37.70423125261834939254 721.31
+rvms 32 nvms 1 1
+
+real 117.01
+user 0.00
+sys 0.00
+real 117.05
+user 0.01
+sys 0.00
+summary 1 117.05 30.75608714224690303289 838.36
+rvms 31 nvms 1 1
+
+real 57.36
+user 0.01
+sys 0.00
+real 57.39
+user 0.02
+sys 0.00
+summary 1 57.39 62.72869837950862519602 895.75
+rvms 30 nvms 1 1
+
+real 51.16
+user 0.00
+sys 0.00
+real 51.19
+user 0.01
+sys 0.01
+summary 1 51.19 70.32623559288923617894 946.94
+rvms 29 nvms 1 1
+
+real 70.10
+user 0.00
+sys 0.00
+real 70.12
+user 0.00
+sys 0.01
+summary 1 70.12 51.34055904164289788933 1017.06
+rvms 28 nvms 1 1
+
+real 75.20
+user 0.00
+sys 0.00
+real 75.23
+user 0.01
+sys 0.00
+summary 1 75.23 47.85325003323142363418 1092.29
+rvms 27 nvms 1 1
+
+real 64.94
+user 0.00
+sys 0.00
+real 64.97
+user 0.00
+sys 0.00
+summary 1 64.97 55.41018931814683700169 1157.26
+rvms 26 nvms 1 1
+
+real 82.48
+user 0.00
+sys 0.00
+real 82.50
+user 0.00
+sys 0.01
+summary 1 82.50 43.63636363636363636363 1239.76
+rvms 25 nvms 1 1
+
+real 59.79
+user 0.00
+sys 0.00
+real 59.82
+user 0.01
+sys 0.00
+summary 1 59.82 60.18054162487462387161 1299.58
+rvms 24 nvms 1 1
+
+real 69.78
+user 0.00
+sys 0.00
+real 69.81
+user 0.01
+sys 0.00
+summary 1 69.81 51.56854318865492049849 1369.39
+rvms 23 nvms 1 1
+
+real 83.80
+user 0.00
+sys 0.00
+real 83.83
+user 0.00
+sys 0.01
+summary 1 83.83 42.94405344148872718597 1453.22
+rvms 22 nvms 1 1
+
+real 59.10
+user 0.00
+sys 0.00
+real 59.12
+user 0.00
+sys 0.01
+summary 1 59.12 60.89309878213802435723 1512.34
+rvms 21 nvms 1 1
+
+real 79.30
+user 0.00
+sys 0.00
+real 79.32
+user 0.00
+sys 0.01
+summary 1 79.32 45.38577912254160363086 1591.66
+rvms 20 nvms 1 1
+
+real 75.39
+user 0.01
+sys 0.00
+real 75.41
+user 0.01
+sys 0.00
+summary 1 75.41 47.73902665428988197851 1667.07
+rvms 19 nvms 1 1
+
+real 63.72
+user 0.01
+sys 0.00
+real 63.74
+user 0.01
+sys 0.00
+summary 1 63.74 56.47944775651082522748 1730.81
+rvms 18 nvms 1 1
+
+real 84.96
+user 0.00
+sys 0.00
+real 84.98
+user 0.00
+sys 0.01
+summary 1 84.98 42.36290891974582254648 1815.79
+rvms 17 nvms 1 1
+
+real 80.75
+user 0.00
+sys 0.00
+real 80.77
+user 0.00
+sys 0.00
+summary 1 80.77 44.57100408567537452024 1896.56
+rvms 16 nvms 1 1
+
+real 93.63
+user 0.00
+sys 0.00
+real 93.65
+user 0.01
+sys 0.00
+summary 1 93.65 38.44100373731980779498 1990.21
+rvms 15 nvms 1 1
+
+real 68.37
+user 0.00
+sys 0.00
+real 68.38
+user 0.00
+sys 0.00
+summary 1 68.38 52.64697279906405381690 2058.59
+rvms 14 nvms 1 1
+
+real 77.70
+user 0.00
+sys 0.00
+real 77.71
+user 0.01
+sys 0.00
+summary 1 77.71 46.32608415905288894608 2136.30
+rvms 13 nvms 1 1
+
+real 75.61
+user 0.01
+sys 0.00
+real 75.63
+user 0.01
+sys 0.00
+summary 1 75.63 47.60015866719555731852 2211.93
+rvms 12 nvms 1 1
+
+real 67.10
+user 0.00
+sys 0.00
+real 67.12
+user 0.01
+sys 0.00
+summary 1 67.12 53.63528009535160905840 2279.05
+rvms 11 nvms 1 1
+
+real 68.62
+user 0.01
+sys 0.00
+real 68.63
+user 0.01
+sys 0.00
+summary 1 68.63 52.45519452134634999271 2347.68
+rvms 10 nvms 1 1
+
+real 71.83
+user 0.00
+sys 0.00
+real 71.84
+user 0.00
+sys 0.01
+summary 1 71.84 50.11135857461024498886 2419.52
+rvms 9 nvms 1 1
+
+real 67.99
+user 0.00
+sys 0.00
+real 68.01
+user 0.00
+sys 0.00
+summary 1 68.01 52.93339214821349801499 2487.53
+rvms 8 nvms 1 1
+
+real 87.19
+user 0.00
+sys 0.00
+real 87.20
+user 0.00
+sys 0.01
+summary 1 87.20 41.28440366972477064220 2574.73
+rvms 7 nvms 1 1
+
+real 71.87
+user 0.00
+sys 0.00
+real 71.88
+user 0.00
+sys 0.00
+summary 1 71.88 50.08347245409015025041 2646.61
+rvms 6 nvms 1 1
+
+real 93.06
+user 0.00
+sys 0.00
+real 93.07
+user 0.00
+sys 0.01
+summary 1 93.07 38.68056301708391533254 2739.68
+rvms 5 nvms 1 1
+
+real 123.32
+user 0.00
+sys 0.00
+real 123.33
+user 0.00
+sys 0.00
+summary 1 123.33 29.18997810751641936268 2863.01
+rvms 4 nvms 1 1
+
+real 118.56
+user 0.01
+sys 0.00
+real 118.57
+user 0.01
+sys 0.00
+summary 1 118.57 30.36181158809142278822 2981.58
+rvms 3 nvms 1 1
+
+real 86.58
+user 0.00
+sys 0.00
+real 86.58
+user 0.00
+sys 0.00
+summary 1 86.58 41.58004158004158004158 3068.16
+rvms 2 nvms 1 1
+
+real 101.39
+user 0.01
+sys 0.00
+real 101.40
+user 0.01
+sys 0.00
+summary 1 101.40 35.50295857988165680473 3169.56
+rvms 1 nvms 1 1
+
+real 66.39
+user 0.00
+sys 0.00
+real 66.40
+user 0.00
+sys 0.00
+summary 1 66.40 54.21686746987951807228 3235.96
+total_summary #40 3235.96 44.49993201399275639995
+real 3237.52
+user 0.59
+sys 0.42
+
+Thu May 17 04:31:39 2012
+----------------

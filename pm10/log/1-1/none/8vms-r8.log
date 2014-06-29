@@ -1,0 +1,195 @@
+Log of time -p ./none 8 
+Sat May 12 22:16:17 2012
+
+rvms 40 nvms 8 8
+
+real 47.19
+user 0.01
+sys 0.00
+
+real 54.44
+user 0.00
+sys 0.00
+
+real 55.68
+user 0.00
+sys 0.00
+
+real 58.77
+user 0.00
+sys 0.01
+
+real 60.20
+user 0.00
+sys 0.00
+
+real 60.98
+user 0.00
+sys 0.00
+
+real 64.28
+user 0.00
+sys 0.00
+
+real 64.54
+user 0.00
+sys 0.00
+real 64.59
+user 0.07
+sys 0.05
+summary 8 64.59 445.88945657222480260102 64.59
+rvms 32 nvms 8 8
+
+real 47.20
+user 0.00
+sys 0.00
+
+real 51.81
+user 0.00
+sys 0.00
+
+real 54.72
+user 0.00
+sys 0.00
+
+real 57.57
+user 0.01
+sys 0.00
+
+real 59.78
+user 0.00
+sys 0.00
+
+real 65.17
+user 0.00
+sys 0.01
+
+real 67.96
+user 0.01
+sys 0.00
+
+real 68.13
+user 0.01
+sys 0.00
+real 68.15
+user 0.07
+sys 0.05
+summary 8 68.15 422.59721203228173147468 132.74
+rvms 24 nvms 8 8
+
+real 46.89
+user 0.00
+sys 0.00
+
+real 51.62
+user 0.00
+sys 0.00
+
+real 55.43
+user 0.01
+sys 0.00
+
+real 57.26
+user 0.00
+sys 0.00
+
+real 57.89
+user 0.00
+sys 0.01
+
+real 59.96
+user 0.00
+sys 0.00
+
+real 63.67
+user 0.01
+sys 0.00
+
+real 66.95
+user 0.00
+sys 0.00
+real 66.98
+user 0.06
+sys 0.06
+summary 8 66.98 429.97909823828008360704 199.72
+rvms 16 nvms 8 8
+
+real 59.53
+user 0.00
+sys 0.00
+
+real 63.11
+user 0.00
+sys 0.00
+
+real 65.23
+user 0.01
+sys 0.00
+
+real 67.29
+user 0.00
+sys 0.01
+
+real 68.14
+user 0.01
+sys 0.00
+
+real 73.61
+user 0.00
+sys 0.01
+
+real 77.42
+user 0.00
+sys 0.00
+
+real 80.90
+user 0.01
+sys 0.00
+real 80.92
+user 0.06
+sys 0.05
+summary 8 80.92 355.90706870983687592684 280.64
+rvms 8 nvms 8 8
+
+real 54.12
+user 0.00
+sys 0.01
+
+real 59.62
+user 0.00
+sys 0.01
+
+real 61.77
+user 0.00
+sys 0.01
+
+real 64.46
+user 0.00
+sys 0.00
+
+real 68.85
+user 0.01
+sys 0.00
+
+real 69.89
+user 0.01
+sys 0.00
+
+real 74.08
+user 0.00
+sys 0.01
+
+real 82.23
+user 0.00
+sys 0.00
+real 82.24
+user 0.05
+sys 0.06
+summary 8 82.24 350.19455252918287937743 362.88
+total_summary #40 362.88 396.82539682539682539682
+real 363.29
+user 0.35
+sys 0.30
+
+Sat May 12 22:22:20 2012
+----------------

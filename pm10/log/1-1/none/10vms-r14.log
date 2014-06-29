@@ -1,0 +1,240 @@
+Log of time -p ./none 10 
+Wed May 23 10:12:01 2012
+
+rvms 40 nvms 10 10
+
+real 64.21
+user 0.01
+sys 0.00
+
+real 75.96
+user 0.02
+sys 0.00
+
+real 78.61
+user 0.01
+sys 0.00
+
+real 85.18
+user 0.01
+sys 0.00
+
+real 89.03
+user 0.00
+sys 0.01
+
+real 91.02
+user 0.02
+sys 0.00
+
+real 92.43
+user 0.00
+sys 0.00
+
+real 94.27
+user 0.00
+sys 0.00
+
+real 100.51
+user 0.00
+sys 0.00
+
+real 113.34
+user 0.00
+sys 0.00
+real 113.38
+user 0.11
+sys 0.06
+summary 10 113.38 317.51631681072499559005 113.38
+rvms 30 nvms 10 10
+
+real 58.71
+user 0.00
+sys 0.00
+
+real 68.11
+user 0.01
+sys 0.00
+
+real 74.90
+user 0.00
+sys 0.00
+
+real 77.75
+user 0.01
+sys 0.00
+
+real 77.85
+user 0.01
+sys 0.00
+
+real 80.75
+user 0.00
+sys 0.01
+
+real 81.79
+user 0.00
+sys 0.01
+
+real 84.13
+user 0.00
+sys 0.01
+
+real 86.67
+user 0.00
+sys 0.00
+
+real 92.11
+user 0.00
+sys 0.01
+real 92.16
+user 0.08
+sys 0.08
+summary 10 92.16 390.62500000000000000000 205.54
+rvms 20 nvms 10 10
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/25
+Migration failed. Exit code tcp:0.0.0.0:49212(-98), exiting.
+
+
+real 9.48
+user 0.01
+sys 0.00
+
+real 51.51
+user 0.00
+sys 0.00
+
+real 53.49
+user 0.00
+sys 0.00
+
+real 62.81
+user 0.01
+sys 0.00
+
+real 63.96
+user 0.00
+sys 0.00
+
+real 72.09
+user 0.00
+sys 0.01
+
+real 72.74
+user 0.00
+sys 0.00
+
+real 79.26
+user 0.00
+sys 0.00
+
+real 89.31
+user 0.00
+sys 0.01
+
+real 94.46
+user 0.00
+sys 0.00
+real 94.48
+user 0.07
+sys 0.06
+summary 10 94.48 381.03302286198137171888 300.02
+rvms 11 nvms 10 10
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/44
+Migration failed. Exit code tcp:0.0.0.0:49164(-98), exiting.
+
+
+real 12.74
+user 0.00
+sys 0.00
+
+real 60.41
+user 0.00
+sys 0.00
+
+real 65.31
+user 0.00
+sys 0.00
+
+real 84.91
+user 0.01
+sys 0.00
+
+real 87.59
+user 0.00
+sys 0.00
+
+real 89.06
+user 0.01
+sys 0.00
+
+real 89.25
+user 0.00
+sys 0.00
+
+real 97.50
+user 0.01
+sys 0.00
+
+real 112.00
+user 0.00
+sys 0.00
+
+real 126.11
+user 0.00
+sys 0.00
+real 126.12
+user 0.09
+sys 0.04
+summary 10 126.12 285.44243577545195052331 426.14
+rvms 2 nvms 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/44
+Migration failed. Exit code tcp:0.0.0.0:49165(-98), exiting.
+
+
+real 8.77
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/44
+Migration failed. Exit code tcp:0.0.0.0:49166(-98), exiting.
+
+
+real 13.17
+user 0.00
+sys 0.00
+real 13.17
+user 0.01
+sys 0.01
+summary 2 13.17 546.69703872437357630979 439.31
+rvms 2 nvms 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/44
+Migration failed. Exit code tcp:0.0.0.0:49167(-98), exiting.
+
+
+real 8.48
+user 0.00
+sys 0.00
+
+real 35.91
+user 0.00
+sys 0.00
+real 35.92
+user 0.01
+sys 0.01
+summary 2 35.92 200.44543429844097995545 475.23
+rvms 1 nvms 1 1
+
+real 29.85
+user 0.00
+sys 0.00
+real 29.86
+user 0.00
+sys 0.00
+summary 1 29.86 120.56262558606831882116 505.09
+total_summary #45 505.09 320.73491852937100318755
+real 505.60
+user 0.41
+sys 0.30
+
+Wed May 23 10:20:26 2012
+----------------

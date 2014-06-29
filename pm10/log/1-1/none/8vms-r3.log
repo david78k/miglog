@@ -1,0 +1,195 @@
+Log of time -p ./none 8 
+Fri May 11 16:35:32 2012
+
+rvms 40 nvms 8 8
+
+real 48.96
+user 0.00
+sys 0.01
+
+real 55.04
+user 0.01
+sys 0.00
+
+real 60.01
+user 0.00
+sys 0.01
+
+real 61.78
+user 0.00
+sys 0.00
+
+real 69.01
+user 0.00
+sys 0.01
+
+real 69.58
+user 0.00
+sys 0.01
+
+real 72.70
+user 0.01
+sys 0.00
+
+real 73.67
+user 0.00
+sys 0.00
+real 73.71
+user 0.05
+sys 0.07
+summary 8 73.71 390.72039072039072039072 73.71
+rvms 32 nvms 8 8
+
+real 42.76
+user 0.01
+sys 0.00
+
+real 45.27
+user 0.01
+sys 0.00
+
+real 58.75
+user 0.00
+sys 0.01
+
+real 60.74
+user 0.00
+sys 0.00
+
+real 63.00
+user 0.01
+sys 0.00
+
+real 65.54
+user 0.00
+sys 0.01
+
+real 67.75
+user 0.01
+sys 0.00
+
+real 71.34
+user 0.00
+sys 0.01
+real 71.39
+user 0.08
+sys 0.05
+summary 8 71.39 403.41784563664378764532 145.10
+rvms 24 nvms 8 8
+
+real 50.26
+user 0.01
+sys 0.00
+
+real 51.51
+user 0.01
+sys 0.00
+
+real 57.25
+user 0.00
+sys 0.00
+
+real 58.21
+user 0.00
+sys 0.00
+
+real 62.66
+user 0.00
+sys 0.00
+
+real 67.88
+user 0.00
+sys 0.00
+
+real 74.75
+user 0.00
+sys 0.00
+
+real 84.13
+user 0.00
+sys 0.00
+real 84.16
+user 0.06
+sys 0.04
+summary 8 84.16 342.20532319391634980988 229.26
+rvms 16 nvms 8 8
+
+real 41.72
+user 0.01
+sys 0.00
+
+real 57.54
+user 0.00
+sys 0.00
+
+real 59.03
+user 0.01
+sys 0.00
+
+real 62.03
+user 0.01
+sys 0.00
+
+real 63.98
+user 0.01
+sys 0.00
+
+real 67.40
+user 0.00
+sys 0.00
+
+real 68.97
+user 0.01
+sys 0.00
+
+real 75.06
+user 0.01
+sys 0.00
+real 75.08
+user 0.09
+sys 0.02
+summary 8 75.08 383.59083644112946190729 304.34
+rvms 8 nvms 8 8
+
+real 53.92
+user 0.00
+sys 0.01
+
+real 60.86
+user 0.00
+sys 0.01
+
+real 67.26
+user 0.00
+sys 0.01
+
+real 69.95
+user 0.00
+sys 0.00
+
+real 70.46
+user 0.00
+sys 0.00
+
+real 75.38
+user 0.00
+sys 0.00
+
+real 76.31
+user 0.01
+sys 0.00
+
+real 77.28
+user 0.00
+sys 0.00
+real 77.29
+user 0.05
+sys 0.06
+summary 8 77.29 372.62259024453357484797 381.63
+total_summary #40 381.63 377.32882635012970678405
+real 382.11
+user 0.37
+sys 0.28
+
+Fri May 11 16:41:54 2012
+----------------
