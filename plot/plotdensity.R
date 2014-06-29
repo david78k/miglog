@@ -6,7 +6,7 @@ src <- args[1]
 #prefix = src
 prefix = paste(src, sep = ".", "dens")
 
-xlabel = "LINK UTILIZATION (MB/S)"
+xlabel = "LINK UTILIZATION (%)"
 #xlabel = "THROUGHPUT (MB/S)"
 ylabel = "DENSITY"
 #ylabel = "FREQUENCY"
