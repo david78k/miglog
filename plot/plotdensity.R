@@ -57,6 +57,7 @@ genplot <- function (type) {
 
 	plot(density(data[,1]), main = NULL)	
 	title(main = NULL)
+	dev.off()
 
 	#library(KernSmooth)
 	#attach(faithful)
