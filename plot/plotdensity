@@ -7,9 +7,12 @@ basedir=/root/miglog/plot
 
 outfile=$prefix.density
 
-# parse density over 1M throughput from dstat file
-awk '{print $2}' $infile | cut -d "|" -f 1 | grep M | cut -d "M" -f 1 > $outfile
+# parse density of MByte throughputs from dstat file
+awk '{print $2}' $infile | grep M | cut -d "|" -f 1 | cut -d "M" -f 1 > $outfile
 #awk '{print $2}' 2vms-r1.dstat | cut -d "|" -f 1 | grep M
+
+# parse density of MByte throughputs from dstat file
+awk '{print $2}' $infile | grep k | cut -d "|" -f 1 | cut -d "k" -f 1 | awk '{print $1/1000}' >> $outfile
 
 echo $outfile generated.
 
