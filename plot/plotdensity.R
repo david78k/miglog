@@ -27,8 +27,9 @@ data[is.na(data)] <- 0
 
 data <- data*100/125
 
+# remove outliers greater than 125MB/s
 xdata <- data[,1]
-print(xdata)
+#print(xdata)
 data <- xdata[xdata < 125]
 
 # transpose
