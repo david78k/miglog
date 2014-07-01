@@ -15,10 +15,10 @@ lens = c( 2997, 1225, 642, 450, 392, 458, 433, 410 )
 #lens = c( 2997, 1225, 642, 458, 433, 410, 392 )
 
 # figure size in pixel
-fheight = 200
-#fheight = 300
-fwidth = 300
-#fwidth = 400
+#fheight = 200
+fheight = 300
+#fwidth = 300
+fwidth = 400
 
 # filter missing values
 #data <- read.table(src, na.strings = "NA", fill = TRUE, header=1)
@@ -31,7 +31,7 @@ data[is.na(data)] <- 0
 # transpose
 #data <- t(data[,-1]/1000)
 #data <- t(data)
-print(data)
+#print(data)
 
 require(devEMF)
 
