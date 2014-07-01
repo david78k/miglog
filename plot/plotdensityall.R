@@ -1,9 +1,12 @@
 #!/usr/bin/Rscript
 
+# plots all the densities
+# input: density or throughput file
+# output: density.png (pdf/emf)
 args <- commandArgs(trailingOnly = TRUE)
 print(args)
 src <- args[1]
-prefix = src
+prefix = "density"
 #prefix = paste(src, sep = ".", "dens")
 
 xlabel = "LINK UTILIZATION (%)"
@@ -25,12 +28,13 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 data[is.na(data)] <- 0
 #print(data)
 
+# convert to percentile (%)
 data <- data*100/125
 
 # remove outliers greater than 125MB/s
-xdata <- data[,1]
+#xdata <- data[,1]
 #print(xdata)
-data <- xdata[xdata < 125]
+#data <- xdata[xdata < 125]
 
 # transpose
 #data <- t(data[,-1]/1000)
@@ -63,7 +67,7 @@ genplot <- function (type) {
 	# c(bottom, left, top, right)
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
-	plot(density(data), main = "", xlab = xlabel, ylab = ylabel)	
+	plot(density(data[,1]), main = "", xlab = xlabel, ylab = ylabel, xlim = c(0, 100))
 	#plot(density(data[,1]), main = "", xlab = xlabel, ylab = ylabel)	
 #	title(main = NULL)
 	#dev.off()
