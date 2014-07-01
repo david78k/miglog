@@ -12,8 +12,8 @@ ylabel = "LINK UTILIZATION (%)"
 # 1 2 4 6 7 8 9 10
 #cols = c("1", "2", "4", "6", "7", "10", "9", "8" )
 cols = c("1", "2", "4", "6", "7", "8", "9", "10" )
-#lens = c( 2997, 1225, 642, 450, 392, 458, 433, 410 )
-lens = c( 2997, 1225, 642, 450, 392, 410, 433, 458 )
+#lens = c( 2997, 1255, 642, 450, 392, 458, 433, 410 )
+lens = c( 2997, 1255, 642, 450, 392, 410, 433, 458 )
 
 # figure size in pixel
 #fheight = 200
@@ -64,6 +64,7 @@ genplot <- function (type) {
 
 	#df <- data.frame(values = c(data[1,8], data[1:2,7], data[1:3,6], data[1:4,5], data[1:5,4], data[1:6,3], data[1:7,2], data[1:8,1]), 
 	df <- data.frame(values = c(data[1:lens[1],1], data[1:lens[2],2], data[1:lens[3],3], data[1:lens[4],4], data[1:lens[5],5], data[1:lens[6],6], data[1:lens[7],7], data[1:lens[8],8]), 
+	#df <- data.frame(values = c(data[1:lens[1],1], data[1:lens[2],2], data[1:lens[3],3], data[1:lens[4],4], data[1:lens[5],5], data[1:lens[6],6], data[1:lens[7],7], data[1:lens[8],8]), 
 	#df <- data.frame(values = c(data[1:lens[1],1], data[1:lens[2],2], data[1:lens[3],3], data[1:lens[4],4], data[1:lens[5],5], data[1:lens[8],8], data[1:lens[7],7], data[1:lens[6],6]), 
 		vars = rep(cols, times = lens))
 		#vars = rep(c("1", "2", "4", "6", "7", "8"), times = c(1,2,4,6,7,8)))
