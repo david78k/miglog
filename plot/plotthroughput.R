@@ -9,6 +9,11 @@ xlabel = "VM WINDOW"
 ylabel = "LINK UTILIZATION (%)"
 #ylabel = "MIGRATION TIME (SEC)"
 
+# 1 2 4 6 7 8 9 10
+cols = c("1", "2", "4", "6", "7", "8", "9", "10" )
+lens = c( 2997, 1225, 642, 450, 392, 458, 433, 410 )
+#lens = c( 2997, 1225, 642, 458, 433, 410, 392 )
+
 # figure size in pixel
 fheight = 200
 #fheight = 300
@@ -26,7 +31,7 @@ data[is.na(data)] <- 0
 # transpose
 #data <- t(data[,-1]/1000)
 data <- t(data)
-print(data)
+#print(data)
 
 require(devEMF)
 
@@ -54,8 +59,9 @@ genplot <- function (type) {
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
 	#df <- data.frame(values = c(data[1,8], data[1:2,7], data[1:3,6], data[1:4,5], data[1:5,4], data[1:6,3], data[1:7,2], data[1:8,1]), 
-	df <- data.frame(values = c(data[1,8], data[1:2,7], data[1:4,6], data[1:6,4], data[1:7,2], data[1:8,1]), 
-		vars = rep(c("1", "2", "4", "6", "7", "8"), times = c(1,2,4,6,7,8)))
+	df <- data.frame(values = c(data[1:lens[1],1], data[1:lens[2],2], data[1:lens[3],3], data[1:lens[4],4], data[1:lens[5],5], data[1:lens[6],6], data[1:lens[7],7], data[1:lens[8],8]), 
+		vars = rep(cols), times = lens)
+		#vars = rep(c("1", "2", "4", "6", "7", "8"), times = c(1,2,4,6,7,8)))
 	
 	#print(df)
 	
@@ -67,7 +73,8 @@ genplot <- function (type) {
 		las = 1, 
 		xlab = xlabel,
 		ylab = ylabel,
-		names = c("1", "2", "4", "6", "7", "8"), 
+		names = cols,
+		#names = c("1", "2", "4", "6", "7", "8", "9", "10"), 
 #			"9", "10", "12", "14", "16", "18", "20", "30", 
 #			"40", "50", "60", "70", "80", "90", "100"),
 		ylim = c(0, ylim[2])
