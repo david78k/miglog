@@ -10,7 +10,8 @@ ylabel = "LINK UTILIZATION (%)"
 #ylabel = "MIGRATION TIME (SEC)"
 
 # 1 2 4 6 7 8 9 10
-cols = c("1", "2", "4", "6", "7", "8", "9", "10" )
+cols = c("1", "2", "4", "6", "10", "8", "9", "7" )
+#cols = c("1", "2", "4", "6", "7", "8", "9", "10" )
 #lens = c( 2997, 1225, 642, 450, 392, 458, 433, 410 )
 lens = c( 2997, 1225, 642, 450, 392, 410, 433, 458 )
 
@@ -34,7 +35,7 @@ data <- data*100/125
 # transpose
 #data <- t(data[,-1]/1000)
 #data <- t(data)
-#print(data)
+print(data)
 
 require(devEMF)
 
