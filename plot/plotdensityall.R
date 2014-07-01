@@ -72,6 +72,7 @@ genplot <- function (type) {
 #	title(main = NULL)
 	#dev.off()
 
+	points (density)
 	#library(KernSmooth)
 	#attach(faithful)
 	#fhat <- bkde(x=waiting)
