@@ -68,7 +68,7 @@ genplot <- function (type) {
 		vars = rep(cols, times = lens))
 		#vars = rep(c("1", "2", "4", "6", "7", "8"), times = c(1,2,4,6,7,8)))
 	
-	print(df)
+	#print(df)
 	
 	ylim <- range(data)
 
