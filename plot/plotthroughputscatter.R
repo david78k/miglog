@@ -92,7 +92,7 @@ genplot <- function (type) {
 	for (i in 2:8) {
 		cdata <- data[,i]
 		cdata <- cdata[cdata!=0]
-		points(cdata[,i], col=colors[i - 1])
+		points(cdata, col=colors[i - 1])
 		#points(data[,i], col=2:8)
 	}
 }
