@@ -28,6 +28,9 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 data[is.na(data)] <- 0
 #print(data)
 
+# convert to percentage (%)
+data <- data*100/125
+
 # transpose
 #data <- t(data[,-1]/1000)
 #data <- t(data)
