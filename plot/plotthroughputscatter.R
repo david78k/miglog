@@ -85,15 +85,18 @@ genplot <- function (type) {
 	#	names = cols,
 		ylim = c(0, 100),
 		#ylim = c(0, ylim[2])
-		cex = 0.5,
 		col="darkred",
+		cex = 0.5,
 		pch = 20
 	)
 	colors = c("darkblue", "green", "yellow", "black", "slategray", "seagreen", "pink")
 	for (i in 2:8) {
 		cdata <- data[,i]
 		cdata <- cdata[cdata!=0]
-		points(cdata, col=colors[i - 1])
+		points(cdata, col=colors[i - 1], 
+			cex = 0.5,
+			pch = 20
+		)
 		#points(data[,i], col=2:8)
 	}
 }
