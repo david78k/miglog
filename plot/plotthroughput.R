@@ -35,7 +35,7 @@ data <- data*100/125
 # transpose
 #data <- t(data[,-1]/1000)
 #data <- t(data)
-print(data)
+#print(data)
 
 require(devEMF)
 
@@ -64,11 +64,11 @@ genplot <- function (type) {
 
 	#df <- data.frame(values = c(data[1,8], data[1:2,7], data[1:3,6], data[1:4,5], data[1:5,4], data[1:6,3], data[1:7,2], data[1:8,1]), 
 	#df <- data.frame(values = c(data[1:lens[1],1], data[1:lens[2],2], data[1:lens[3],3], data[1:lens[4],4], data[1:lens[5],5], data[1:lens[6],6], data[1:lens[7],7], data[1:lens[8],8]), 
-	df <- data.frame(values = c(data[1:lens[1],1], data[1:lens[2],2], data[1:lens[3],3], data[1:lens[4],4], data[1:lens[5],5], data[1:lens[8],8], data[1:lens[7],7], data[1:lens[6],6]), 
+	df <- data.frame(values = c(data[1:lens[1],1], data[1:lens[3],3], data[1:lens[4],4], data[1:lens[2],2], data[1:lens[5],5], data[1:lens[8],8], data[1:lens[7],7], data[1:lens[6],6]), 
 		vars = rep(cols, times = lens))
 		#vars = rep(c("1", "2", "4", "6", "7", "8"), times = c(1,2,4,6,7,8)))
 	
-	#print(df)
+	print(df)
 	
 	ylim <- range(data)
 
