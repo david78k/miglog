@@ -38,7 +38,7 @@ data <- data*100/125
 # transpose
 #data <- t(data[,-1]/1000)
 #data <- t(data)
-#print(data)
+print(data)
 
 require(devEMF)
 
