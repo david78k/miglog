@@ -82,7 +82,7 @@ genplot <- function (type) {
 	#boxplot(values ~ vars, data = df,
 	boxplot(data,
 		las = 1, 
-		use.cols = TRUE,
+#		use.cols = TRUE,
 		xlab = xlabel,
 		ylab = ylabel,
 		names = cols,
