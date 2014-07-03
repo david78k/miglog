@@ -26,9 +26,10 @@ fwidth = 400
 # filter missing values
 #data <- read.table(src, na.strings = "NA", fill = TRUE, header=1)
 data <- read.table(src, na.strings = "NA", fill = TRUE)
+#data <- read.table(src, na.strings = "NA")
 
 # replace missing values to zero
-data[is.na(data)] <- 0
+#data[is.na(data)] <- 0
 #print(data)
 
 # convert to percentage (%)
