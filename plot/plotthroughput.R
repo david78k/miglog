@@ -15,6 +15,7 @@ ylabel = "LINK UTILIZATION (%)"
 #cols = c("1", "2", "4", "6", "7", "8", "9", "10" )
 #cols = c("1", "2", "4", "6", "7", "8", "10", "12", "16", "18", "20" )
 cols = c("1", "2", "4", "5", "6", "8", "10", "15", "20" )
+#order = c (
 
 # figure size in pixel
 #fheight = 200
@@ -29,11 +30,19 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 
 # replace missing values to zero
 #data[is.na(data)] <- 0
-print(data)
+#print(data)
+
+#print(data[,9])
 
 # convert to percentage (%)
 #data[,3] <- data[,3]/2
 data <- data*100/125
+
+# reorder columns
+# 20 10 15 8 5 6 4 1 2
+#data <- c(data[,8], data[,9], data[,7], data[,5], data[,6], data[,4], data[,2], data[,3], data[,1])
+data <- data[, c(8, 9, 7, 5, 6, 4, 2, 3, 1)]
+#print(data)
 
 # transpose
 #data <- t(data[,-1]/1000)

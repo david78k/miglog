@@ -38,5 +38,7 @@ paste $pastestr > $outfile
 
 echo $outfile generated.
 
+wc -l *.density
+
 $basedir/plotthroughput.R $outfile
 
