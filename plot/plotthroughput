@@ -6,7 +6,8 @@
 prefix=${infile%.*}
 run=1
 
-windows=( 1 2 4 6 7 8 9 10 )
+#windows=( 1 2 4 6 7 8 9 10 )
+windows=( 1 2 4 6 7 8 10 12 16 18 20 )
 
 basedir=/root/miglog/plot
 
@@ -34,5 +35,5 @@ paste $pastestr > $outfile
 
 echo $outfile generated.
 
-#$basedir/plotdensityall.R $outfile
+$basedir/plotthroughput.R $outfile
 
