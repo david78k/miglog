@@ -12,12 +12,13 @@ ylabel = "LINK UTILIZATION (%)"
 # 1 2 3 5 8 4 6 7
 # 1 2 3 6 4 7 8 5
 # 1 2 4 8 6 9 10 7
-cols = c("1", "2", "4", "6", "7", "8", "9", "10" )
-#cols = c("1", "2", "4", "6", "7", "8", "10", "12", "16", "18", "20" )
+#cols = c("1", "2", "4", "6", "7", "8", "9", "10" )
+cols = c("1", "2", "4", "6", "7", "8", "10", "12", "16", "18", "20" )
 #cols = c("1", "2", "4", "5", "6", "8", "10", "15", "20" )
 
 # column order
-corder = c( 1,2,3,6,4,7,8,5 )
+corder = c( 2,1,4,5,3,6,11,8,9,7,10 )
+#corder = c( 1,2,3,6,4,7,8,5 )
 #corder = c(8, 9, 7, 5, 6, 4, 2, 3, 1)
 
 # figure size in pixel
@@ -38,7 +39,7 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 #print(data[,9])
 
 # convert to percentage (%)
-#data[,3] <- data[,3]/2 # only for parallel 4VMs
+data[,3] <- data[,3]/2 # only for parallel 4VMs
 data <- data*100/125
 
 # reorder columns
