@@ -17,7 +17,7 @@ cols = c("1", "2", "4", "6", "7", "8", "10", "12", "16", "18", "20" )
 #cols = c("1", "2", "4", "5", "6", "8", "10", "15", "20" )
 
 # column order
-corder = c( 2,1,4,5,3,6,11,8,9,7,10 )
+corder = c( 2,1,5,3,4,6,10,8,9,11,7 )
 #corder = c( 1,2,3,6,4,7,8,5 )
 #corder = c(8, 9, 7, 5, 6, 4, 2, 3, 1)
 
@@ -34,7 +34,7 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 
 # replace missing values to zero
 #data[is.na(data)] <- 0
-#print(data)
+print(data)
 
 #print(data[,9])
 
@@ -47,7 +47,7 @@ data <- data*100/125
 #data <- data[, c(8, 9, 7, 5, 6, 4, 2, 3, 1)]
 data <- data[, corder]
 data[,3] <- data[,3]/2 # only for parallel 4VMs
-#print(data)
+print(data)
 
 # transpose
 #data <- t(data[,-1]/1000)
