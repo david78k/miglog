@@ -34,6 +34,7 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 #print(data)
 
 # convert to percentage (%)
+data[,3] <- data[,3]/2
 data <- data*100/125
 
 # transpose
