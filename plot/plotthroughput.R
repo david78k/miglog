@@ -17,7 +17,7 @@ cols = c("1", "2", "4", "6", "7", "8", "9", "10" )
 #cols = c("1", "2", "4", "5", "6", "8", "10", "15", "20" )
 
 # column order
-corder = c( 1,2,3,7,4,6,8,5 )
+corder = c( 1,2,3,6,4,7,8,5 )
 #corder = c(8, 9, 7, 5, 6, 4, 2, 3, 1)
 
 # figure size in pixel
@@ -38,7 +38,7 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 #print(data[,9])
 
 # convert to percentage (%)
-#data[,3] <- data[,3]/2
+#data[,3] <- data[,3]/2 # only for parallel 4VMs
 data <- data*100/125
 
 # reorder columns
