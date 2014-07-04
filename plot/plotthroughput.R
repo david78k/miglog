@@ -12,10 +12,13 @@ ylabel = "LINK UTILIZATION (%)"
 # 1 2 3 5 8 4 6 7
 # 1 2 3 6 4 7 8 5
 # 1 2 4 8 6 9 10 7
-#cols = c("1", "2", "4", "6", "7", "8", "9", "10" )
+cols = c("1", "2", "4", "6", "7", "8", "9", "10" )
 #cols = c("1", "2", "4", "6", "7", "8", "10", "12", "16", "18", "20" )
-cols = c("1", "2", "4", "5", "6", "8", "10", "15", "20" )
-#order = c (
+#cols = c("1", "2", "4", "5", "6", "8", "10", "15", "20" )
+
+# column order
+corder = c( 2,3,4,8,5,7,1,6 )
+#corder = c(8, 9, 7, 5, 6, 4, 2, 3, 1)
 
 # figure size in pixel
 #fheight = 200
@@ -40,8 +43,8 @@ data <- data*100/125
 
 # reorder columns
 # 20 10 15 8 5 6 4 1 2
-#data <- c(data[,8], data[,9], data[,7], data[,5], data[,6], data[,4], data[,2], data[,3], data[,1])
-data <- data[, c(8, 9, 7, 5, 6, 4, 2, 3, 1)]
+#data <- data[, c(8, 9, 7, 5, 6, 4, 2, 3, 1)]
+data <- data[, corder]
 #print(data)
 
 # transpose
