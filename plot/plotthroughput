@@ -7,7 +7,8 @@ prefix=${infile%.*}
 run=1
 
 #windows=( 1 2 4 6 7 8 9 10 )
-windows=( 1 2 4 6 7 8 10 12 16 18 20 )
+#windows=( 1 2 4 6 7 8 10 12 16 18 20 )
+windows=( 1 2 4 5 6 8 10 15 20 )
 
 basedir=/root/miglog/plot
 
@@ -16,8 +17,10 @@ outfile=throughput
 
 for window in ${windows[@]}
 do
-	infile=${window}vms-r${run}.dstat
-	densfile=${window}vms-r${run}.density
+	#infile=${window}vms-r${run}.dstat
+	infile=${window}vms.dstat
+	#densfile=${window}vms-r${run}.density
+	densfile=${window}vms.density
 
 	# parse density of MByte throughputs from dstat file
 	# remove outlier greater than 125MB/s
