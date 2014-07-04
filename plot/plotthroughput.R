@@ -39,7 +39,6 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 #print(data[,9])
 
 # convert to percentage (%)
-data[,5] <- data[,5]/2 # only for parallel 4VMs
 #data <- data[data < 125]
 data <- data*100/125
 
@@ -47,6 +46,7 @@ data <- data*100/125
 # 20 10 15 8 5 6 4 1 2
 #data <- data[, c(8, 9, 7, 5, 6, 4, 2, 3, 1)]
 data <- data[, corder]
+data[,3] <- data[,3]/2 # only for parallel 4VMs
 #print(data)
 
 # transpose
