@@ -29,7 +29,7 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 
 # replace missing values to zero
 #data[is.na(data)] <- 0
-#print(data)
+print(data)
 
 # convert to percentage (%)
 #data[,3] <- data[,3]/2
