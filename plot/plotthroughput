@@ -26,14 +26,14 @@ do
 		densfile=${window}vms-r${run}.throughput
 
 		# parse MByte throughputs from dstat file
-		# remove outlier greater than 125MB/s
-		awk '{print $2}' $infile | grep M | cut -d "|" -f 1 | cut -d "M" -f 1 | awk '$N <= 125' >> $thruputfile
+		# remove outlier greater than 120MB/s
+		awk '{print $2}' $infile | grep M | cut -d "|" -f 1 | cut -d "M" -f 1 | awk '$N <= 120' >> $thruputfile
 		#awk '{print $2}' $infile | grep M | cut -d "|" -f 1 | cut -d "M" -f 1 | awk '$N <= 125' >> $densfile
 		#awk '{print $2}' 2vms-r1.dstat | cut -d "|" -f 1 | grep M
 
 		# parse kByte throughputs from dstat file
-		# remove outlier greater than 125MB/s
-		awk '{print $2}' $infile | grep k | cut -d "|" -f 1 | cut -d "k" -f 1 | awk '{print $1/1000}' | awk '$N <= 125' >> $thruputfile
+		# remove outlier greater than 120MB/s
+		awk '{print $2}' $infile | grep k | cut -d "|" -f 1 | cut -d "k" -f 1 | awk '{print $1/1000}' | awk '$N <= 120' >> $thruputfile
 		#awk '{print $2}' $infile | grep k | cut -d "|" -f 1 | cut -d "k" -f 1 | awk '{print $1/1000}' | awk '$N <= 125' >> $densfile
 	done
 	#cat $catstr 
