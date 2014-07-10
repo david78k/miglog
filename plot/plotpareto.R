@@ -80,7 +80,7 @@ genplot <- function (type) {
 
 	plot(total, total/N, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
 	# pos: 1=below, 2=left, 3=above, 4=right
-	text(total, total/N, c("","",4,"","","","","","","",""), pos = 3, col = "red")
+	text(total, total/N, c("","",4,"","","","","","","",""), pos = 4, col = "red")
 	text(total, total/N, c("","","","",7,"","","",16,18,20), pos = 3, col = "red")
 	text(total, total/N, c(1,2,0,6,0,8,10,12,0,0,0), pos = 4)
 
