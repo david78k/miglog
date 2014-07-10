@@ -19,7 +19,7 @@ ylabel = "INDIVIDUAL THROUGHPUT (MB/S)"
 
 # figure size in pixel
 #fheight = 200
-fheight = 250
+fheight = 280
 fwidth = 300
 #fwidth = 400
 
