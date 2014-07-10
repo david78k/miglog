@@ -1,16 +1,17 @@
 #!/usr/bin/Rscript
 
-# input: density data
+# input: throughput data
 #        N ATP ITP
 # output: image files
 
 args <- commandArgs(trailingOnly = TRUE)
 print(args)
 src <- args[1]
-N = 6
 #prefix = src
 prefix = "pareto"
 #prefix = paste(src, sep = ".", "pareto")
+#N = 6
+N <- c(1, 2, 4, 6, 7, 8, 10, 12, 16, 18, 20)
 
 #xlabel = "LINK UTILIZATION (%)"
 xlabel = "INDIVIDUAL THROUGHPUT (MB/S)"
@@ -33,15 +34,15 @@ data[is.na(data)] <- 0
 #data <- data*100/125
 
 # remove outliers greater than 125MB/s
-xdata <- data[,1]
+#xdata <- data[,1]
 #print(xdata)
-data <- xdata[xdata < 125]
+#data <- xdata[xdata < 125]
 
 # only for 4VMs in real WAN uf-aist
 #data <- data/2
 
-# average
-total <- mean(data)
+# column-wise average 
+total <- colMeans(data)
 
 # transpose
 #data <- t(data[,-1]/1000)
