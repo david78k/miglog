@@ -79,7 +79,8 @@ genplot <- function (type) {
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
 	plot(total, total/N, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
-	text(total, total/N, N, pos = 4, col = "red")
+	# pos: 1=below, 2=left, 3=above, 4=right
+	text(total, total/N, N, pos = 3, col = "red")
 
 	#plot(data, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(density(data), main = "", xlab = xlabel, ylab = ylabel, xlim = c(0, 100))	
