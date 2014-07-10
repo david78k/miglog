@@ -1,0 +1,230 @@
+Log of time -p ./aimd 
+Sun May  6 06:20:28 2012
+
+rvms 40 cwnd 1 1
+
+real 29.93
+user 0.00
+sys 0.00
+real 29.97
+user 0.01
+sys 0.01
+summary 1 29.97 120.12012012012012012012 29.97
+rvms 39 cwnd 2 2
+
+real 31.31
+user 0.00
+sys 0.00
+
+real 41.43
+user 0.01
+sys 0.00
+real 41.47
+user 0.02
+sys 0.02
+summary 2 41.47 173.61948396431155051844 71.44
+rvms 37 cwnd 3 3
+
+real 35.16
+user 0.01
+sys 0.00
+
+real 36.20
+user 0.01
+sys 0.00
+
+real 37.17
+user 0.01
+sys 0.00
+real 37.21
+user 0.04
+sys 0.00
+summary 3 37.21 290.24455791453910239183 108.65
+rvms 34 cwnd 4 4
+
+real 33.94
+user 0.01
+sys 0.00
+
+real 35.47
+user 0.01
+sys 0.00
+
+real 44.94
+user 0.01
+sys 0.00
+
+real 48.76
+user 0.00
+sys 0.00
+real 48.80
+user 0.04
+sys 0.02
+summary 4 48.80 295.08196721311475409836 157.45
+rvms 30 cwnd 5 5
+
+real 35.80
+user 0.01
+sys 0.00
+
+real 46.83
+user 0.00
+sys 0.01
+
+real 53.26
+user 0.00
+sys 0.00
+
+real 59.87
+user 0.00
+sys 0.00
+
+real 64.70
+user 0.00
+sys 0.01
+real 64.73
+user 0.03
+sys 0.04
+summary 5 64.73 278.07817086358720840414 222.18
+rvms 25 cwnd 2 2
+
+real 30.92
+user 0.00
+sys 0.01
+
+real 47.39
+user 0.00
+sys 0.01
+real 47.42
+user 0.00
+sys 0.02
+summary 2 47.42 151.83466891606916912695 269.60
+rvms 23 cwnd 3 3
+
+real 34.34
+user 0.01
+sys 0.00
+
+real 35.23
+user 0.01
+sys 0.00
+
+real 50.12
+user 0.01
+sys 0.00
+real 50.14
+user 0.04
+sys 0.00
+summary 3 50.14 215.39688871160749900279 319.74
+rvms 20 cwnd 4 4
+
+real 34.61
+user 0.01
+sys 0.00
+
+real 36.61
+user 0.00
+sys 0.01
+
+real 49.57
+user 0.01
+sys 0.00
+
+real 51.73
+user 0.00
+sys 0.01
+real 51.75
+user 0.03
+sys 0.03
+summary 4 51.75 278.26086956521739130434 371.49
+rvms 16 cwnd 5 5
+
+real 39.69
+user 0.01
+sys 0.00
+
+real 39.94
+user 0.00
+sys 0.01
+
+real 40.74
+user 0.01
+sys 0.00
+
+real 47.07
+user 0.00
+sys 0.01
+
+real 48.98
+user 0.00
+sys 0.00
+real 48.99
+user 0.04
+sys 0.03
+summary 5 48.99 367.42192284139620330679 420.48
+rvms 11 cwnd 6 6
+
+real 38.36
+user 0.01
+sys 0.00
+
+real 44.47
+user 0.00
+sys 0.01
+
+real 49.13
+user 0.00
+sys 0.00
+
+real 50.04
+user 0.00
+sys 0.00
+
+real 63.50
+user 0.01
+sys 0.00
+
+real 68.05
+user 0.00
+sys 0.00
+real 68.06
+user 0.04
+sys 0.04
+summary 6 68.06 317.36702909197766676461 488.54
+rvms 5 cwnd 3 3
+
+real 38.67
+user 0.00
+sys 0.00
+
+real 59.96
+user 0.00
+sys 0.00
+
+real 69.84
+user 0.00
+sys 0.00
+real 69.85
+user 0.02
+sys 0.02
+summary 3 69.85 154.61703650680028632784 558.39
+rvms 2 cwnd 2 2
+
+real 37.11
+user 0.00
+sys 0.00
+
+real 47.21
+user 0.01
+sys 0.00
+real 47.21
+user 0.02
+sys 0.00
+summary 2 47.21 152.51006142766363058674 605.60
+total_summary 40 605.60 237.78071334214002642007
+real 606.13
+user 0.44
+sys 0.29
+
+Sun May  6 06:30:34 2012
+----------------

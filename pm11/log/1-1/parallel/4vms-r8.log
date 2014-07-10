@@ -1,0 +1,209 @@
+Log of time -p /home/tsugawa/vmanage/parallel 4 
+Fri Jun  1 12:15:27 2012
+
+rvms 40 nvms 0 pm11-1
+rvms 40 nvms 1 pm11-10
+rvms 40 nvms 2 pm11-11
+rvms 40 nvms 3 pm11-12
+
+real 72.76
+user 0.01
+sys 0.00
+rvms 40 nvms 3 pm11-13
+
+real 74.55
+user 0.00
+sys 0.00
+rvms 38 nvms 3 pm11-14
+
+real 75.04
+user 0.00
+sys 0.01
+rvms 37 nvms 3 pm11-15
+
+real 90.60
+user 0.00
+sys 0.00
+rvms 37 nvms 3 pm11-16
+
+real 61.76
+user 0.01
+sys 0.00
+rvms 36 nvms 3 pm11-17
+
+real 68.61
+user 0.00
+sys 0.01
+rvms 35 nvms 3 pm11-18
+
+real 70.40
+user 0.00
+sys 0.01
+rvms 34 nvms 3 pm11-19
+
+real 76.93
+user 0.00
+sys 0.00
+rvms 33 nvms 3 pm11-2
+
+real 59.21
+user 0.01
+sys 0.00
+rvms 32 nvms 3 pm11-20
+
+real 64.21
+user 0.00
+sys 0.01
+rvms 30 nvms 3 pm11-21
+
+real 41.08
+user 0.01
+sys 0.00
+rvms 30 nvms 3 pm11-22
+
+real 68.82
+user 0.00
+sys 0.01
+rvms 29 nvms 3 pm11-23
+
+real 40.57
+user 0.01
+sys 0.00
+rvms 28 nvms 3 pm11-24
+
+real 54.52
+user 0.00
+sys 0.00
+rvms 27 nvms 3 pm11-25
+
+real 65.39
+user 0.00
+sys 0.00
+rvms 26 nvms 3 pm11-26
+
+real 69.21
+user 0.01
+sys 0.00
+rvms 25 nvms 3 pm11-27
+
+real 62.39
+user 0.01
+sys 0.00
+rvms 24 nvms 3 pm11-28
+
+real 76.61
+user 0.00
+sys 0.01
+rvms 23 nvms 3 pm11-29
+
+real 90.28
+user 0.00
+sys 0.01
+rvms 22 nvms 3 pm11-3
+
+real 70.28
+user 0.01
+sys 0.00
+rvms 21 nvms 3 pm11-30
+
+real 54.16
+user 0.00
+sys 0.00
+rvms 20 nvms 3 pm11-31
+
+real 76.46
+user 0.00
+sys 0.00
+rvms 19 nvms 3 pm11-32
+
+real 83.92
+user 0.00
+sys 0.01
+rvms 18 nvms 3 pm11-33
+
+real 137.35
+user 0.01
+sys 0.00
+rvms 17 nvms 3 pm11-34
+
+real 140.71
+user 0.00
+sys 0.00
+rvms 16 nvms 3 pm11-35
+
+real 90.00
+user 0.01
+sys 0.00
+rvms 15 nvms 3 pm11-36
+
+real 138.38
+user 0.01
+sys 0.00
+rvms 14 nvms 3 pm11-37
+
+real 88.24
+user 0.01
+sys 0.00
+rvms 13 nvms 3 pm11-38
+
+real 106.14
+user 0.01
+sys 0.00
+rvms 12 nvms 3 pm11-39
+
+real 115.57
+user 0.00
+sys 0.00
+rvms 11 nvms 3 pm11-4
+
+real 115.72
+user 0.01
+sys 0.00
+rvms 10 nvms 3 pm11-40
+
+real 102.00
+user 0.00
+sys 0.00
+rvms 9 nvms 3 pm11-41
+
+real 152.72
+user 0.01
+sys 0.00
+rvms 8 nvms 3 pm11-42
+
+real 103.57
+user 0.00
+sys 0.00
+rvms 7 nvms 3 pm11-43
+
+real 166.08
+user 0.00
+sys 0.00
+rvms 6 nvms 3 pm11-44
+
+real 185.48
+user 0.00
+sys 0.01
+rvms 5 nvms 3 pm11-45
+
+real 135.94
+user 0.01
+sys 0.00
+
+real 175.23
+user 0.00
+sys 0.01
+
+real 169.79
+user 0.00
+sys 0.01
+
+real 121.16
+user 0.00
+sys 0.00
+real 980.57
+user 22.64
+sys 55.31
+
+Fri Jun  1 12:31:47 2012
+----------------

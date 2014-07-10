@@ -1,0 +1,9 @@
+vmname=$1
+
+virsh destroy $vmname
+
+sleep 3
+
+virsh start $vmname
+
+virsh list --all

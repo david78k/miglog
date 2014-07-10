@@ -1,0 +1,26 @@
+vm=$1
+ram=530
+source=vm512.img
+
+images=/var/lib/libvirt/images/nfs
+
+sourcepath=$images/$source
+
+vmpath=$images/$vm.img
+
+if [ $# -lt 1 ]; then
+	echo usage: $0 vm-name
+	exit 1
+fi
+
+echo "copying image $sourcepath to $vmpath ..."
+#cp $sourcepath $vmpath
+
+virt-install \
+	--name $vm \
+	--ram $ram \
+	--disk $vmpath \
+	--import \
+	--network network=default\
+        --nographics 
+

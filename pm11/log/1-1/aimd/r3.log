@@ -1,0 +1,196 @@
+Log of time -p ./controller-aimd 
+Sat May  5 13:57:59 2012
+
+rvms 40
+rvms 40 nvms 9 9
+
+real 111.09
+user 0.01
+sys 0.00
+
+real 164.41
+user 0.00
+sys 0.00
+
+real 175.02
+user 0.01
+sys 0.00
+
+real 187.01
+user 0.00
+sys 0.00
+
+real 201.80
+user 0.01
+sys 0.00
+
+real 202.49
+user 0.01
+sys 0.00
+
+real 221.84
+user 0.01
+sys 0.00
+
+real 222.08
+user 0.01
+sys 0.00
+
+real 231.22
+user 0.00
+sys 0.00
+real 231.26
+user 0.11
+sys 0.03
+summary 9 231.26 140.10204964109660122805 231.26
+rvms 31 nvms 10 10
+
+real 182.49
+user 0.00
+sys 0.00
+
+real 195.96
+user 0.00
+sys 0.01
+
+real 207.72
+user 0.00
+sys 0.01
+
+real 207.90
+user 0.00
+sys 0.00
+
+real 209.76
+user 0.00
+sys 0.01
+
+real 210.81
+user 0.00
+sys 0.01
+
+real 228.84
+user 0.00
+sys 0.00
+
+real 231.51
+user 0.01
+sys 0.00
+
+real 239.49
+user 0.00
+sys 0.00
+
+real 242.91
+user 0.00
+sys 0.00
+real 242.94
+user 0.06
+sys 0.09
+summary 10 242.94 148.18473697209187453692 474.20
+rvms 21 nvms 10 10
+
+real 204.62
+user 0.01
+sys 0.00
+
+real 222.91
+user 0.00
+sys 0.00
+
+real 262.66
+user 0.00
+sys 0.00
+
+real 269.96
+user 0.00
+sys 0.00
+
+real 271.06
+user 0.00
+sys 0.01
+
+real 272.00
+user 0.01
+sys 0.00
+
+real 279.98
+user 0.01
+sys 0.00
+
+real 284.70
+user 0.00
+sys 0.01
+
+real 297.06
+user 0.01
+sys 0.00
+
+real 305.62
+user 0.00
+sys 0.01
+real 305.64
+user 0.09
+sys 0.06
+summary 10 305.64 117.78563015312131919905 779.84
+rvms 11 nvms 5 5
+
+real 102.76
+user 0.01
+sys 0.00
+
+real 115.86
+user 0.00
+sys 0.00
+
+real 141.66
+user 0.00
+sys 0.00
+
+real 148.34
+user 0.01
+sys 0.00
+
+real 164.69
+user 0.00
+sys 0.00
+real 164.70
+user 0.04
+sys 0.02
+summary 5 164.70 109.28961748633879781420 944.54
+rvms 6 nvms 6 6
+
+real 126.30
+user 0.00
+sys 0.01
+
+real 134.85
+user 0.00
+sys 0.00
+
+real 137.23
+user 0.01
+sys 0.00
+
+real 148.72
+user 0.01
+sys 0.00
+
+real 160.94
+user 0.00
+sys 0.00
+
+real 169.31
+user 0.01
+sys 0.00
+real 169.32
+user 0.05
+sys 0.03
+summary 6 169.32 127.56909992912827781715 1113.86
+total_summary 40 1113.86 129.28016088197798646149
+real 1114.16
+user 0.41
+sys 0.26
+
+Sat May  5 14:16:33 2012
+----------------

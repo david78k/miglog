@@ -1,0 +1,880 @@
+Log of time -p ./aimd 
+Wed May  9 11:49:03 2012
+
+rvms 50 cwnd 1 1
+
+real 121.18
+user 0.00
+sys 0.00
+real 121.23
+user 0.01
+sys 0.00
+summary 1 121.23 29.69561989606533036377 121.23
+rvms 49 cwnd 2 2
+
+real 71.18
+user 0.01
+sys 0.00
+
+real 79.41
+user 0.00
+sys 0.00
+real 79.46
+user 0.03
+sys 0.00
+summary 2 79.46 90.61162849232318147495 200.69
+rvms 47 cwnd 4 4
+
+real 39.74
+user 0.01
+sys 0.00
+
+real 40.75
+user 0.01
+sys 0.00
+
+real 49.68
+user 0.01
+sys 0.00
+
+real 80.85
+user 0.00
+sys 0.01
+real 80.90
+user 0.04
+sys 0.02
+summary 4 80.90 177.99752781211372064276 281.59
+rvms 43 cwnd 8 8
+
+real 62.56
+user 0.01
+sys 0.00
+
+real 63.19
+user 0.00
+sys 0.01
+
+real 67.54
+user 0.01
+sys 0.00
+
+real 69.24
+user 0.00
+sys 0.01
+
+real 73.27
+user 0.00
+sys 0.00
+
+real 79.79
+user 0.00
+sys 0.01
+
+real 85.06
+user 0.00
+sys 0.00
+
+real 88.89
+user 0.01
+sys 0.00
+real 88.93
+user 0.07
+sys 0.05
+summary 8 88.93 323.85021927358596649049 370.52
+rvms 35 cwnd 9 9
+
+real 59.40
+user 0.00
+sys 0.00
+
+real 63.72
+user 0.00
+sys 0.01
+
+real 75.93
+user 0.00
+sys 0.00
+
+
+
+real 77.75
+user 0.00
+sys 0.00
+real 77.75
+user 0.00
+sys 0.00
+real 77.75
+user 0.01
+sys 0.00
+
+real 77.76
+user 0.01
+sys 0.00
+
+real 82.79
+user 0.00
+sys 0.00
+
+real 96.45
+user 0.00
+sys 0.00
+real 96.49
+user 0.08
+sys 0.05
+summary 9 96.49 335.78609182298683801430 467.01
+rvms 26 cwnd 10 10
+
+real 73.19
+user 0.00
+sys 0.00
+
+real 96.59
+user 0.01
+sys 0.00
+
+real 101.49
+user 0.00
+sys 0.00
+
+real 109.60
+user 0.01
+sys 0.00
+
+real 111.47
+user 0.00
+sys 0.00
+
+real 115.09
+user 0.00
+sys 0.00
+
+real 117.38
+user 0.00
+sys 0.00
+
+real 130.34
+user 0.01
+sys 0.00
+
+real 134.12
+user 0.01
+sys 0.00
+
+real 144.98
+user 0.01
+sys 0.00
+real 145.01
+user 0.10
+sys 0.06
+summary 10 145.01 248.25874077649817253982 612.02
+rvms 16 cwnd 5 5
+
+real 69.93
+user 0.01
+sys 0.00
+
+real 73.57
+user 0.00
+sys 0.00
+
+real 75.38
+user 0.00
+sys 0.00
+
+real 84.05
+user 0.01
+sys 0.00
+
+real 86.50
+user 0.01
+sys 0.00
+real 86.52
+user 0.05
+sys 0.01
+summary 5 86.52 208.04438280166435506241 698.54
+rvms 11 cwnd 6 6
+
+real 133.18
+user 0.00
+sys 0.00
+
+real 142.45
+user 0.00
+sys 0.00
+
+real 142.50
+user 0.01
+sys 0.00
+
+real 142.66
+user 0.01
+sys 0.00
+
+real 150.13
+user 0.00
+sys 0.00
+
+real 151.43
+user 0.01
+sys 0.00
+real 151.44
+user 0.06
+sys 0.02
+summary 6 151.44 142.63074484944532488114 849.98
+rvms 5 cwnd 3 3
+
+real 69.42
+user 0.00
+sys 0.00
+
+real 81.16
+user 0.00
+sys 0.00
+
+real 88.16
+user 0.00
+sys 0.00
+real 88.17
+user 0.01
+sys 0.02
+summary 3 88.17 122.49064307587614834977 938.15
+rvms 2 cwnd 2 2
+error: error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peerinternal error process exited while connecting to monitor: char device redirected to /dev/pts/51
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+
+real 14.73
+real 14.73
+user 0.00
+user 0.00
+sys 0.00
+sys 0.00
+real 14.74
+user 0.00
+sys 0.01
+summary 2 14.74 488.46675712347354138398 952.89
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 9.29
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 12.76
+user 0.00
+sys 0.00
+real 12.76
+user 0.01
+sys 0.01
+summary 2 12.76 564.26332288401253918495 965.65
+rvms 2 cwnd 2 2
+error: error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peerinternal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+
+real 7.73
+user 0.00
+sys 0.00
+real 7.73
+user 0.00
+sys 0.00
+real 7.74
+user 0.01
+sys 0.00
+summary 2 7.74 930.23255813953488372093 973.39
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 10.73
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 14.24
+user 0.01
+sys 0.00
+real 14.24
+user 0.02
+sys 0.00
+summary 2 14.24 505.61797752808988764044 987.63
+rvms 2 cwnd 1 1
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 4.71
+user 0.00
+sys 0.00
+real 4.72
+user 0.00
+sys 0.00
+summary 1 4.72 762.71186440677966101694 992.35
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.43
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 10.90
+user 0.00
+sys 0.00
+real 10.91
+user 0.01
+sys 0.01
+summary 2 10.91 659.94500458295142071494 1003.26
+rvms 2 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.26
+user 0.00
+sys 0.00
+real 7.27
+user 0.00
+sys 0.00
+summary 1 7.27 495.18569463548830811554 1010.53
+rvms 2 cwnd 2 2
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+real 7.81
+user 0.00
+sys 0.00
+real 7.81
+user 0.00
+sys 0.00
+real 7.82
+user 0.01
+sys 0.01
+summary 2 7.82 920.71611253196930946291 1018.35
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.34
+user 0.01
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 10.89
+user 0.00
+sys 0.00
+real 10.90
+user 0.02
+sys 0.00
+summary 2 10.90 660.55045871559633027522 1029.25
+rvms 2 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.28
+user 0.00
+sys 0.00
+real 7.28
+user 0.00
+sys 0.00
+summary 1 7.28 494.50549450549450549450 1036.53
+rvms 2 cwnd 2 2
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+real 7.76
+user 0.01
+sys 0.00
+real 7.76
+user 0.00
+sys 0.00
+real 7.77
+user 0.02
+sys 0.00
+summary 2 7.77 926.64092664092664092664 1044.30
+rvms 2 cwnd 2 2
+error: internal error Process exited while reading console log output: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 4.40
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.92
+user 0.01
+sys 0.00
+real 7.92
+user 0.02
+sys 0.00
+summary 2 7.92 909.09090909090909090909 1052.22
+rvms 2 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.26
+user 0.00
+sys 0.00
+real 7.27
+user 0.00
+sys 0.00
+summary 1 7.27 495.18569463548830811554 1059.49
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+
+real 7.76
+user 0.00
+sys 0.00
+real 7.76
+user 0.00
+sys 0.00
+real 7.77
+user 0.01
+sys 0.01
+summary 2 7.77 926.64092664092664092664 1067.26
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.37
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 10.91
+user 0.01
+sys 0.00
+real 10.92
+user 0.02
+sys 0.00
+summary 2 10.92 659.34065934065934065934 1078.18
+rvms 2 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.32
+user 0.01
+sys 0.00
+real 7.33
+user 0.01
+sys 0.00
+summary 1 7.33 491.13233287858117326057 1085.51
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/51
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.81
+user 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 7.81
+user 0.00
+sys 0.00
+real 7.82
+user 0.01
+sys 0.00
+summary 2 7.82 920.71611253196930946291 1093.33
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.79
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 11.30
+user 0.00
+sys 0.00
+real 11.31
+user 0.00
+sys 0.01
+summary 2 11.31 636.60477453580901856763 1104.64
+rvms 2 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.23
+user 0.00
+sys 0.00
+real 7.23
+user 0.00
+sys 0.00
+summary 1 7.23 497.92531120331950207468 1111.87
+rvms 2 cwnd 2 2
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 7.80
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.80
+user 0.00
+sys 0.00
+real 7.81
+user 0.01
+sys 0.01
+summary 2 7.81 921.89500640204865556978 1119.68
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.38
+user 0.01
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 10.92
+user 0.00
+sys 0.00
+real 10.93
+user 0.02
+sys 0.00
+summary 2 10.93 658.73741994510521500457 1130.61
+rvms 2 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.21
+user 0.00
+sys 0.00
+real 7.22
+user 0.00
+sys 0.00
+summary 1 7.22 498.61495844875346260387 1137.83
+rvms 2 cwnd 2 2
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/51
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+real 7.83
+user 0.01
+sys 0.00
+real 7.83
+user 0.00
+sys 0.00
+real 7.84
+user 0.02
+sys 0.00
+summary 2 7.84 918.36734693877551020408 1145.67
+rvms 2 cwnd 2 2
+error: internal error Process exited while reading console log output: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 4.43
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.94
+user 0.00
+sys 0.00
+real 7.95
+user 0.01
+sys 0.01
+summary 2 7.95 905.66037735849056603773 1153.62
+rvms 2 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.25
+user 0.00
+sys 0.00
+real 7.26
+user 0.00
+sys 0.00
+summary 1 7.26 495.86776859504132231404 1160.88
+rvms 2 cwnd 2 2
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 7.80
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.80
+user 0.01
+sys 0.00
+real 7.81
+user 0.02
+sys 0.00
+summary 2 7.81 921.89500640204865556978 1168.69
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.36
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 10.90
+user 0.01
+sys 0.00
+real 10.91
+user 0.01
+sys 0.00
+summary 2 10.91 659.94500458295142071494 1179.60
+rvms 2 cwnd 1 1
+Command exited with non-zero status 129
+real 6.88
+user 0.00
+sys 0.00
+error: server closed connection: 
+time died with exit status 129
+summary 1 6.88 523.25581395348837209302 1186.48
+rvms 2 cwnd 2 2
+Command exited with non-zero status 129
+real 0.85
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peertime died with exit status 129
+summary 2 0.85 8470.58823529411764705882 1187.33
+rvms 2 cwnd 2 2
+Command exited with non-zero status 129
+real 1.47
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 2 1.47 4897.95918367346938775510 1188.80
+rvms 2 cwnd 1 1
+Command exited with non-zero status 129
+real 0.18
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 1 0.18 20000.00000000000000000000 1188.98
+rvms 2 cwnd 2 2
+Command exited with non-zero status 129
+real 0.36
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 2 0.36 20000.00000000000000000000 1189.34
+rvms 2 cwnd 2 2
+Command exited with non-zero status 129
+real 0.17
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peertime died with exit status 129
+summary 2 0.17 42352.94117647058823529411 1189.51
+rvms 2 cwnd 2 2
+Command exited with non-zero status 129
+real 0.13
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 2 0.13 55384.61538461538461538461 1189.64
+rvms 2 cwnd 2 2
+Command exited with non-zero status 129
+real 0.16
+user 0.00
+sys 0.00
+error: error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 2 0.16 45000.00000000000000000000 1189.80
+rvms 2 cwnd 1 1
+Command exited with non-zero status 129
+real 1.02
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 1 1.02 3529.41176470588235294117 1190.82
+rvms 2 cwnd 2 2
+Command exited with non-zero status 129
+real 0.18
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peertime died with exit status 129
+summary 2 0.18 40000.00000000000000000000 1191.00
+rvms 2 cwnd 2 2
+Command exited with non-zero status 129
+real 0.16
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peertime died with exit status 129
+summary 2 0.16 45000.00000000000000000000 1191.16
+rvms 2 cwnd 2 2
+Command exited with non-zero status 129
+real 0.16
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 2 0.16 45000.00000000000000000000 1191.32
+rvms 2 cwnd 2 2
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+error: internal error Process exited while reading console log output: char device redirected to /dev/pts/51
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+real 5.09
+user 0.00
+sys 0.00
+real 5.09
+user 0.01
+sys 0.00
+real 5.10
+user 0.02
+sys 0.00
+summary 2 5.10 1411.76470588235294117647 1196.42
+rvms 2 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.32
+user 0.00
+sys 0.00
+real 7.33
+user 0.00
+sys 0.00
+summary 1 7.33 491.13233287858117326057 1203.75
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.40
+user 0.01
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 10.90
+user 0.00
+sys 0.00
+real 10.91
+user 0.02
+sys 0.00
+summary 2 10.91 659.94500458295142071494 1214.66
+rvms 2 cwnd 2 2
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 7.83
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.83
+user 0.01
+sys 0.00
+real 7.84
+user 0.02
+sys 0.00
+summary 2 7.84 918.36734693877551020408 1222.50
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.24
+user 0.01
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 10.79
+user 0.00
+sys 0.00
+real 10.79
+user 0.02
+sys 0.00
+summary 2 10.79 667.28452270620945319740 1233.29
+rvms 2 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/33
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.28
+user 0.01
+sys 0.00
+real 7.28
+user 0.01
+sys 0.00
+summary 1 7.28 494.50549450549450549450 1240.57
+rvms 2 cwnd 2 2
+
+real 62.58
+user 0.00
+sys 0.00
+
+real 63.87
+user 0.00
+sys 0.00
+real 63.88
+user 0.01
+sys 0.00
+summary 2 63.88 112.71133375078271759549 1304.45
+total_summary #50 1304.45 137.98919084671700716777
+real 1306.12
+user 1.04
+sys 0.61
+
+Wed May  9 12:10:49 2012
+----------------

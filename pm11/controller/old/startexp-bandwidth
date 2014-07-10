@@ -1,0 +1,43 @@
+#
+dest=c11node8
+
+expname=runexp
+
+basedir=/root/controller
+filepath=$basedir/$expname
+
+# sleep time in seconds
+sleep_time=15
+
+# migration bandwidths set by KVM/QEMU
+#bws=( 10000 1000 500 250 200 150 125 100 75 50 )
+#bws=( 200 )
+bws=( 40 )
+
+run=1
+
+#for bw in ${bws[@]}
+for limit in ${limits[@]}
+do
+	# run 1
+	$filepath $run 
+	sleep $sleep_time
+
+	run=`expr $run "+" 1`
+
+	# run 2
+	ssh $dest $filepath $run
+	sleep $sleep_time
+
+	run=`expr $run "+" 1`
+	
+	# run 3
+	$filepath $run
+	sleep $sleep_time
+
+	run=`expr $run "+" 1`
+
+	# run 4
+	ssh $dest $filepath $run
+	sleep $sleep_time
+done

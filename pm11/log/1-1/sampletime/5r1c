@@ -1,0 +1,46 @@
+Log of time -p /home/tsugawa/exp/controller 5 
+Wed Jun  6 01:11:17 2012
+
+rvms 40 cwnd 1 1
+summary 1 1630 1630
+rvms 40 cwnd 2 2
+summary 2 3444 1814
+rvms 40 cwnd 4 4
+summary 4 6791 3347
+rvms 40 cwnd 5 5
+summary 5 9175 2384
+rvms 40 cwnd 6 6
+summary 6 11000 1825
+rvms 40 cwnd 7 7
+summary 7 13000 2000
+rvms 40 cwnd 8 8
+summary 8 12000 -1000
+rvms 40 cwnd 4 4
+summary 4 2942 -9058
+rvms 40 cwnd 5 5
+summary 5 49 -2893
+rvms 40 cwnd 2 2
+summary 2 49 0
+rvms 40 cwnd 3 3
+summary 3 49 0
+rvms 40 cwnd 4 4
+summary 4 49 0
+rvms 40 cwnd 5 5
+summary 5 193 144
+rvms 40 cwnd 6 6
+summary 6 1049 856
+rvms 40 cwnd 7 7
+summary 7 135 -914
+rvms 40 cwnd 3 3
+summary 3 49 -86
+rvms 40 cwnd 4 4
+summary 4 49 0
+rvms 40 cwnd 5 5
+Command terminated by signal 2
+real 88.96
+user 0.80
+sys 0.20
+time died with exit status 130
+
+Wed Jun  6 01:12:46 2012
+----------------

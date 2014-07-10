@@ -1,0 +1,40 @@
+#if [ $# -lt 2 ]; then
+#        echo usage: $0 from to
+#        exit 1
+#fi
+
+prefix=$HOSTNAME
+#prefix=pm10
+
+if [ $HOSTNAME == "f31" ]; then
+	prefix=pm10
+elif [ $HOSTNAME == "f32" ]; then
+	prefix=pm11
+elif [ $HOSTNAME == "c11node10" ]; then
+	prefix=pm11
+fi
+
+if [ $# -eq 1 ]; then
+
+	vms=`virsh list --all | grep "running" | awk '{print $2}' | grep $prefix- | tail -$1`
+	for vm in ${vms[@]}
+	do
+		virsh destroy $vm 
+	done
+
+elif [ $# -eq 2 ]; then
+	for (( i = $1 ; i <= $2 ; i++ ))
+	do
+		cmd="virsh destroy $prefix-$i"
+		echo "$cmd"
+		$cmd
+	done
+
+else
+	vms=`virsh list --all | grep "running" | awk '{print $2}' | grep $prefix-`
+
+	for vm in ${vms[@]}
+	do
+		virsh destroy $vm 
+	done
+fi

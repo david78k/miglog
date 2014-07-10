@@ -1,0 +1,210 @@
+Log of time -p ./aimd 
+Mon May  7 11:42:04 2012
+
+rvms 40 cwnd 8 8
+
+real 94.77
+user 0.01
+sys 0.00
+
+real 104.47
+user 0.01
+sys 0.00
+
+real 123.11
+user 0.01
+sys 0.00
+
+real 131.45
+user 0.00
+sys 0.00
+
+
+real 132.39
+user 0.00
+sys 0.00
+real 132.39
+user 0.00
+sys 0.00
+
+real 132.76
+user 0.00
+sys 0.00
+
+real 136.04
+user 0.00
+sys 0.00
+real 136.06
+user 0.07
+sys 0.04
+summary 8 136.06 211.67132147581949140085 136.06
+rvms 32 cwnd 9 9
+
+real 96.27
+user 0.01
+sys 0.00
+
+real 108.67
+user 0.01
+sys 0.00
+
+real 108.89
+user 0.00
+sys 0.00
+
+real 115.40
+user 0.00
+sys 0.01
+
+real 124.57
+user 0.00
+sys 0.01
+
+real 135.99
+user 0.01
+sys 0.00
+
+real 137.48
+user 0.00
+sys 0.01
+
+real 142.02
+user 0.01
+sys 0.00
+
+real 156.04
+user 0.01
+sys 0.00
+real 156.09
+user 0.09
+sys 0.05
+summary 9 156.09 207.57255429559869306169 292.15
+rvms 23 cwnd 4 4
+
+real 66.31
+user 0.01
+sys 0.00
+
+real 109.36
+user 0.00
+sys 0.01
+
+real 116.26
+user 0.00
+sys 0.00
+
+real 118.94
+user 0.01
+sys 0.00
+real 118.96
+user 0.03
+sys 0.02
+summary 4 118.96 121.04909213180901143241 411.11
+rvms 19 cwnd 5 5
+
+real 108.77
+user 0.00
+sys 0.00
+
+real 117.19
+user 0.00
+sys 0.00
+
+real 118.68
+user 0.01
+sys 0.00
+
+real 130.56
+user 0.00
+sys 0.01
+
+real 157.27
+user 0.00
+sys 0.00
+real 157.29
+user 0.03
+sys 0.03
+summary 5 157.29 114.43829868395956513446 568.40
+rvms 14 cwnd 2 2
+
+real 60.73
+user 0.00
+sys 0.00
+
+real 86.39
+user 0.00
+sys 0.00
+real 86.40
+user 0.02
+sys 0.01
+summary 2 86.40 83.33333333333333333333 654.80
+rvms 12 cwnd 3 3
+
+real 77.19
+user 0.00
+sys 0.00
+
+real 91.04
+user 0.01
+sys 0.00
+
+real 95.92
+user 0.00
+sys 0.01
+real 95.94
+user 0.02
+sys 0.02
+summary 3 95.94 112.57035647279549718574 750.74
+rvms 9 cwnd 4 4
+
+real 56.37
+user 0.00
+sys 0.00
+
+real 67.04
+user 0.01
+sys 0.00
+
+real 77.28
+user 0.00
+sys 0.00
+
+real 102.09
+user 0.01
+sys 0.00
+real 102.10
+user 0.04
+sys 0.01
+summary 4 102.10 141.03819784524975514201 852.84
+rvms 5 cwnd 5 5
+
+real 62.20
+user 0.01
+sys 0.00
+
+real 68.90
+user 0.01
+sys 0.00
+
+real 88.66
+user 0.01
+sys 0.00
+
+real 90.11
+user 0.01
+sys 0.00
+
+real 91.05
+user 0.00
+sys 0.00
+real 91.05
+user 0.05
+sys 0.01
+summary 5 91.05 197.69357495881383855024 943.89
+total_summary 40 943.89 152.56015001748085052283
+real 944.51
+user 0.41
+sys 0.23
+
+Mon May  7 11:57:49 2012
+----------------

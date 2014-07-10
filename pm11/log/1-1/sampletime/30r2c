@@ -1,0 +1,12 @@
+Log of time -p /home/tsugawa/exp/controller 30 
+Sun Jul  8 07:36:04 2012
+
+rvms 40 cwnd 1 1
+Command terminated by signal 2
+real 23.27
+user 0.00
+sys 0.00
+time died with exit status 130
+
+Sun Jul  8 07:36:28 2012
+----------------

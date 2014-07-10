@@ -1,0 +1,212 @@
+Log of time -p ./controller-aimd 
+Sat May  5 11:48:49 2012
+
+rvms 39
+rvms 39 nvms 1 1
+
+real 119.68
+user 0.00
+sys 0.00
+real 119.71
+user 0.00
+sys 0.01
+summary 1 119.71 30.07267563277921643972 119.71
+rvms 38 nvms 2 2
+
+real 118.85
+user 0.01
+sys 0.00
+
+real 139.88
+user 0.00
+sys 0.00
+real 139.92
+user 0.02
+sys 0.01
+summary 2 139.92 51.45797598627787307032 259.63
+rvms 36 nvms 3 3
+
+real 142.72
+user 0.01
+sys 0.00
+
+real 191.05
+user 0.01
+sys 0.00
+
+real 195.85
+user 0.01
+sys 0.00
+real 195.88
+user 0.04
+sys 0.01
+summary 3 195.88 55.13579742699612007351 455.51
+rvms 33 nvms 4 4
+
+real 182.37
+user 0.00
+sys 0.01
+
+real 199.24
+user 0.01
+sys 0.00
+
+real 204.99
+user 0.00
+sys 0.01
+
+real 221.32
+user 0.00
+sys 0.00
+real 221.36
+user 0.03
+sys 0.03
+summary 4 221.36 65.05240332490061438380 676.87
+rvms 29 nvms 5 5
+
+real 176.54
+user 0.01
+sys 0.00
+
+real 196.50
+user 0.00
+sys 0.00
+
+real 217.54
+user 0.00
+sys 0.00
+
+real 241.67
+user 0.00
+sys 0.00
+
+real 273.90
+user 0.00
+sys 0.00
+real 273.92
+user 0.04
+sys 0.02
+summary 5 273.92 65.71261682242990654205 950.79
+rvms 24 nvms 6 6
+
+real 234.11
+user 0.01
+sys 0.00
+
+real 237.82
+user 0.00
+sys 0.00
+
+real 264.92
+user 0.01
+sys 0.00
+
+real 265.71
+user 0.00
+sys 0.00
+
+real 288.81
+user 0.01
+sys 0.00
+
+real 301.08
+user 0.01
+sys 0.00
+real 301.10
+user 0.06
+sys 0.02
+summary 6 301.10 71.73696446363334440385 1251.89
+rvms 18 nvms 7 7
+
+real 242.81
+user 0.00
+sys 0.00
+
+real 289.89
+user 0.00
+sys 0.00
+
+real 291.34
+user 0.00
+sys 0.01
+
+real 299.92
+user 0.01
+sys 0.00
+
+real 313.41
+user 0.00
+sys 0.00
+
+real 321.90
+user 0.01
+sys 0.00
+
+real 324.13
+user 0.00
+sys 0.00
+real 324.15
+user 0.05
+sys 0.04
+summary 7 324.15 77.74178621008792225821 1576.04
+rvms 11 nvms 8 8
+
+real 173.87
+user 0.00
+sys 0.01
+
+real 235.97
+user 0.00
+sys 0.00
+
+real 264.85
+user 0.00
+sys 0.00
+
+real 268.53
+user 0.01
+sys 0.00
+
+real 274.39
+user 0.01
+sys 0.00
+
+real 280.78
+user 0.01
+sys 0.00
+
+real 287.79
+user 0.01
+sys 0.00
+
+real 296.88
+user 0.00
+sys 0.00
+real 296.90
+user 0.08
+sys 0.04
+summary 8 296.90 97.00235769619400471539 1872.94
+rvms 3 nvms 3 3
+
+real 150.93
+user 0.00
+sys 0.00
+
+real 176.19
+user 0.00
+sys 0.00
+
+real 199.67
+user 0.00
+sys 0.00
+real 199.68
+user 0.02
+sys 0.01
+summary 3 199.68 54.08653846153846153846 2072.62
+total_summary 39 2072.62 67.74034796537715548436
+real 2073.05
+user 0.41
+sys 0.26
+
+Sat May  5 12:23:23 2012
+----------------

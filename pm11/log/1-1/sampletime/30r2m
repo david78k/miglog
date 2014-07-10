@@ -1,0 +1,44 @@
+Log of time -p /home/tsugawa/vmanage/migrator 
+Sun Jul  8 07:36:04 2012
+
+rvms 40 nvms 0 cwnd 1 pm11-10
+error: operation failed: failed to parse XML
+
+real 3.84
+user 0.00
+sys 0.00
+rvms 40 nvms 0 cwnd 1 pm11-11
+error: operation failed: failed to parse XML
+
+real 3.84
+user 0.01
+sys 0.00
+rvms 40 nvms 0 cwnd 1 pm11-12
+error: operation failed: failed to parse XML
+
+real 3.84
+user 0.01
+sys 0.00
+rvms 40 nvms 0 cwnd 1 pm11-13
+error: operation failed: failed to parse XML
+
+real 3.84
+user 0.01
+sys 0.00
+rvms 40 nvms 0 cwnd 1 pm11-14
+error: operation failed: failed to parse XML
+
+real 3.84
+user 0.01
+sys 0.00
+rvms 40 nvms 0 cwnd 1 pm11-15
+error: server closed connection: 
+Command terminated by signal 2
+real 23.27
+user 0.80
+sys 1.85
+error: Reconnected to the hypervisor
+time died with exit status 130
+
+Sun Jul  8 07:36:28 2012
+----------------

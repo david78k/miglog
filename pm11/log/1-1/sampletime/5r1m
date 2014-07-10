@@ -1,0 +1,249 @@
+Log of time -p /home/tsugawa/vmanage/migrator 
+Wed Jun  6 01:11:17 2012
+
+rvms 40 nvms 0 cwnd 1 pm11-1
+error: operation failed: failed to parse XML
+
+real 3.92
+user 0.01
+sys 0.00
+rvms 40 nvms 0 cwnd 1 pm11-10
+rvms 40 nvms 1 cwnd 2 pm11-11
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.01
+sys 0.00
+rvms 40 nvms 1 cwnd 2 pm11-12
+error: operation failed: failed to parse XML
+
+real 3.92
+user 0.00
+sys 0.01
+rvms 40 nvms 1 cwnd 2 pm11-13
+rvms 40 nvms 2 cwnd 4 pm11-14
+rvms 40 nvms 3 cwnd 4 pm11-15
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.00
+sys 0.00
+rvms 40 nvms 3 cwnd 4 pm11-16
+error: operation failed: failed to parse XML
+
+real 3.96
+user 0.00
+sys 0.00
+rvms 40 nvms 3 cwnd 4 pm11-17
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.00
+sys 0.00
+rvms 40 nvms 3 cwnd 4 pm11-18
+error: operation failed: failed to parse XML
+
+real 3.96
+user 0.01
+sys 0.00
+rvms 40 nvms 3 cwnd 4 pm11-19
+rvms 40 nvms 4 cwnd 5 pm11-2
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.00
+sys 0.00
+rvms 40 nvms 4 cwnd 5 pm11-20
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.01
+sys 0.00
+rvms 40 nvms 4 cwnd 5 pm11-21
+error: operation failed: failed to parse XML
+
+real 4.01
+user 0.01
+sys 0.00
+rvms 40 nvms 4 cwnd 5 pm11-22
+error: operation failed: failed to parse XML
+
+real 4.36
+user 0.01
+sys 0.00
+rvms 40 nvms 4 cwnd 5 pm11-23
+error: operation failed: failed to parse XML
+
+real 4.01
+user 0.00
+sys 0.01
+rvms 40 nvms 4 cwnd 5 pm11-24
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.01
+sys 0.00
+rvms 40 nvms 4 cwnd 5 pm11-25
+rvms 40 nvms 5 cwnd 6 pm11-26
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.00
+sys 0.01
+rvms 40 nvms 5 cwnd 6 pm11-27
+error: operation failed: failed to parse XML
+
+real 3.96
+user 0.00
+sys 0.00
+rvms 40 nvms 5 cwnd 6 pm11-28
+error: operation failed: failed to parse XML
+
+real 4.01
+user 0.01
+sys 0.00
+rvms 40 nvms 5 cwnd 6 pm11-29
+error: operation failed: failed to parse XML
+
+real 3.92
+user 0.00
+sys 0.01
+rvms 40 nvms 5 cwnd 6 pm11-3
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.00
+sys 0.00
+rvms 40 nvms 5 cwnd 6 pm11-30
+error: operation failed: failed to parse XML
+
+real 4.01
+user 0.01
+sys 0.00
+rvms 40 nvms 5 cwnd 6 pm11-31
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.00
+sys 0.00
+rvms 40 nvms 5 cwnd 6 pm11-32
+rvms 40 nvms 6 cwnd 7 pm11-33
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.01
+sys 0.00
+rvms 40 nvms 6 cwnd 7 pm11-34
+error: operation failed: failed to parse XML
+
+real 4.42
+user 0.01
+sys 0.00
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.00
+sys 0.01
+rvms 40 nvms 5 cwnd 7 pm11-35
+rvms 40 nvms 6 cwnd 7 pm11-36
+error: operation failed: failed to parse XML
+
+real 4.01
+user 0.00
+sys 0.00
+rvms 40 nvms 6 cwnd 7 pm11-37
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.01
+sys 0.00
+rvms 40 nvms 6 cwnd 7 pm11-38
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.00
+sys 0.00
+rvms 40 nvms 6 cwnd 7 pm11-39
+error: operation failed: failed to parse XML
+
+real 4.02
+user 0.00
+sys 0.01
+rvms 40 nvms 6 cwnd 7 pm11-4
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.00
+sys 0.00
+rvms 40 nvms 6 cwnd 7 pm11-40
+rvms 40 nvms 7 cwnd 8 pm11-41
+error: operation failed: failed to parse XML
+
+error: operation failed: failed to parse XML
+real 4.14
+user 0.00
+sys 0.00
+
+real 4.09
+user 0.01
+sys 0.00
+rvms 40 nvms 6 cwnd 8 pm11-42
+rvms 40 nvms 7 cwnd 8 pm11-43
+error: operation failed: failed to parse XML
+
+real 3.92
+user 0.01
+sys 0.00
+rvms 40 nvms 7 cwnd 8 pm11-44
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.01
+sys 0.00
+rvms 40 nvms 7 cwnd 8 pm11-45
+error: operation failed: failed to parse XML
+
+real 4.02
+user 0.00
+sys 0.00
+error: operation failed: failed to parse XML
+
+real 3.91
+user 0.00
+sys 0.00
+error: operation failed: failed to parse XML
+
+real 3.97
+user 0.01
+sys 0.00
+error: operation failed: failed to parse XML
+
+real 3.92
+user 0.00
+sys 0.01
+error: operation failed: failed to parse XML
+
+real 4.14
+user 0.00
+sys 0.00
+error: operation failed: failed to parse XML
+
+real 4.21
+user 0.01
+sys 0.00
+error: operation failed: failed to parse XML
+
+real 3.97
+user 0.00
+sys 0.00
+error: operation failed: failed to parse XML
+
+real 3.92
+user 0.01
+sys 0.00
+real 36.50
+user 1.62
+sys 3.16
+
+Wed Jun  6 01:11:53 2012
+----------------

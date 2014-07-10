@@ -1,0 +1,6 @@
+vmname=f32-1
+memory=536
+imgdir=/var/lib/libvirt/images/nfs
+img=$imgdir/$vmname.img
+
+qemu-system-x86_64 -nographic -name "$vmname" -hda $img -m $memory

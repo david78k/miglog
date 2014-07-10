@@ -1,0 +1,209 @@
+Log of time -p /home/tsugawa/vmanage/parallel 18 
+Sat Jun  2 21:10:29 2012
+
+rvms 40 nvms 0 pm11-1
+rvms 40 nvms 1 pm11-10
+rvms 40 nvms 2 pm11-11
+rvms 40 nvms 3 pm11-12
+rvms 40 nvms 4 pm11-13
+rvms 40 nvms 5 pm11-14
+rvms 40 nvms 6 pm11-15
+rvms 40 nvms 7 pm11-16
+rvms 40 nvms 8 pm11-17
+rvms 40 nvms 9 pm11-18
+rvms 40 nvms 10 pm11-19
+rvms 40 nvms 11 pm11-2
+rvms 40 nvms 12 pm11-20
+rvms 40 nvms 13 pm11-21
+rvms 40 nvms 14 pm11-22
+rvms 40 nvms 15 pm11-23
+rvms 40 nvms 16 pm11-24
+rvms 40 nvms 17 pm11-25
+
+real 226.38
+user 0.01
+sys 0.00
+rvms 40 nvms 17 pm11-26
+
+real 235.70
+user 0.00
+sys 0.01
+rvms 39 nvms 17 pm11-27
+
+real 245.21
+user 0.00
+sys 0.01
+rvms 38 nvms 17 pm11-28
+
+real 253.36
+user 0.00
+sys 0.01
+rvms 37 nvms 17 pm11-29
+
+real 258.10
+user 0.00
+sys 0.00
+rvms 36 nvms 17 pm11-3
+
+real 271.90
+user 0.00
+sys 0.01
+rvms 35 nvms 17 pm11-30
+
+real 272.09
+user 0.01
+sys 0.00
+rvms 32 nvms 17 pm11-31
+
+real 273.92
+user 0.00
+sys 0.00
+rvms 32 nvms 17 pm11-32
+
+real 281.94
+user 0.01
+sys 0.00
+rvms 32 nvms 17 pm11-33
+
+real 288.37
+user 0.01
+sys 0.00
+rvms 31 nvms 17 pm11-34
+
+real 292.63
+user 0.00
+sys 0.00
+rvms 29 nvms 17 pm11-35
+
+real 304.13
+user 0.00
+sys 0.00
+rvms 29 nvms 17 pm11-36
+
+real 313.59
+user 0.01
+sys 0.00
+rvms 28 nvms 17 pm11-37
+
+real 327.65
+user 0.01
+sys 0.00
+rvms 27 nvms 17 pm11-38
+
+real 328.69
+user 0.00
+sys 0.00
+rvms 25 nvms 17 pm11-39
+
+real 333.45
+user 0.00
+sys 0.01
+rvms 25 nvms 17 pm11-4
+
+real 367.46
+user 0.01
+sys 0.00
+rvms 24 nvms 17 pm11-40
+
+real 389.31
+user 0.01
+sys 0.00
+rvms 23 nvms 17 pm11-41
+
+real 223.83
+user 0.01
+sys 0.01
+rvms 22 nvms 17 pm11-42
+
+real 216.54
+user 0.01
+sys 0.01
+rvms 20 nvms 17 pm11-43
+
+real 251.63
+user 0.00
+sys 0.01
+rvms 20 nvms 17 pm11-44
+
+real 195.14
+user 0.01
+sys 0.00
+rvms 18 nvms 17 pm11-45
+
+real 220.21
+user 0.01
+sys 0.00
+
+real 189.66
+user 0.01
+sys 0.01
+
+real 269.52
+user 0.01
+sys 0.00
+
+real 289.34
+user 0.01
+sys 0.00
+
+real 262.00
+user 0.00
+sys 0.01
+
+real 214.57
+user 0.01
+sys 0.00
+
+real 244.69
+user 0.01
+sys 0.00
+
+real 227.90
+user 0.01
+sys 0.00
+
+real 291.70
+user 0.00
+sys 0.01
+
+real 349.16
+user 0.00
+sys 0.02
+
+real 301.17
+user 0.00
+sys 0.00
+
+real 334.30
+user 0.01
+sys 0.01
+
+real 165.96
+user 0.01
+sys 0.01
+
+real 275.88
+user 0.01
+sys 0.00
+
+real 298.85
+user 0.00
+sys 0.01
+
+real 196.10
+user 0.00
+sys 0.01
+
+real 211.43
+user 0.00
+sys 0.02
+
+real 228.26
+user 0.00
+sys 0.01
+real 727.84
+user 20.54
+sys 50.96
+
+Sat Jun  2 21:22:37 2012
+----------------

@@ -1,0 +1,32 @@
+#!/bin/bash
+
+basedir=/home/tsugawa/vmanage
+#basedir=/root/migration/vmanage
+
+prefix=$HOSTNAME
+
+if [ $# -eq 1 ]
+then
+#	echo argnum 1
+	vms=`virsh list | grep running | awk '{print $2}' | grep $prefix- | head -$1`	
+	for vm in ${vms[@]}
+	do
+	#	echo "./migrate $vm &"
+		time -p $basedir/migrate $vm &	
+	done
+
+	wait
+
+elif [ $# -eq 2 ]
+then
+	#echo argnum 2
+	for (( i = $1 ; i <= $2 ; i++ ))
+	do
+		#echo "./migrate vm512-$i &"
+		$basedir/migrate $prefix-$i & 
+	done
+
+	wait
+else
+	echo "usage: concurrent [number of vms] | [from] [to]"
+fi

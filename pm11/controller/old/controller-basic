@@ -1,0 +1,88 @@
+# base dir
+basedir=/root/controller
+
+# threshold for the number of concurrent vms
+threshold=6
+
+# initial number of vms to migrate
+nvms=5
+#nvms=1
+
+epsilon=20
+
+# number of vms running
+rvms=`virsh list | grep running | grep vm512- | wc -l`
+#echo rvms $rvms
+rvms0=$rvms
+
+# monitor throughput
+prev_thruput=0
+prev_thruput=250 # for 6VMs
+#prev_thruput=145 # for 4VMs
+total_time=0 
+
+tmplog=/tmp/exptime
+
+while [ $rvms -ne 0 ]
+do
+       comp=`echo "$rvms < $nvms" | bc -l`
+        if [ $comp -eq 1 ]; then
+                nvms=$rvms
+        fi
+
+        echo rvms $rvms nvms ${nvms/.*} $nvms
+
+	# migrate and log
+	logsave $tmplog time -p $basedir/concurrent $nvms
+	#logsave $tmplog time -p ./concurrent $nvms
+
+	t=`cat $tmplog | grep real | awk '{print $2}'`
+
+	thruput=`echo "3600 * $nvms / $t" | bc -l`
+
+	total_time=`echo "$total_time + $t" | bc -l`
+	echo summary $nvms $t $thruput 
+	#echo summary $nvms $t $thruput $total_nvms $total_time
+
+	# if 10 < delta increase +1
+	# else if delta < -10 decrease -1
+	delta=`echo "$thruput - $prev_thruput" | bc -l`
+	comp=`echo "$delta > $epsilon" | bc -l`
+	#comp=`echo "$thruput > $prev_thruput" | bc -l`
+
+	if [ $comp -eq 1 ]; then
+		nvms=`expr $nvms "+" 1`
+	fi
+
+	comp=`echo "$delta < -$epsilon" | bc -l`
+	if [ $comp -eq 1 ]; then
+		nvms=`expr $nvms "-" 1`
+		
+		#saturated
+		if [ $nvms -lt 1 ]; then
+			nvms=1
+		fi
+	fi 
+
+	prev_thruput=$thruput
+
+	rvms=`virsh list | grep running | grep vm512- | wc -l`
+#	echo rvms $rvms
+	
+#	sleep 3
+done
+
+# total summary
+# [total number of vms] [total time] [total throughput]
+#echo "******* total summary *********"
+total_nvms=`expr $rvms0 "-" $rvms`
+comp=`echo "$total_time == 0" | bc -l`
+
+if [ $comp -eq 1 ]; then
+	total_thruput=0
+else
+	total_thruput=`echo "3600 * $total_nvms / $total_time" | bc -l`
+fi
+
+echo total_summary $total_nvms $total_time $total_thruput
+

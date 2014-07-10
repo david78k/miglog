@@ -1,0 +1,43 @@
+# migration bandwidth in MB/s
+#bw=200
+bw=40
+
+# network throttle by tc in MB/s
+limit=$1
+
+run=$2
+
+# base dir
+basedir=/root/controller
+expname=throttle
+entirelog=$expname.log
+logfile="$expname-bw$bw-lim$limit-$run.log"
+
+logdir=/var/lib/libvirt/images/nfs/explog
+logpath=$logdir/$logfile
+entirelogpath=$logdir/$entirelog
+
+if [ $# -ne 2 ]; then
+	echo "usage: runexp [limit] [run]"
+	exit
+fi
+
+if [ $run == "1" ]; then
+	echo "============== bandwidth limit from 125MB/s to $limit MB/s ==============" >> $entirelogpath
+fi
+
+echo "------------- max migration speed $bw MB/s run $run -------------" >> $entirelogpath
+
+./setspeed $bw
+
+sleep 1
+
+logsave $logpath time -p $basedir/exp 
+#logsave $logpath time -p $basedir/controller 
+
+# log total summary 
+# [number of total vms] [total running time] [total throughput]
+cat $logpath | grep summary | awk '{print $2, $3, $4, $5}' >> $entirelogpath
+
+cat $entirelogpath
+

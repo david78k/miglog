@@ -1,0 +1,38 @@
+#scheme=2-2
+scheme=1-1
+type=aimd80
+#type=none
+logdir=/home/tsugawa/log/$scheme/$type
+#controller=controller-$type
+controller=$type
+
+#title=8vms-r1
+title=r3
+
+dest=f31
+
+logfile=$title.log
+dstatfile=$title.dstat
+
+mkdir -p $logdir
+
+# start vms regularly, say 1vm every 15sec
+../vmanage/startall 18 30 &
+
+dstat -nc -N eth0 --noheaders > $logdir/$dstatfile &
+
+logsave $logdir/$logfile time -p ./$controller
+
+sleep 3
+
+#killdstat
+pgrep -fl dstat| awk '{print $1}' | xargs kill -9
+
+#sleep 10
+
+# shutdown vms on remote host
+#ssh $dest /root/migration/vmanage/shutdownall
+#sleep 90
+
+# start all vms 
+#../vmanage/startall 40

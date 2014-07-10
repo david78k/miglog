@@ -1,0 +1,2 @@
+sed -i 's/bridge/network/g' 
+sed -i 's/br0/default/g'

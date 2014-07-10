@@ -1,0 +1,59 @@
+#!/bin/bash
+
+# migrate vms in parallel
+homedir=/home/tsugawa
+basedir=$homedir/exp
+vmanage=$homedir/vmanage
+
+controller=$basedir/controller
+migrator=$vmanage/migrator
+
+#vms=$1
+sampletime=$1
+round=$2
+title=${sampletime}r${round}
+
+exec=sampletime
+
+webdir=2-2/controller
+#webdir=1-1/sampletime
+logdir=$homedir/log/$webdir
+
+# 5r1c, 5r1m
+log1=$logdir/${title}c
+log2=$logdir/${title}m
+#log=$logdir/$title.log
+
+dstat=$logdir/$title.dstat
+
+genplot=$homedir/log/plot/genplot
+
+dest=f31
+if [ $HOSTNAME == "pm11" ]; then
+       dest=f32
+elif [ $HOSTNAME == "pm10" ]; then
+       dest=f31
+elif [ $HOSTNAME == "c11node10" ]; then
+       dest=c11node9
+fi
+
+mkdir -p $logdir
+
+dstat -nc -N eth0 --nocolor --noheaders > $dstat &
+
+logsave $log2 time -p $migrator &
+logsave $log1 time -p $controller $sampletime
+#logsave $log time -p $vmanage/$exec $vms
+
+sleep 3
+
+pgrep -fl dstat| awk '{print $1}' | xargs kill -9
+
+#$genplot $log $webdir
+
+ssh $dest /root/migration/vmanage/destroy
+
+sleep 60
+
+$vmanage/startall 40
+

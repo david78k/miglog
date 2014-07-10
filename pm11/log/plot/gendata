@@ -1,0 +1,13 @@
+input=$1
+prefix=${input%\.*}
+output=$prefix.dat
+
+net=$prefix.net
+
+grep real $input | awk '{print $2}' > $output
+#grep summary $input | awk '{print $2,$3,$4,$5,$6}' > $output
+
+sed -i '$s/^/#/g' $output
+echo $output is generated
+
+#vi $output

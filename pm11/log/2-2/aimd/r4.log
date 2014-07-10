@@ -1,0 +1,337 @@
+Log of time -p ./aimd 
+Wed May  9 13:39:53 2012
+
+rvms 50 cwnd 1 1
+
+real 56.45
+user 0.00
+sys 0.00
+real 56.49
+user 0.01
+sys 0.00
+summary 1 56.49 63.72809346787041954328 56.49
+rvms 49 cwnd 2 2
+
+real 56.12
+user 0.00
+sys 0.00
+
+real 61.47
+user 0.00
+sys 0.00
+real 61.52
+user 0.02
+sys 0.02
+summary 2 61.52 117.03511053315994798439 118.01
+rvms 47 cwnd 4 4
+
+real 54.45
+user 0.01
+sys 0.00
+
+real 73.38
+user 0.01
+sys 0.00
+
+real 78.04
+user 0.01
+sys 0.00
+
+real 87.34
+user 0.00
+sys 0.00
+real 87.39
+user 0.05
+sys 0.02
+summary 4 87.39 164.77857878475798146240 205.40
+rvms 43 cwnd 8 8
+
+real 73.81
+user 0.00
+sys 0.01
+
+real 80.45
+user 0.00
+sys 0.00
+
+real 84.18
+user 0.01
+sys 0.00
+
+real 90.97
+user 0.01
+sys 0.00
+
+real 97.11
+user 0.00
+sys 0.01
+
+real 118.26
+user 0.00
+sys 0.01
+
+real 121.35
+user 0.00
+sys 0.00
+
+real 127.78
+user 0.01
+sys 0.00
+real 127.83
+user 0.06
+sys 0.06
+summary 8 127.83 225.29922553391222717671 333.23
+rvms 35 cwnd 9 9
+
+real 75.83
+user 0.01
+sys 0.00
+
+real 79.55
+user 0.00
+sys 0.00
+
+real 79.91
+user 0.01
+sys 0.00
+
+real 85.47
+user 0.01
+sys 0.00
+
+real 88.72
+user 0.00
+sys 0.01
+
+real 103.37
+user 0.00
+sys 0.00
+
+real 103.66
+user 0.01
+sys 0.00
+
+real 105.63
+user 0.00
+sys 0.00
+
+real 116.53
+user 0.00
+sys 0.01
+real 116.56
+user 0.08
+sys 0.06
+summary 9 116.56 277.96842827728208647906 449.79
+rvms 26 cwnd 10 10
+
+real 72.82
+user 0.00
+sys 0.00
+
+real 82.75
+user 0.00
+sys 0.00
+
+real 84.16
+user 0.00
+sys 0.01
+
+real 89.66
+user 0.00
+sys 0.00
+
+real 93.73
+user 0.00
+sys 0.00
+
+real 96.52
+user 0.01
+sys 0.00
+
+real 107.29
+user 0.01
+sys 0.00
+
+real 113.65
+user 0.01
+sys 0.00
+
+real 124.22
+user 0.01
+sys 0.00
+
+real 136.58
+user 0.01
+sys 0.00
+real 136.61
+user 0.11
+sys 0.03
+summary 10 136.61 263.52390015372227508967 586.40
+rvms 16 cwnd 5 5
+
+real 51.06
+user 0.01
+sys 0.00
+
+real 51.19
+user 0.00
+sys 0.00
+
+real 51.77
+user 0.00
+sys 0.00
+
+real 59.39
+user 0.00
+sys 0.00
+
+real 67.65
+user 0.01
+sys 0.00
+real 67.67
+user 0.04
+sys 0.02
+summary 5 67.67 265.99674892862420570415 654.07
+rvms 11 cwnd 6 6
+
+real 81.93
+user 0.00
+sys 0.00
+
+real 139.92
+user 0.01
+sys 0.00
+
+real 165.54
+user 0.00
+sys 0.01
+
+real 174.23
+user 0.01
+sys 0.00
+
+real 174.88
+user 0.01
+sys 0.00
+
+real 182.88
+user 0.00
+sys 0.00
+real 182.90
+user 0.06
+sys 0.02
+summary 6 182.90 118.09732094040459267359 836.97
+rvms 5 cwnd 3 3
+
+real 73.14
+user 0.00
+sys 0.01
+
+real 75.37
+user 0.00
+sys 0.00
+
+real 78.24
+user 0.00
+sys 0.00
+real 78.25
+user 0.02
+sys 0.02
+summary 3 78.25 138.01916932907348242811 915.22
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 16.31
+user 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 16.31
+user 0.00
+sys 0.01
+real 16.32
+user 0.00
+sys 0.02
+summary 2 16.32 441.17647058823529411764 931.54
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/28
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 9.29
+user 0.00
+sys 0.00
+error: internal error Process exited while reading console log output: char device redirected to /dev/pts/28
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 9.82
+user 0.00
+sys 0.00
+real 9.83
+user 0.01
+sys 0.01
+summary 2 9.83 732.45167853509664292980 941.37
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/28
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.70
+user 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 8.63
+user 0.00
+sys 0.00
+real 8.64
+user 0.01
+sys 0.00
+summary 2 8.64 833.33333333333333333333 950.01
+rvms 2 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/28
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 14.36
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/28
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 17.93
+user 0.00
+sys 0.00
+real 17.93
+user 0.01
+sys 0.01
+summary 2 17.93 401.56162855549358616843 967.94
+rvms 2 cwnd 1 1
+
+real 40.82
+user 0.01
+sys 0.00
+real 40.82
+user 0.01
+sys 0.00
+summary 1 40.82 88.19206271435570798628 1008.76
+rvms 1 cwnd 1 1
+
+real 40.38
+user 0.01
+sys 0.00
+real 40.39
+user 0.01
+sys 0.00
+summary 1 40.39 89.13097301312205991582 1049.15
+total_summary #50 1049.15 171.56745937187246818853
+real 1049.84
+user 0.59
+sys 0.38
+
+Wed May  9 13:57:23 2012
+----------------

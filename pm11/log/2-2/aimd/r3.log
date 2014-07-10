@@ -1,0 +1,2022 @@
+Log of time -p ./aimd 
+Wed May  9 10:34:05 2012
+
+rvms 50 cwnd 1 1
+
+real 54.21
+user 0.01
+sys 0.00
+real 54.26
+user 0.02
+sys 0.00
+summary 1 54.26 66.34721710283818650939 54.26
+rvms 49 cwnd 2 2
+
+real 61.74
+user 0.01
+sys 0.00
+
+real 69.64
+user 0.00
+sys 0.00
+real 69.68
+user 0.02
+sys 0.02
+summary 2 69.68 103.32950631458094144661 123.94
+rvms 47 cwnd 4 4
+
+real 54.31
+user 0.01
+sys 0.00
+
+real 64.42
+user 0.01
+sys 0.00
+
+real 73.36
+user 0.01
+sys 0.00
+
+real 75.25
+user 0.00
+sys 0.00
+real 75.30
+user 0.04
+sys 0.02
+summary 4 75.30 191.23505976095617529880 199.24
+rvms 43 cwnd 8 8
+
+real 62.03
+user 0.00
+sys 0.00
+
+real 66.03
+user 0.01
+sys 0.00
+
+real 69.78
+user 0.01
+sys 0.00
+
+real 72.18
+user 0.00
+sys 0.01
+
+real 73.70
+user 0.00
+sys 0.00
+
+real 76.28
+user 0.00
+sys 0.00
+
+real 83.30
+user 0.00
+sys 0.01
+
+real 86.93
+user 0.00
+sys 0.00
+real 86.97
+user 0.07
+sys 0.06
+summary 8 86.97 331.14867195584684373922 286.21
+rvms 35 cwnd 9 9
+
+real 56.45
+user 0.01
+sys 0.00
+
+real 66.72
+user 0.00
+sys 0.00
+
+real 67.34
+user 0.00
+sys 0.00
+
+real 71.74
+user 0.01
+sys 0.00
+
+real 72.27
+user 0.01
+sys 0.00
+
+real 76.19
+user 0.01
+sys 0.00
+
+real 78.01
+user 0.01
+sys 0.00
+
+real 82.92
+user 0.01
+sys 0.00
+
+real 89.05
+user 0.00
+sys 0.01
+real 89.08
+user 0.09
+sys 0.04
+summary 9 89.08 363.71800628648405927256 375.29
+rvms 26 cwnd 10 10
+
+real 77.48
+user 0.01
+sys 0.00
+
+real 80.89
+user 0.00
+sys 0.00
+
+real 82.13
+user 0.01
+sys 0.00
+
+real 84.02
+user 0.01
+sys 0.00
+
+real 86.88
+user 0.01
+sys 0.00
+
+real 89.10
+user 0.01
+sys 0.00
+
+real 90.42
+user 0.01
+sys 0.00
+
+real 91.27
+user 0.00
+sys 0.00
+
+real 91.77
+user 0.00
+sys 0.00
+
+real 103.88
+user 0.00
+sys 0.00
+real 103.91
+user 0.11
+sys 0.04
+summary 10 103.91 346.45366182273120970070 479.20
+rvms 16 cwnd 5 5
+
+real 55.25
+user 0.00
+sys 0.01
+
+real 58.75
+user 0.01
+sys 0.00
+
+real 58.99
+user 0.01
+sys 0.00
+
+real 60.14
+user 0.01
+sys 0.00
+
+real 61.85
+user 0.01
+sys 0.00
+real 61.86
+user 0.05
+sys 0.02
+summary 5 61.86 290.97963142580019398642 541.06
+rvms 11 cwnd 6 6
+
+real 54.06
+user 0.01
+sys 0.00
+
+real 72.12
+user 0.01
+sys 0.00
+
+real 89.87
+user 0.00
+sys 0.00
+
+real 114.86
+user 0.01
+sys 0.00
+
+real 116.99
+user 0.00
+sys 0.00
+
+real 121.02
+user 0.00
+sys 0.01
+real 121.03
+user 0.05
+sys 0.02
+summary 6 121.03 178.46814839296042303561 662.09
+rvms 5 cwnd 3 3
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+real 17.41
+user 0.00
+sys 0.00
+real 17.41
+user 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 17.41
+user 0.01
+sys 0.00
+real 17.42
+user 0.02
+sys 0.01
+summary 3 17.42 619.97703788748564867967 679.51
+rvms 5 cwnd 4 4
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.87
+user 0.00
+sys 0.00
+error: error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+
+real 14.95
+real 14.95
+user 0.01
+user 0.00
+sys 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 15.98
+user 0.01
+sys 0.00
+real 15.99
+user 0.04
+sys 0.01
+summary 4 15.99 900.56285178236397748592 695.50
+rvms 5 cwnd 5 5
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 11.92
+user 0.00
+sys 0.00
+error: internal error Process exited while reading console log output: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+real 21.49
+user 0.01
+sys 0.00
+
+real 21.49
+user 0.00
+sys 0.00
+real 21.49
+user 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 22.05
+user 0.01
+sys 0.00
+real 22.06
+user 0.05
+sys 0.01
+summary 5 22.06 815.95648232094288304623 717.56
+rvms 5 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.55
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 11.10
+user 0.01
+sys 0.00
+real 11.11
+user 0.02
+sys 0.00
+summary 2 11.11 648.06480648064806480648 728.67
+rvms 5 cwnd 3 3
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+
+real 29.51
+user 0.01
+sys 0.00
+real 29.51
+real 29.51
+user 0.00
+user 0.00
+sys 0.00
+sys 0.00
+real 29.52
+user 0.02
+sys 0.01
+summary 3 29.52 365.85365853658536585365 758.19
+rvms 5 cwnd 1 1
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 5.74
+user 0.00
+sys 0.00
+real 5.75
+user 0.00
+sys 0.01
+summary 1 5.75 626.08695652173913043478 763.94
+rvms 5 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.83
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 12.49
+user 0.00
+sys 0.00
+real 12.50
+user 0.00
+sys 0.02
+summary 2 12.50 576.00000000000000000000 776.44
+rvms 5 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 8.34
+user 0.01
+sys 0.00
+real 8.35
+user 0.01
+sys 0.00
+summary 1 8.35 431.13772455089820359281 784.79
+rvms 5 cwnd 2 2
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 10.33
+user 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 10.50
+user 0.00
+sys 0.00
+real 10.51
+user 0.01
+sys 0.01
+summary 2 10.51 685.06184586108468125594 795.30
+rvms 5 cwnd 3 3
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 8.43
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/8
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 18.07
+user 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 19.85
+user 0.00
+sys 0.00
+real 19.86
+user 0.02
+sys 0.01
+summary 3 19.86 543.80664652567975830815 815.16
+rvms 5 cwnd 1 1
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 9.74
+user 0.00
+sys 0.00
+real 9.75
+user 0.00
+sys 0.00
+summary 1 9.75 369.23076923076923076923 824.91
+rvms 5 cwnd 2 2
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.51
+user 0.01
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 11.06
+user 0.00
+sys 0.00
+real 11.07
+user 0.02
+sys 0.00
+summary 2 11.07 650.40650406504065040650 835.98
+rvms 5 cwnd 3 3
+error: internal error Process exited while reading console log output: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+
+real 8.86
+user 0.01
+sys 0.00
+real 8.86
+user 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 9.03
+user 0.00
+sys 0.00
+real 9.04
+user 0.02
+sys 0.01
+summary 3 9.04 1194.69026548672566371681 845.02
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 7.98
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: server closed connection: 
+time died with exit status 129
+summary 4 7.98 1804.51127819548872180451 853.00
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.87
+user 0.00
+sys 0.00
+error: error: time died with exit status 129
+summary 5 0.87 20689.65517241379310344827 853.87
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.34
+user 0.00
+sys 0.00
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: : Connection reset by peer
+
+time died with exit status 129
+summary 5 0.34 52941.17647058823529411764 854.21
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.69
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 5 0.69 26086.95652173913043478260 854.90
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.42
+user 0.00
+sys 0.00
+error: error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+summary 2 0.42 17142.85714285714285714285 855.32
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.57
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 3 0.57 18947.36842105263157894736 855.89
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.15
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: : Connection reset by peer
+
+time died with exit status 129
+summary 4 0.15 96000.00000000000000000000 856.04
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.13
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 5 0.13 138461.53846153846153846153 856.17
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.13
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 5 0.13 138461.53846153846153846153 856.30
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.17
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+error: time died with exit status 129
+summary 5 0.17 105882.35294117647058823529 856.47
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.15
+user 0.00
+sys 0.00
+error: error: time died with exit status 129
+summary 2 0.15 48000.00000000000000000000 856.62
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.15
+user 0.00
+sys 0.00
+error: error: cannot recv data: : Connection reset by peercannot recv data: Resource temporarily unavailable
+
+time died with exit status 129
+summary 3 0.15 72000.00000000000000000000 856.77
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 4 0.12 120000.00000000000000000000 856.89
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 5 0.12 150000.00000000000000000000 857.01
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+summary 5 0.12 150000.00000000000000000000 857.13
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.11
+user 0.00
+sys 0.00
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: : Connection reset by peer
+
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+summary 5 0.11 163636.36363636363636363636 857.24
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.11
+user 0.00
+sys 0.00
+error: error: cannot recv data: : Connection reset by peer
+cannot recv data: : Connection reset by peertime died with exit status 129
+summary 5 0.11 163636.36363636363636363636 857.35
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.47
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 5 0.47 38297.87234042553191489361 857.82
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+summary 2 0.00 857.82
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+summary 3 0.01 1080000.00000000000000000000 857.83
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+./aimd: line 76: [: -eq: unary operator expected
+rvms 5 cwnd 4 4
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+summary 4 0.00 857.83
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+summary 2 0.01 720000.00000000000000000000 857.84
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 3 0.01 1080000.00000000000000000000 857.85
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: Resource temporarily unavailable
+
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+summary 4 0.01 1440000.00000000000000000000 857.86
+rvms 5 cwnd 5 5
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+summary 5 0.00 857.86
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+summary 2 0.01 720000.00000000000000000000 857.87
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+summary 3 0.01 1080000.00000000000000000000 857.88
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+summary 4 0.01 1440000.00000000000000000000 857.89
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+summary 5 0.01 1800000.00000000000000000000 857.90
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.52
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 5 0.52 34615.38461538461538461538 858.42
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.18
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 2 0.18 40000.00000000000000000000 858.60
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.15
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 3 0.15 72000.00000000000000000000 858.75
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.16
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+error: time died with exit status 129
+summary 4 0.16 90000.00000000000000000000 858.91
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.18
+user 0.00
+sys 0.00
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: Resource temporarily unavailable
+
+error: cannot recv data: Resource temporarily unavailable
+error: time died with exit status 129
+summary 5 0.18 100000.00000000000000000000 859.09
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.33
+user 0.00
+sys 0.00
+error: error: cannot recv data: : Connection reset by peer
+cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+summary 5 0.33 54545.45454545454545454545 859.42
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.31
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 2 0.31 23225.80645161290322580645 859.73
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 3 0.12 90000.00000000000000000000 859.85
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.08
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+error: time died with exit status 129
+summary 4 0.08 180000.00000000000000000000 859.93
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.10
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: time died with exit status 129
+summary 5 0.10 180000.00000000000000000000 860.03
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.11
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: Resource temporarily unavailable
+
+time died with exit status 129
+summary 5 0.11 163636.36363636363636363636 860.14
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.36
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 2 0.36 20000.00000000000000000000 860.50
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: time died with exit status 129
+summary 3 0.12 90000.00000000000000000000 860.62
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.11
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+error: time died with exit status 129
+summary 4 0.11 130909.09090909090909090909 860.73
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.47
+user 0.00
+sys 0.00
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: : Connection reset by peer
+
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 5 0.47 38297.87234042553191489361 861.20
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+summary 2 0.00 861.20
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+summary 3 0.01 1080000.00000000000000000000 861.21
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+./aimd: line 76: [: -eq: unary operator expected
+rvms 5 cwnd 4 4
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+summary 4 0.00 861.21
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+summary 2 0.01 720000.00000000000000000000 861.22
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+summary 3 0.01 1080000.00000000000000000000 861.23
+rvms 5 cwnd 4 4
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+summary 4 0.00 861.23
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+summary 2 0.01 720000.00000000000000000000 861.24
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+summary 3 0.01 1080000.00000000000000000000 861.25
+rvms 5 cwnd 4 4
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+summary 4 0.00 861.25
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+summary 2 0.01 720000.00000000000000000000 861.26
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+error: timedied with signal 2
+(standard_in) 2: syntax error
+(standard_in) 2: syntax error
+summary 3
+rvms 5 cwnd 1 1
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=14): Divide by zero
+(standard_in) 1: syntax error
+summary 1 0.00
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 2 0.00
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+./aimd: line 76: [: -eq: unary operator expected
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+./aimd: line 76: [: -eq: unary operator expected
+rvms 5 cwnd 4 4
+timedied with signal 2
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+summary 4
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 2 0.00
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+./aimd: line 76: [: -eq: unary operator expected
+rvms 5 cwnd 4 4
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 4 0.00
+rvms 5 cwnd 2 2
+error: timedied with signal 2
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+summary 2
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+./aimd: line 76: [: -eq: unary operator expected
+rvms 5 cwnd 4 4
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 4 0.00
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 2 0.00
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+./aimd: line 76: [: -eq: unary operator expected
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.74
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.74 19459.45945945945945945945
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.15
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 0.15 48000.00000000000000000000
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.12 90000.00000000000000000000
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.12 120000.00000000000000000000
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.10
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.10 180000.00000000000000000000
+rvms 5 cwnd 5 5
+error: error: cannot recv data: : Connection reset by peercannot recv data: Resource temporarily unavailable
+
+Command exited with non-zero status 129
+real 0.11
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.11 163636.36363636363636363636
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 0.12 60000.00000000000000000000
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.10
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.10 108000.00000000000000000000
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.12 120000.00000000000000000000
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.11
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.11 163636.36363636363636363636
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: : Connection reset by peer
+
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.12 150000.00000000000000000000
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 1.09
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 1.09 6605.50458715596330275229
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.18
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.18 60000.00000000000000000000
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.18
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.18 80000.00000000000000000000
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.16
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.16 112500.00000000000000000000
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.15
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: Resource temporarily unavailable
+
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.15 120000.00000000000000000000
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.14
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.14 128571.42857142857142857142
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.14
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.14 128571.42857142857142857142
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.13
+user 0.00
+sys 0.00
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: Resource temporarily unavailable
+
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.13 138461.53846153846153846153
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 7.20
+user 0.00
+sys 0.00
+error: server closed connection: error: 
+server closed connection: 
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 7.20 2500.00000000000000000000
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.20
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 0.20 36000.00000000000000000000
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.14
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.14 77142.85714285714285714285
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.14
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.14 102857.14285714285714285714
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.14
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.14 128571.42857142857142857142
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.14
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.14 128571.42857142857142857142
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.14
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.14 128571.42857142857142857142
+rvms 5 cwnd 5 5
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+Command exited with non-zero status 129
+real 0.14
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.14 128571.42857142857142857142
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.15
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.15 120000.00000000000000000000
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.14
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 0.14 51428.57142857142857142857
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.15
+user 0.00
+sys 0.00
+error: error: cannot recv data: : Connection reset by peercannot recv data: Resource temporarily unavailable
+
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.15 72000.00000000000000000000
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.47
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.47 30638.29787234042553191489
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 2 0.00
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+./aimd: line 76: [: -eq: unary operator expected
+rvms 5 cwnd 4 4
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+(standard_in) 1: syntax error
+summary 4 0.01 1440000.00000000000000000000
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.01 1800000.00000000000000000000
+rvms 5 cwnd 5 5
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 5 0.00
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 0.01 720000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.01 1440000.00000000000000000000
+rvms 5 cwnd 5 5
+timedied with signal 2
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+summary 5
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+(standard_in) 1: syntax error
+summary 2 0.01 720000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+rvms 5 cwnd 4 4
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 4 0.00
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 0.01 720000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+rvms 5 cwnd 4 4
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 4 0.00
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+(standard_in) 1: syntax error
+summary 2 0.01 720000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.01 1440000.00000000000000000000
+rvms 5 cwnd 5 5
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+(standard_in) 1: syntax error
+summary 5 0.01 1800000.00000000000000000000
+rvms 5 cwnd 5 5
+timedied with signal 2
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+summary 5
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+(standard_in) 1: syntax error
+summary 2 0.01 720000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.01 1440000.00000000000000000000
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.01 1800000.00000000000000000000
+rvms 5 cwnd 5 5
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+(standard_in) 1: syntax error
+summary 5 0.01 1800000.00000000000000000000
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.01 1800000.00000000000000000000
+rvms 5 cwnd 5 5
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 5 0.00
+rvms 5 cwnd 2 2
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+error: time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 2 0.00
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+./aimd: line 76: [: -eq: unary operator expected
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.01 1440000.00000000000000000000
+rvms 5 cwnd 5 5
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 5 0.00
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 0.01 720000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 3 3
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+time died with exit status 130
+Runtime error (func=(main), adr=16): Divide by zero
+(standard_in) 1: syntax error
+summary 3 0.00
+rvms 5 cwnd 1 1
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 130
+(standard_in) 1: syntax error
+summary 1 0.01 360000.00000000000000000000
+(standard_in) 2: syntax error
+(standard_in) 1: syntax error
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 0.01 720000.00000000000000000000
+rvms 5 cwnd 3 3
+Command terminated by signal 2
+real 0.01
+user 0.00
+sys 0.00
+error: time died with exit status 130
+(standard_in) 1: syntax error
+summary 3 0.01 1080000.00000000000000000000
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.01
+user 0.00
+sys 0.00
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.01 1440000.00000000000000000000
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.20
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.20 90000.00000000000000000000
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.16
+user 0.00
+sys 0.00
+error: error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 0.16 45000.00000000000000000000
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.13
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.13 83076.92307692307692307692
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.11
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.11 130909.09090909090909090909
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.13
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.13 138461.53846153846153846153
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.13
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.13 138461.53846153846153846153
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.13
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.13 138461.53846153846153846153
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.48
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.48 37500.00000000000000000000
+rvms 5 cwnd 2 2
+Command exited with non-zero status 129
+real 0.60
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 2 0.60 12000.00000000000000000000
+rvms 5 cwnd 3 3
+Command exited with non-zero status 129
+real 0.52
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailabletime died with exit status 129
+(standard_in) 1: syntax error
+summary 3 0.52 20769.23076923076923076923
+rvms 5 cwnd 4 4
+Command exited with non-zero status 129
+real 0.39
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 4 0.39 36923.07692307692307692307
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.46
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.46 39130.43478260869565217391
+rvms 5 cwnd 5 5
+Command exited with non-zero status 129
+real 0.88
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+(standard_in) 1: syntax error
+summary 5 0.88 20454.54545454545454545454
+rvms 5 cwnd 2 2
+error: error: cannot recv data: Connection closed by 128.227.59.172
+: Connection reset by peercannot recv data: Connection closed by 128.227.59.172
+: Connection reset by peer
+
+
+
+real 136.67
+real 136.67
+user 0.00
+user 0.00
+sys 0.00
+sys 0.00
+real 136.68
+user 0.00
+sys 0.01
+(standard_in) 1: syntax error
+summary 2 136.68 52.67778753292361720807
+rvms 5 cwnd 3 3
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 12.49
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 12.49
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 12.49
+user 0.00
+sys 0.00
+real 12.50
+user 0.02
+sys 0.01
+(standard_in) 1: syntax error
+summary 3 12.50 864.00000000000000000000
+rvms 5 cwnd 4 4
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.54
+user 0.00
+sys 0.00
+error: error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+
+real 14.61
+user 0.00
+sys 0.00
+real 14.61
+user 0.01
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 15.61
+user 0.01
+sys 0.00
+real 15.62
+user 0.03
+sys 0.02
+(standard_in) 1: syntax error
+summary 4 15.62 921.89500640204865556978
+rvms 5 cwnd 5 5
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.78
+user 0.00
+sys 0.00
+error: error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 18.96
+user 0.01
+sys 0.00
+
+
+real 18.96
+user 0.01
+sys 0.00
+real 18.96
+user 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+real 19.48
+user 0.00
+sys 0.00
+real 19.49
+user 0.05
+sys 0.01
+(standard_in) 1: syntax error
+summary 5 19.49 923.55053873781426372498
+rvms 5 cwnd 5 5
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.77
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+real 19.24
+user 0.00
+sys 0.00
+real 19.24
+user 0.01
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Broken pipe
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+real 19.24
+user 0.00
+sys 0.01
+real 19.24
+user 0.00
+sys 0.01
+real 19.25
+user 0.03
+sys 0.03
+(standard_in) 1: syntax error
+summary 5 19.25 935.06493506493506493506
+rvms 5 cwnd 5 5
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+
+
+real 19.14
+user 0.01
+sys 0.00
+real 19.14
+user 0.00
+sys 0.00
+real 19.14
+user 0.00
+sys 0.00
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Connection reset by peer
+
+
+real 19.15
+user 0.00
+sys 0.00
+real 19.15
+user 0.00
+sys 0.00
+real 19.16
+user 0.04
+sys 0.02
+(standard_in) 1: syntax error
+summary 5 19.16 939.45720250521920668058
+rvms 5 cwnd 5 5
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+
+real 7.56
+user 0.00
+sys 0.00
+error: cannot send monitor command '{"execute":"qmp_capabilities"}': Broken pipe
+error: internal error process exited while connecting to monitor: char device redirected to /dev/pts/50
+Failed to allocate 555745280 B: Cannot allocate memory
+
+timedied with signal 9
+
+Wed May  9 10:52:52 2012
+----------------

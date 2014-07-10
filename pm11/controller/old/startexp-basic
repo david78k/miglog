@@ -1,0 +1,45 @@
+# another hosts to run this code
+hosts=( )
+#hosts=( c11node8 c11node9 c11node10 )
+
+expname=runexp
+
+basedir=/root/controller
+filepath=$basedir/$expname
+
+# sleep time in seconds
+sleep_time=5
+
+# migration bandwidths set by KVM/QEMU
+limits=( to40 )
+#limits=( 100 )
+#limits=( 75 )
+#limits=( 1000-40 )
+
+# number of vms to migrate
+#vms=6
+vms=40
+
+# starting run point
+run0=3
+
+for limit in ${limits[@]}
+do
+	cmd="$filepath $limit $vms"
+
+	# run 1
+	run=$run0
+	#echo $cmd run$run $(( run + 1 ))
+	$cmd $run
+
+	run=`expr $run "+" 1`
+	
+	# run 2-4
+	for host in ${hosts[@]}
+	do
+		sleep $sleep_time
+		#echo $host $cmd run$run $(( run + 1 ))
+		ssh $host $cmd $run
+		run=`expr $run "+" 1`
+	done	
+done

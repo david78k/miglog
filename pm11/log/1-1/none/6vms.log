@@ -1,0 +1,204 @@
+Log of time -p ./controller-none 
+Sat May  5 10:51:31 2012
+
+rvms 40 nvms 6 6
+
+real 232.42
+user 0.01
+sys 0.00
+
+real 283.96
+user 0.01
+sys 0.00
+
+real 284.36
+user 0.00
+sys 0.01
+
+real 299.19
+user 0.01
+sys 0.00
+
+real 306.19
+user 0.00
+sys 0.01
+
+real 309.79
+user 0.00
+sys 0.00
+real 309.84
+user 0.05
+sys 0.04
+summary 6 309.84 69.71340046475600309837 309.84
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 6.16
+user 0.00
+sys 0.00
+error: error: server closed connection: 
+server closed connection: 
+error: error: server closed connection: server closed connection: 
+
+time died with exit status 129
+summary 6 6.16 3506.49350649350649350649 316.00
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.86
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 6 0.86 25116.27906976744186046511 316.86
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.24
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+summary 6 0.24 90000.00000000000000000000 317.10
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.18
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+error: error: cannot recv data: : Connection reset by peercannot recv data: Resource temporarily unavailable
+
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+summary 6 0.18 120000.00000000000000000000 317.28
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.22
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 6 0.22 98181.81818181818181818181 317.50
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.21
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 6 0.21 102857.14285714285714285714 317.71
+rvms 34 nvms 6 6
+error: cannot recv data: : Connection reset by peer
+Command exited with non-zero status 129
+real 0.18
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 6 0.18 120000.00000000000000000000 317.89
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.12
+user 0.00
+sys 0.00
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: Resource temporarily unavailable
+
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 6 0.12 180000.00000000000000000000 318.01
+rvms 34 nvms 6 6
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: : Connection reset by peer
+
+Command exited with non-zero status 129
+real 0.14
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+
+
+
+time died with exit status 129
+summary 6 0.14 154285.71428571428571428571 318.15
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.13
+user 0.00
+sys 0.00
+error: error: cannot recv data: Resource temporarily unavailablecannot recv data: : Connection reset by peer
+
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 6 0.13 166153.84615384615384615384 318.28
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.19
+user 0.00
+sys 0.00
+error: error: cannot recv data: : Connection reset by peercannot recv data: : Connection reset by peer
+
+time died with exit status 129
+summary 6 0.19 113684.21052631578947368421 318.47
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.15
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peererror: 
+time died with exit status 129
+summary 6 0.15 144000.00000000000000000000 318.62
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.21
+user 0.00
+sys 0.00
+error: cannot recv data: : Connection reset by peer
+time died with exit status 129
+summary 6 0.21 102857.14285714285714285714 318.83
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.13
+user 0.00
+sys 0.00
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: : Connection reset by peertime died with exit status 129
+summary 6 0.13 166153.84615384615384615384 318.96
+rvms 34 nvms 6 6
+error: Command exited with non-zero status 129
+recannot recv data: Resource temporarily unavailableal error: error: 0.12
+
+user 0.00
+scannot recv data: : Connection reset by peercannot recv data: : Connection reset by peerys 
+
+0.00
+error: cannot recv data: : Connection reset by peer
+error: cannot recv data: Resource temporarily unavailable
+error: cannot recv data: Resource temporarily unavailable
+time died with exit status 129
+(standard_in) 2: syntax error
+(standard_in) 2: syntax error
+summary 6
+rvms 34 nvms 6 6
+Command exited with non-zero status 129
+real 0.44
+user 0.00
+sys 0.00
+error: time died with exit status 129
+(standard_in) 1: syntax error
+summary 6 0.44 49090.90909090909090909090
+Command terminated by signal 2
+real 320.38
+user 0.23
+sys 0.14
+time died with exit status 130
+
+Sat May  5 10:56:51 2012
+----------------
