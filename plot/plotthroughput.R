@@ -104,11 +104,11 @@ genplot <- function (type) {
 #		use.cols = TRUE,
 		xlab = xlabel,
 		ylab = ylabel,
-		names = cols,
+		names = cols
 	#	names = c("1", "2", "4", "6", "7", "8", "9", "10", 
 	#		"9", "10", "12", "14", "16", "18", "20", "30", 
 	#		"40", "50", "60", "70", "80", "90", "100"),
-		ylim = c(0, 100)
+		#ylim = c(0, 100)
 		#ylim = c(0, ylim[2])
 	)
 }
