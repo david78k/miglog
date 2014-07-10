@@ -1,6 +1,7 @@
 #!/usr/bin/Rscript
 
 # input: density data
+#        N ATP ITP
 # output: image files
 
 args <- commandArgs(trailingOnly = TRUE)
@@ -8,7 +9,8 @@ print(args)
 src <- args[1]
 N = 6
 #prefix = src
-prefix = paste(src, sep = ".", "pareto")
+prefix = "pareto"
+#prefix = paste(src, sep = ".", "pareto")
 
 #xlabel = "LINK UTILIZATION (%)"
 xlabel = "INDIVIDUAL THROUGHPUT (MB/S)"
