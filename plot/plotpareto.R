@@ -80,7 +80,8 @@ genplot <- function (type) {
 
 	plot(total, total/N, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
 	# pos: 1=below, 2=left, 3=above, 4=right
-	text(total, total/N, N, pos = 3, col = "red")
+	text(total, total/N, c(4,7,16,18,20), pos = 3, col = "red")
+	text(total, total/N, c(1,2,6,8,10,12), pos = 4)
 
 	#plot(data, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(density(data), main = "", xlab = xlabel, ylab = ylabel, xlim = c(0, 100))	
