@@ -13,9 +13,10 @@ prefix = "pareto"
 #N = 6
 N <- c(1, 2, 4, 6, 7, 8, 10, 12, 16, 18, 20)
 
-#xlabel = "LINK UTILIZATION (%)"
-xlabel = "INDIVIDUAL THROUGHPUT (MB/S)"
-ylabel = "TOTAL THROUGHPUT (MB/S)"
+xlabel = "TOTAL THROUGHPUT (MB/S)"
+#xlabel = "INDIVIDUAL THROUGHPUT (MB/S)"
+ylabel = "INDIVIDUAL THROUGHPUT (MB/S)"
+#ylabel = "TOTAL THROUGHPUT (MB/S)"
 
 # figure size in pixel
 #fheight = 200
@@ -77,7 +78,7 @@ genplot <- function (type) {
 	# c(bottom, left, top, right)
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
-	plot(total/N, total, main = "", xlab = xlabel, ylab = ylabel)	
+	plot(total, total/N, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(data, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(density(data), main = "", xlab = xlabel, ylab = ylabel, xlim = c(0, 100))	
 	#plot(density(data[,1]), main = "", xlab = xlabel, ylab = ylabel)	
