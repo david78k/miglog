@@ -1,12 +1,17 @@
 #!/usr/bin/Rscript
 
+# boxplot total throughput in MB/s or link utilization %
+# input: throughput file
+# output: image files
+
 args <- commandArgs(trailingOnly = TRUE)
 print(args)
 src <- args[1]
 prefix = src
 
 xlabel = "VM WINDOW"
-ylabel = "LINK UTILIZATION (%)"
+ylabel = "THROUGHPUT (MB/S)"
+#ylabel = "LINK UTILIZATION (%)"
 #ylabel = "MIGRATION TIME (SEC)"
 
 # 1 2 3 5 8 4 6 7
@@ -40,7 +45,7 @@ print(data)
 
 # convert to percentage (%)
 #data <- data[data < 125]
-data <- data*100/125
+#data <- data*100/125
 
 # reorder columns
 # 20 10 15 8 5 6 4 1 2

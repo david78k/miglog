@@ -1,14 +1,15 @@
 #!/bin/bash
 
-# parse throughput density from dstat files
+# parse throughput from dstat files
 
 #infile=$1
-prefix=${infile%.*}
-run=1
+#prefix=${infile%.*}
+#run=1
 
-#windows=( 1 2 4 6 7 8 9 10 )
+runs=( 1 2 4 6 7 8 9 10 )
+windows=( 1 2 4 6 8 10 12 14 16 18 20 40 )
 #windows=( 1 2 4 6 7 8 10 12 16 18 20 )
-windows=( 1 2 4 5 6 8 10 15 20 )
+#windows=( 1 2 4 5 6 8 10 15 20 )
 
 basedir=/root/miglog/plot
 
@@ -17,28 +18,34 @@ outfile=throughput
 
 for window in ${windows[@]}
 do
-	#infile=${window}vms-r${run}.dstat
-	infile=${window}vms.dstat
-	#densfile=${window}vms-r${run}.density
-	densfile=${window}vms.density
+	thruputfile=${window}vms.throughput
+	for run in ${runs[@]}
+	do
+		infile=${window}vms-r${run}.dstat
+		#infile=${window}vms.dstat
+		densfile=${window}vms-r${run}.throughput
 
-	# parse density of MByte throughputs from dstat file
-	# remove outlier greater than 125MB/s
-	awk '{print $2}' $infile | grep M | cut -d "|" -f 1 | cut -d "M" -f 1 | awk '$N <= 125' > $densfile
-	#awk '{print $2}' 2vms-r1.dstat | cut -d "|" -f 1 | grep M
+		# parse MByte throughputs from dstat file
+		# remove outlier greater than 125MB/s
+		awk '{print $2}' $infile | grep M | cut -d "|" -f 1 | cut -d "M" -f 1 | awk '$N <= 125' >> $thruputfile
+		#awk '{print $2}' $infile | grep M | cut -d "|" -f 1 | cut -d "M" -f 1 | awk '$N <= 125' >> $densfile
+		#awk '{print $2}' 2vms-r1.dstat | cut -d "|" -f 1 | grep M
 
-	# parse density of MByte throughputs from dstat file
-	# remove outlier greater than 125MB/s
-	awk '{print $2}' $infile | grep k | cut -d "|" -f 1 | cut -d "k" -f 1 | awk '{print $1/1000}' | awk '$N <= 125' >> $densfile
-
-	pastestr="$pastestr $densfile"
+		# parse kByte throughputs from dstat file
+		# remove outlier greater than 125MB/s
+		awk '{print $2}' $infile | grep k | cut -d "|" -f 1 | cut -d "k" -f 1 | awk '{print $1/1000}' | awk '$N <= 125' >> $thruputfile
+		#awk '{print $2}' $infile | grep k | cut -d "|" -f 1 | cut -d "k" -f 1 | awk '{print $1/1000}' | awk '$N <= 125' >> $densfile
+	done
+	#cat $catstr 
+	pastestr="$pastestr $thruputfile"
+	#pastestr="$pastestr $densfile"
 done
 
 paste $pastestr > $outfile
 
 echo $outfile generated.
 
-wc -l *.density
+wc -l *.throughput
 
-$basedir/plotthroughput.R $outfile
+#$basedir/plotthroughput.R $outfile
 
