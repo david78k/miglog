@@ -18,8 +18,8 @@ xlabel = "INDIVIDUAL THROUGHPUT (MB/S)"
 ylabel = "TOTAL THROUGHPUT (MB/S)"
 
 # figure size in pixel
-fheight = 200
-#fheight = 300
+#fheight = 200
+fheight = 300
 fwidth = 300
 #fwidth = 400
 
@@ -77,7 +77,7 @@ genplot <- function (type) {
 	# c(bottom, left, top, right)
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
-	plot(total, total/N, main = "", xlab = xlabel, ylab = ylabel)	
+	plot(total/N, total, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(data, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(density(data), main = "", xlab = xlabel, ylab = ylabel, xlim = c(0, 100))	
 	#plot(density(data[,1]), main = "", xlab = xlabel, ylab = ylabel)	
