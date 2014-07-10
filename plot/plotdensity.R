@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 
-# input: table data
+# input: density data
 # output: image files
 
 args <- commandArgs(trailingOnly = TRUE)
