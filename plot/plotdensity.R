@@ -1,5 +1,8 @@
 #!/usr/bin/Rscript
 
+# input: table data
+# output: image files
+
 args <- commandArgs(trailingOnly = TRUE)
 print(args)
 src <- args[1]
