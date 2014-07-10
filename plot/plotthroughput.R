@@ -94,7 +94,7 @@ genplot <- function (type) {
 	
 #	print(df)
 	
-	ylim <- range(data)
+#	ylim <- range(data)
 
 	# las = 2 to rotate xlabels
 	#boxplot(x = 1:nrow(data), y = c(data[1,8], data[1:2,7], data[1:3,6], data[1:4,5], data[1:5,4], data[1:6,3], data[1:7,2], data[1:8,1]),
@@ -104,11 +104,11 @@ genplot <- function (type) {
 #		use.cols = TRUE,
 		xlab = xlabel,
 		ylab = ylabel,
-		names = cols
+		names = cols,
 	#	names = c("1", "2", "4", "6", "7", "8", "9", "10", 
 	#		"9", "10", "12", "14", "16", "18", "20", "30", 
 	#		"40", "50", "60", "70", "80", "90", "100"),
-		#ylim = c(0, 100)
+		ylim = c(0, 120)
 		#ylim = c(0, ylim[2])
 	)
 }
