@@ -9,8 +9,8 @@ src <- args[1]
 prefix = src
 #prefix = paste(src, sep = ".", "dens")
 
-xlabel = "LINK UTILIZATION (%)"
-#xlabel = "THROUGHPUT (MB/S)"
+#xlabel = "LINK UTILIZATION (%)"
+xlabel = "THROUGHPUT (MB/S)"
 ylabel = "DENSITY"
 #ylabel = "FREQUENCY"
 
@@ -28,7 +28,7 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 data[is.na(data)] <- 0
 #print(data)
 
-data <- data*100/125
+#data <- data*100/125
 
 # remove outliers greater than 125MB/s
 xdata <- data[,1]
@@ -36,7 +36,7 @@ xdata <- data[,1]
 data <- xdata[xdata < 125]
 
 # only for 4VMs in real WAN uf-aist
-data <- data/2
+#data <- data/2
 
 # transpose
 #data <- t(data[,-1]/1000)
