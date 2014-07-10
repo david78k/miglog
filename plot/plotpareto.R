@@ -84,11 +84,16 @@ genplot <- function (type) {
 
 	plot(total, total/N, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
 	#front <- total[c(3,5,9,10,11)]
+	front <- total[c(3,4,5,6,7,8,9,10,11,12)]
 	#points(front, front/c(4,7,16,18,20), col = "red", bg = "red", pch = 16)
+	# front/N (average)
+	points(front, front/total[c(3,4,5,6,7,8,9,10,11,12)], col = "red", bg = "red", pch = 16)
 
 	# pos: 1=below, 2=left, 3=above, 4=right
-	text(total, total/N, N, pos = 4, col = "red")
-	text(total, total/N, c("","","","","","","","","","18","","40"), pos = 2, col = "red")
+	#text(total, total/N, N, pos = 4, col = "red")
+	text(total, total/N, c("1","2","4","6","8","10","12","14","16","","20",""), pos = 4)
+	text(total, total/N, c("","","","","","","","","","18","","40"), pos = 2)
+	#text(total, total/N, c("","","","","","","","","","18","","40"), pos = 2, col = "red")
 	#text(total, total/N, c("","",4,"","","","","","","","20"), pos = 2, col = "red")
 	#text(total, total/N, c("","","","",7,"","","",16,18,""), pos = 3, col = "red")
 	#text(total, total/N, c(1,2,"",6,"",8,10,12,"","",""), pos = 4)
@@ -104,11 +109,6 @@ genplot <- function (type) {
 	#fhat <- bkde(x=waiting)
 	#plot(fhat, xlab="x", ylab="Density function")
 
-#	df <- data.frame(values = c(data[1,8], data[1:2,7], data[1:3,6], data[1:4,5], data[1:5,4], data[1:6,3], data[1:7,2], data[1:8,1]), 
-#		vars = rep(c("1", "2", "3", "4", "5", "6", "7", "8"), times = c(1,2,3,4,5,6,7,8)))
-	
-	#print(df)
-	
 #	ylim <- range(data)
 #	print (ylim)
 #	print (ylim[1])
