@@ -35,6 +35,9 @@ xdata <- data[,1]
 #print(xdata)
 data <- xdata[xdata < 125]
 
+# only for 4VMs in real WAN uf-aist
+data <- data/2
+
 # transpose
 #data <- t(data[,-1]/1000)
 #print(data)
