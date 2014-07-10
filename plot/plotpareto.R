@@ -10,8 +10,8 @@ src <- args[1]
 prefix = paste(src, sep = ".", "pareto")
 
 #xlabel = "LINK UTILIZATION (%)"
-xlabel = "TOTAL THROUGHPUT (MB/S)"
-ylabel = "INDIVIDUAL THROUGHPUT (MB/S)"
+xlabel = "INDIVIDUAL THROUGHPUT (MB/S)"
+ylabel = "TOTAL THROUGHPUT (MB/S)"
 
 # figure size in pixel
 fheight = 200
@@ -68,7 +68,8 @@ genplot <- function (type) {
 	# c(bottom, left, top, right)
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
-	plot(data, main = "", xlab = xlabel, ylab = ylabel)	
+	plot(data[1], main = "", xlab = xlabel, ylab = ylabel)	
+	#plot(data, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(density(data), main = "", xlab = xlabel, ylab = ylabel, xlim = c(0, 100))	
 	#plot(density(data[,1]), main = "", xlab = xlabel, ylab = ylabel)	
 #	title(main = NULL)
