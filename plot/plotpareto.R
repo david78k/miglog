@@ -6,6 +6,7 @@
 args <- commandArgs(trailingOnly = TRUE)
 print(args)
 src <- args[1]
+N = 6
 #prefix = src
 prefix = paste(src, sep = ".", "pareto")
 
@@ -36,6 +37,9 @@ data <- xdata[xdata < 125]
 
 # only for 4VMs in real WAN uf-aist
 #data <- data/2
+
+# average
+total <- mean(data)
 
 # transpose
 #data <- t(data[,-1]/1000)
@@ -68,7 +72,7 @@ genplot <- function (type) {
 	# c(bottom, left, top, right)
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
-	plot(data, data, main = "", xlab = xlabel, ylab = ylabel)	
+	plot(total, total/N, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(data, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(density(data), main = "", xlab = xlabel, ylab = ylabel, xlim = c(0, 100))	
 	#plot(density(data[,1]), main = "", xlab = xlabel, ylab = ylabel)	
