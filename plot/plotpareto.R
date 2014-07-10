@@ -1,7 +1,6 @@
 #!/usr/bin/Rscript
 
-# input: throughput data
-#        N ATP ITP
+# input: total throughput data
 # output: image files
 
 args <- commandArgs(trailingOnly = TRUE)
@@ -10,8 +9,8 @@ src <- args[1]
 #prefix = src
 prefix = "pareto"
 #prefix = paste(src, sep = ".", "pareto")
-#N = 6
-N <- c(1, 2, 4, 6, 7, 8, 10, 12, 16, 18, 20)
+N <- c(1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 40)
+#N <- c(1, 2, 4, 6, 7, 8, 10, 12, 16, 18, 20)
 
 xlabel = "TOTAL THROUGHPUT (MB/S)"
 #xlabel = "INDIVIDUAL THROUGHPUT (MB/S)"
@@ -44,8 +43,13 @@ data <- read.table(src, na.strings = "NA", fill = TRUE)
 
 # column-wise average 
 total <- colMeans(data, na.rm = TRUE)
-print (total)
-print (total/N)
+cat (total)
+#print (total)
+cat ("\n")
+cat (total/N)
+cat ("\n")
+#print (total/N)
+#cat (total, total/N)
 
 # transpose
 #data <- t(data[,-1]/1000)
