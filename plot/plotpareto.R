@@ -6,8 +6,8 @@
 args <- commandArgs(trailingOnly = TRUE)
 print(args)
 src <- args[1]
-prefix = src
-#prefix = paste(src, sep = ".", "dens")
+#prefix = src
+prefix = paste(src, sep = ".", "pareto")
 
 #xlabel = "LINK UTILIZATION (%)"
 xlabel = "TOTAL THROUGHPUT (MB/S)"
