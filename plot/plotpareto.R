@@ -19,7 +19,7 @@ ylabel = "INDIVIDUAL THROUGHPUT (MB/S)"
 
 # figure size in pixel
 #fheight = 200
-fheight = 300
+fheight = 250
 fwidth = 300
 #fwidth = 400
 
@@ -88,6 +88,7 @@ genplot <- function (type) {
 
 	# pos: 1=below, 2=left, 3=above, 4=right
 	text(total, total/N, N, pos = 4, col = "red")
+	text(total, total/N, c("","","","","","","","","","18","","40"), pos = 2, col = "red")
 	#text(total, total/N, c("","",4,"","","","","","","","20"), pos = 2, col = "red")
 	#text(total, total/N, c("","","","",7,"","","",16,18,""), pos = 3, col = "red")
 	#text(total, total/N, c(1,2,"",6,"",8,10,12,"","",""), pos = 4)
