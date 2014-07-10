@@ -28,7 +28,7 @@ fwidth = 300
 data <- read.table(src, na.strings = "NA", fill = TRUE)
 
 # replace missing values to zero
-data[is.na(data)] <- 0
+#data[is.na(data)] <- 0
 #print(data)
 
 #data <- data*100/125
@@ -42,7 +42,9 @@ data[is.na(data)] <- 0
 #data <- data/2
 
 # column-wise average 
-total <- colMeans(data)
+total <- colMeans(data, na.rm = TRUE)
+print (total)
+print (total/N)
 
 # transpose
 #data <- t(data[,-1]/1000)
