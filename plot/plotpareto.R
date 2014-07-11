@@ -12,7 +12,8 @@ prefix = "pareto"
 N <- c(1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 40)
 #N <- c(1, 2, 4, 6, 7, 8, 10, 12, 16, 18, 20)
 
-xlabel = "TOTAL THROUGHPUT (MB/S)"
+#xlabel = "TOTAL THROUGHPUT (MB/S)"
+xlabel = "AGGREGATE THROUGHPUT (MB/S)"
 #xlabel = "INDIVIDUAL THROUGHPUT (MB/S)"
 ylabel = "INDIVIDUAL THROUGHPUT (MB/S)"
 #ylabel = "TOTAL THROUGHPUT (MB/S)"
@@ -83,11 +84,13 @@ genplot <- function (type) {
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
 	plot(total, total/N, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
+
 	#front <- total[c(3,5,9,10,11)]
 	front <- total[c(3,4,5,6,7,8,9,10,11,12)]
 	#points(front, front/c(4,7,16,18,20), col = "red", bg = "red", pch = 16)
 	# front/N (average)
-	points(front, front/N[c(3,4,5,6,7,8,9,10,11,12)], col = "red", bg = "red", pch = 16)
+	lines(front, front/N[c(3,4,5,6,7,8,9,10,11,12)], col = "red", bg = "red", pch = 16)
+	#points(front, front/N[c(3,4,5,6,7,8,9,10,11,12)], col = "red", bg = "red", pch = 16)
 
 	# pos: 1=below, 2=left, 3=above, 4=right
 	#text(total, total/N, N, pos = 4, col = "red")
