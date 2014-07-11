@@ -100,7 +100,9 @@ genplot <- function (type) {
 	#lines(total/N, type = "b", pch = 22, col = "red", lty = 2)
 
 	legend("topleft", inset=.05, 
-  	 c("TOTAL","INDIV"), fill=c("blue","red"), horiz=TRUE)
+  	 c("AGGREGATE","INDIV"), fill=c("blue","red"), horiz=TRUE
+	 , pch = c(21, 8)
+	)
   	 #c("4","6"), fill=terrain.colors(2), horiz=TRUE)
 
 	#front <- total[c(3,5,9,10,11)]
