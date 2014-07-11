@@ -95,8 +95,9 @@ genplot <- function (type) {
 	#plot(total, total/N, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
 
 	# second y-axis on the right
-	# pch 3:+, 4:x, 8:*
-	lines(total/N, type = "b", pch = 22, col = "red", lty = 2)
+	# pch 3:+, 4:x, 8:*, 21:o, 22:box
+	lines(total/N, type = "b", pch = 8, col = "red", lty = 2)
+	#lines(total/N, type = "b", pch = 22, col = "red", lty = 2)
 
 	#front <- total[c(3,5,9,10,11)]
 #	front <- total[c(3,4,5,6,7,8,9,10,11,12)]
