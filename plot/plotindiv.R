@@ -86,7 +86,8 @@ genplot <- function (type) {
 	ylim <- range(total)
 
 	plot(total, las = 1, main = "", xlab = xlabel, ylab = ylabel
-		, type = "b", pch = 21, col = "blue",
+		, type = "b", pch = 21, col = "blue"
+		, lty = 3
 		, xaxt = "n", ylim = c(0, ylim[2])
 	)
 	axis(1, at = 1:length(N), labels = N)
@@ -95,7 +96,7 @@ genplot <- function (type) {
 
 	# second y-axis on the right
 	# pch 3:+, 4:x, 8:*
-	lines(total/N, type = "b", pch = 21, col = "red")
+	lines(total/N, type = "b", pch = 21, col = "red", lty = 2)
 
 	#front <- total[c(3,5,9,10,11)]
 #	front <- total[c(3,4,5,6,7,8,9,10,11,12)]
