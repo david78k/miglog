@@ -102,6 +102,7 @@ genplot <- function (type) {
 	#legend("topleft", inset=.05, 
 	legend("right", inset=.05, 
   	 c("AGGREGATE","INDIV"), #fill=c("blue","red")#, horiz=TRUE
+	 , col = c("blue", "red")
 	 , pch = c(21, 8)
 	 , lty = c(3, 2)
 	)
