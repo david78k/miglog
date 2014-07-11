@@ -19,10 +19,10 @@ ylabel = "THROUGHPUT (MB/S)"
 ylabel2 = "INDIVIDUAL THROUGHPUT (MB/S)"
 
 # figure size in pixel
-fheight = 200
-#fheight = 300
-fwidth = 300
-#fwidth = 400
+#fheight = 200
+fheight = 300
+#fwidth = 300
+fwidth = 400
 
 # filter missing values
 #data <- read.table(src, na.strings = "NA", fill = TRUE, header=1)
@@ -94,7 +94,7 @@ genplot <- function (type) {
 
 	# second y-axis on the right
 	# pch 3:+, 4:x, 8:*
-	points(total/N, pch = 4)
+	points(total/N, pch = 8)
 
 	#front <- total[c(3,5,9,10,11)]
 #	front <- total[c(3,4,5,6,7,8,9,10,11,12)]
