@@ -100,7 +100,7 @@ genplot <- function (type) {
 	#boxplot(x = 1:nrow(data), y = c(data[1,8], data[1:2,7], data[1:3,6], data[1:4,5], data[1:5,4], data[1:6,3], data[1:7,2], data[1:8,1]),
 	#boxplot(values ~ vars, data = df,
 	boxplot(data,
-		las = 2, 
+		las = 1, 
 #		use.cols = TRUE,
 		xlab = xlabel,
 		ylab = ylabel,
