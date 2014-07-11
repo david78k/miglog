@@ -20,9 +20,11 @@ ylabel2 = "INDIVIDUAL THROUGHPUT (MB/S)"
 
 # figure size in pixel
 #fheight = 200
-fheight = 300
+fheight = 270
+#fheight = 300
 #fwidth = 300
-fwidth = 400
+fwidth = 350
+#fwidth = 400
 
 # filter missing values
 #data <- read.table(src, na.strings = "NA", fill = TRUE, header=1)
