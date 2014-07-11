@@ -13,9 +13,10 @@ prefix = "indiv"
 N <- c(1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 40)
 #N <- c(1, 2, 4, 6, 7, 8, 10, 12, 16, 18, 20)
 
-xlabel = "INDIVIDUAL THROUGHPUT (MB/S)"
-#ylabel = "INDIVIDUAL THROUGHPUT (MB/S)"
-ylabel = "TOTAL THROUGHPUT (MB/S)"
+xlabel = "VM WINDOW"
+ylabel = "THROUGHPUT (MB/S)"
+#ylabel = "TOTAL THROUGHPUT (MB/S)"
+ylabel2 = "INDIVIDUAL THROUGHPUT (MB/S)"
 
 # figure size in pixel
 #fheight = 200
