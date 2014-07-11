@@ -99,7 +99,8 @@ genplot <- function (type) {
 	lines(total/N, type = "b", pch = 8, col = "red", lty = 2)
 	#lines(total/N, type = "b", pch = 22, col = "red", lty = 2)
 
-	legend("topleft", inset=.05, 
+	#legend("topleft", inset=.05, 
+	legend("right", inset=.05, 
   	 c("AGGREGATE","INDIV"), fill=c("blue","red")#, horiz=TRUE
 	 , pch = c(21, 8)
 	 #, lty = c(3, 2)
