@@ -93,7 +93,8 @@ genplot <- function (type) {
 	#plot(total, total/N, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
 
 	# second y-axis on the right
-	points(total/N, pch = 8)
+	# pch 3:+, 4:x, 8:*
+	points(total/N, pch = 4)
 
 	#front <- total[c(3,5,9,10,11)]
 #	front <- total[c(3,4,5,6,7,8,9,10,11,12)]
