@@ -83,7 +83,11 @@ genplot <- function (type) {
 	# c(bottom, left, top, right)
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
-	plot(total, las = 1, main = "", xlab = xlabel, ylab = ylabel, xaxt = "n")
+	ylim <- range(total)
+
+	plot(total, las = 1, main = "", xlab = xlabel, ylab = ylabel
+		, xaxt = "n", ylim = c(0, ylim[2])
+	)
 	axis(1, at = 1:length(N), labels = N)
 	#plot(N, total, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(total, total/N, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
@@ -101,9 +105,6 @@ genplot <- function (type) {
 	#text(total, total/N, N, pos = 4, col = "red")
 #	text(total, total/N, c("1","2","4","6","8","10","12","14","16","","20",""), pos = 4)
 #	text(total, total/N, c("","","","","","","","","","18","","40"), pos = 2)
-	#text(total, total/N, c("","","","","","","","","","18","","40"), pos = 2, col = "red")
-	#text(total, total/N, c("","",4,"","","","","","","","20"), pos = 2, col = "red")
-	#text(total, total/N, c("","","","",7,"","","",16,18,""), pos = 3, col = "red")
 	#text(total, total/N, c(1,2,"",6,"",8,10,12,"","",""), pos = 4)
 }
 
