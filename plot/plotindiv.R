@@ -83,7 +83,7 @@ genplot <- function (type) {
 	# c(bottom, left, top, right)
 	par(mar = c(5, 5, 1, 1) + 0.1)
 
-	plot(total, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
+	plot(N, total, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(total, total/N, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
 
 	#front <- total[c(3,5,9,10,11)]
