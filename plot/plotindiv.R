@@ -88,6 +88,9 @@ genplot <- function (type) {
 	#plot(N, total, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
 	#plot(total, total/N, las = 1, main = "", xlab = xlabel, ylab = ylabel)	
 
+	# second y-axis on the right
+	lines(total/N)
+
 	#front <- total[c(3,5,9,10,11)]
 #	front <- total[c(3,4,5,6,7,8,9,10,11,12)]
 	#points(front, front/c(4,7,16,18,20), col = "red", bg = "red", pch = 16)
