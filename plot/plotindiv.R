@@ -103,8 +103,8 @@ genplot <- function (type) {
 	#lines(total/N, type = "b", pch = 22, col = "red", lty = 2)
 
 	# third lines for sum of throughputs
-	lines(total + total/N)
-	#lines(total + total/N, type = "b", pch = 4, lty = 4)
+	#lines(total + total/N)
+	lines(total + total/N, type = "b", pch = 4, lty = 4)
 
 	#legend("topleft", inset=.05, 
 	legend("right", inset=.05, 
