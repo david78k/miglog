@@ -8,7 +8,8 @@ args <- commandArgs(trailingOnly = TRUE)
 print(args)
 src <- args[1]
 #prefix = src
-prefix = "indiv"
+prefix = "thruputsum"
+#prefix = "indiv"
 #prefix = paste(src, sep = ".", "pareto")
 N <- c(1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 40)
 #N <- c(1, 2, 4, 6, 7, 8, 10, 12, 16, 18, 20)
@@ -100,6 +101,9 @@ genplot <- function (type) {
 	# pch 3:+, 4:x, 8:*, 21:o, 22:box
 	lines(total/N, type = "b", pch = 8, col = "red", lty = 2)
 	#lines(total/N, type = "b", pch = 22, col = "red", lty = 2)
+
+	# third lines for sum of throughputs
+	lines(total + total/N, type = "b", pch = 4, lty = 4)
 
 	legend("topleft", inset=.05, 
 	#legend("right", inset=.05, 
